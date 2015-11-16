@@ -1,0 +1,888 @@
+{
+	"CiFState": {
+		"time": "0",
+		"Cast": {
+			"Character": [
+				{
+					"name": "Mave",
+					"networkID": "0",
+					"Trait": [
+						{
+							"type": "female"
+						},
+						{
+							"type": "irritable"
+						},
+						{
+							"type": "witty"
+						},
+						{
+							"type": "sympathetic"
+						},
+						{
+							"type": "loyal"
+						}
+					],
+					"Locution": [
+						{
+							"type": "greeting",
+							"$t": "Greetings"
+						},
+						{
+							"type": "shocked",
+							"$t": "Yeeuuuchh"
+						},
+						{
+							"type": "positiveadj",
+							"$t": "Good"
+						},
+						{
+							"type": "pejorative",
+							"$t": "Sheep"
+						},
+						{
+							"type": "sweetie",
+							"$t": "Sugar"
+						}
+					],
+					"$t": "\\",
+					"Status": [
+						{
+							"type": "envies",
+							"from": "Mave",
+							"to": "Karen"
+						},
+						{
+							"type": "anxious",
+							"from": "Mave"
+						}
+					]
+				},
+				{
+					"name": "Edward",
+					"networkID": "1",
+					"Trait": [
+						{
+							"type": "male"
+						},
+						{
+							"type": "shallow"
+						},
+						{
+							"type": "arrogant"
+						},
+						{
+							"type": "witty"
+						},
+						{
+							"type": "sex magnet"
+						}
+					],
+					"Locution": [
+						{
+							"type": "greeting",
+							"$t": "Hey"
+						},
+						{
+							"type": "shocked",
+							"$t": "Uhh"
+						},
+						{
+							"type": "positiveadj",
+							"$t": "Wicked"
+						},
+						{
+							"type": "pejorative",
+							"$t": "Tool"
+						},
+						{
+							"type": "sweetie",
+							"$t": "Butterface"
+						}
+					],
+					"$t": "\\",
+					"Status": {
+						"type": "angry at",
+						"from": "Edward",
+						"to": "Mave"
+					}
+				},
+				{
+					"name": "Nelson",
+					"networkID": "2",
+					"Trait": [
+						{
+							"type": "male"
+						},
+						{
+							"type": "sympathetic"
+						},
+						{
+							"type": "loyal"
+						},
+						{
+							"type": "clumsy"
+						},
+						{
+							"type": "emotional"
+						},
+						{
+							"type": "competitive"
+						}
+					],
+					"Locution": [
+						{
+							"type": "greeting",
+							"$t": "Word"
+						},
+						{
+							"type": "shocked",
+							"$t": "Whoah"
+						},
+						{
+							"type": "positiveadj",
+							"$t": "Awesome"
+						},
+						{
+							"type": "pejorative",
+							"$t": "n00b"
+						},
+						{
+							"type": "sweetie",
+							"$t": "Sweetie"
+						}
+					],
+					"$t": "\\"
+				},
+				{
+					"name": "Karen",
+					"networkID": "3",
+					"Trait": [
+						{
+							"type": "female"
+						},
+						{
+							"type": "loving"
+						},
+						{
+							"type": "jealous"
+						},
+						{
+							"type": "smooth talker"
+						}
+					],
+					"Locution": [
+						{
+							"type": "greeting",
+							"$t": "Hey there"
+						},
+						{
+							"type": "shocked",
+							"$t": "Holy cow"
+						},
+						{
+							"type": "positiveadj",
+							"$t": "precious"
+						},
+						{
+							"type": "pejorative",
+							"$t": "lame-o-saur"
+						},
+						{
+							"type": "sweetie",
+							"$t": "googly-woogly"
+						}
+					],
+					"$t": "\\"
+				}
+			]
+		},
+		"SFDB": {},
+		"Triggers": {
+			"Trigger": [
+				{
+					"id": "0",
+					"PerformanceRealization": {},
+					"ConditionRule": {
+						"Rule": {
+							"name": "Anonymous Rule",
+							"id": "-1",
+							"Predicate": [
+								{
+									"type": "relationship",
+									"first": "initiator",
+									"second": "responder",
+									"relationship": "dating",
+									"negated": "false",
+									"intent": "false",
+									"isSFDB": "false",
+									"window": "0"
+								},
+								{
+									"type": "relationship",
+									"first": "initiator",
+									"second": "other",
+									"relationship": "dating",
+									"negated": "false",
+									"intent": "false",
+									"isSFDB": "false",
+									"window": "0"
+								},
+								{
+									"type": "status",
+									"status": "cheater",
+									"first": "initiator",
+									"negated": "true",
+									"intent": "false",
+									"isSFDB": "false",
+									"window": "0"
+								}
+							]
+						}
+					},
+					"ChangeRule": {
+						"Rule": {
+							"name": "Anonymous Rule",
+							"id": "-1",
+							"Predicate": [
+								{
+									"type": "status",
+									"status": "cheater",
+									"first": "initiator",
+									"negated": "false",
+									"intent": "false",
+									"isSFDB": "false",
+									"window": "0"
+								},
+								{
+									"type": "status",
+									"status": "cheating on",
+									"first": "initiator",
+									"second": "responder",
+									"negated": "false",
+									"intent": "false",
+									"isSFDB": "false",
+									"window": "0"
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": "1",
+					"PerformanceRealization": {},
+					"ConditionRule": {
+						"Predicate": [
+							{
+								"type": "trait",
+								"trait": "afraid of commitment",
+								"first": "initiator",
+								"negated": "false",
+								"intent": "false",
+								"isSFDB": "false",
+								"window": "0"
+							},
+							{
+								"type": "relationship",
+								"first": "initiator",
+								"second": "responder",
+								"relationship": "dating",
+								"negated": "false",
+								"intent": "false",
+								"isSFDB": "false",
+								"window": "0"
+							}
+						]
+					},
+					"ChangeRule": {
+						"Predicate": {
+							"type": "status",
+							"status": "anxious",
+							"first": "initiator",
+							"second": "responder",
+							"negated": "false",
+							"intent": "false",
+							"isSFDB": "false",
+							"window": "0"
+						}
+					}
+				},
+				{
+					"id": "2",
+					"PerformanceRealization": {
+						"$t": "This is the default performance realization string"
+					},
+					"ConditionRule": {
+						"Predicate": [
+							{
+								"type": "trait",
+								"trait": "swinger",
+								"first": "initiator",
+								"negated": "true",
+								"intent": "false",
+								"isSFDB": "false",
+								"window": "0",
+								"numTimesUniquelyTrueFlag": "false",
+								"numTimesUniquelyTrue": "0",
+								"numTimesRoleSlot": "first"
+							},
+							{
+								"type": "relationship",
+								"first": "initiator",
+								"second": "responder",
+								"relationship": "dating",
+								"negated": "false",
+								"intent": "false",
+								"isSFDB": "false",
+								"window": "0",
+								"numTimesUniquelyTrueFlag": "false",
+								"numTimesUniquelyTrue": "0"
+							},
+							{
+								"type": "status",
+								"status": "cheating on",
+								"first": "responder",
+								"second": "initiator",
+								"negated": "false",
+								"intent": "false",
+								"isSFDB": "false",
+								"window": "0",
+								"numTimesUniquelyTrueFlag": "false",
+								"numTimesUniquelyTrue": "0"
+							}
+						]
+					},
+					"ChangeRule": {
+						"Predicate": [
+							{
+								"type": "status",
+								"status": "angry at",
+								"first": "initiator",
+								"second": "responder",
+								"negated": "false",
+								"intent": "false",
+								"isSFDB": "false",
+								"window": "0",
+								"numTimesUniquelyTrueFlag": "false",
+								"numTimesUniquelyTrue": "0"
+							},
+							{
+								"type": "status",
+								"status": "heartbroken",
+								"first": "initiator",
+								"second": "responder",
+								"negated": "false",
+								"intent": "false",
+								"isSFDB": "false",
+								"window": "0",
+								"numTimesUniquelyTrueFlag": "false",
+								"numTimesUniquelyTrue": "0"
+							}
+						]
+					}
+				},
+				{
+					"id": "3",
+					"PerformanceRealization": {
+						"$t": "This is the default performance realization string"
+					},
+					"ConditionRule": {
+						"Predicate": [
+							{
+								"type": "status",
+								"status": "cheating on",
+								"first": "initiator",
+								"second": "responder",
+								"negated": "false",
+								"intent": "false",
+								"isSFDB": "false",
+								"window": "0",
+								"numTimesUniquelyTrueFlag": "false",
+								"numTimesUniquelyTrue": "0"
+							},
+							{
+								"type": "trait",
+								"trait": "loyal",
+								"first": "initiator",
+								"negated": "false",
+								"intent": "false",
+								"isSFDB": "false",
+								"window": "0",
+								"numTimesUniquelyTrueFlag": "false",
+								"numTimesUniquelyTrue": "0"
+							}
+						]
+					},
+					"ChangeRule": {
+						"Predicate": {
+							"type": "status",
+							"status": "guilty",
+							"first": "initiator",
+							"second": "initiator",
+							"negated": "false",
+							"intent": "false",
+							"isSFDB": "false",
+							"window": "0",
+							"numTimesUniquelyTrueFlag": "false",
+							"numTimesUniquelyTrue": "0"
+						}
+					}
+				},
+				{
+					"id": "4",
+					"PerformanceRealization": {
+						"$t": "This is the default performance realization string"
+					},
+					"ConditionRule": {
+						"Predicate": [
+							{
+								"type": "status",
+								"status": "cheating on",
+								"first": "initiator",
+								"second": "responder",
+								"negated": "false",
+								"intent": "false",
+								"isSFDB": "false",
+								"window": "0",
+								"numTimesUniquelyTrueFlag": "false",
+								"numTimesUniquelyTrue": "0"
+							},
+							{
+								"type": "relationship",
+								"first": "initiator",
+								"second": "responder",
+								"relationship": "dating",
+								"negated": "true",
+								"intent": "false",
+								"isSFDB": "false",
+								"window": "0",
+								"numTimesUniquelyTrueFlag": "false",
+								"numTimesUniquelyTrue": "0"
+							}
+						]
+					},
+					"ChangeRule": {
+						"Predicate": {
+							"type": "status",
+							"status": "cheating on",
+							"first": "initiator",
+							"second": "responder",
+							"negated": "true",
+							"intent": "false",
+							"isSFDB": "false",
+							"window": "0",
+							"numTimesUniquelyTrueFlag": "false",
+							"numTimesUniquelyTrue": "0"
+						}
+					}
+				},
+				{
+					"id": "5",
+					"PerformanceRealization": {
+						"$t": "This is the default performance realization string"
+					},
+					"ConditionRule": {
+						"Predicate": [
+							{
+								"type": "relationship",
+								"first": "initiator",
+								"second": "other",
+								"relationship": "dating",
+								"negated": "false",
+								"intent": "false",
+								"isSFDB": "false",
+								"window": "0",
+								"numTimesUniquelyTrueFlag": "false",
+								"numTimesUniquelyTrue": "0"
+							},
+							{
+								"type": "status",
+								"status": "cheating on",
+								"first": "other",
+								"second": "initiator",
+								"negated": "false",
+								"intent": "false",
+								"isSFDB": "false",
+								"window": "0",
+								"numTimesUniquelyTrueFlag": "false",
+								"numTimesUniquelyTrue": "0"
+							},
+							{
+								"type": "relationship",
+								"first": "initiator",
+								"second": "responder",
+								"relationship": "friends",
+								"negated": "false",
+								"intent": "false",
+								"isSFDB": "false",
+								"window": "0",
+								"numTimesUniquelyTrueFlag": "false",
+								"numTimesUniquelyTrue": "0"
+							},
+							{
+								"type": "relationship",
+								"first": "responder",
+								"second": "other",
+								"relationship": "dating",
+								"negated": "false",
+								"intent": "false",
+								"isSFDB": "false",
+								"window": "0",
+								"numTimesUniquelyTrueFlag": "false",
+								"numTimesUniquelyTrue": "0"
+							}
+						]
+					},
+					"ChangeRule": {
+						"Predicate": {
+							"type": "status",
+							"status": "angry at",
+							"first": "initiator",
+							"second": "responder",
+							"negated": "false",
+							"intent": "false",
+							"isSFDB": "false",
+							"window": "0",
+							"numTimesUniquelyTrueFlag": "false",
+							"numTimesUniquelyTrue": "0"
+						}
+					}
+				}
+			]
+		},
+		"Network": [
+			{
+				"type": "buddy",
+				"numChars": "4",
+				"edge": [
+					{
+						"from": "0",
+						"to": "1",
+						"value": "40"
+					},
+					{
+						"from": "0",
+						"to": "2",
+						"value": "20"
+					},
+					{
+						"from": "0",
+						"to": "3",
+						"value": "80"
+					},
+					{
+						"from": "1",
+						"to": "0",
+						"value": "55"
+					},
+					{
+						"from": "1",
+						"to": "2",
+						"value": "10"
+					},
+					{
+						"from": "1",
+						"to": "3",
+						"value": "40"
+					},
+					{
+						"from": "2",
+						"to": "0",
+						"value": "75"
+					},
+					{
+						"from": "2",
+						"to": "1",
+						"value": "10"
+					},
+					{
+						"from": "2",
+						"to": "3",
+						"value": "75"
+					},
+					{
+						"from": "3",
+						"to": "0",
+						"value": "35"
+					},
+					{
+						"from": "3",
+						"to": "1",
+						"value": "40"
+					},
+					{
+						"from": "3",
+						"to": "2",
+						"value": "75"
+					}
+				]
+			},
+			{
+				"type": "cool",
+				"numChars": "4",
+				"edge": [
+					{
+						"from": "0",
+						"to": "1",
+						"value": "35"
+					},
+					{
+						"from": "0",
+						"to": "2",
+						"value": "30"
+					},
+					{
+						"from": "0",
+						"to": "3",
+						"value": "50"
+					},
+					{
+						"from": "1",
+						"to": "0",
+						"value": "75"
+					},
+					{
+						"from": "1",
+						"to": "2",
+						"value": "10"
+					},
+					{
+						"from": "2",
+						"to": "0",
+						"value": "90"
+					},
+					{
+						"from": "2",
+						"to": "1",
+						"value": "35"
+					},
+					{
+						"from": "2",
+						"to": "3",
+						"value": "15"
+					},
+					{
+						"from": "3",
+						"to": "0",
+						"value": "50"
+					},
+					{
+						"from": "3",
+						"to": "2",
+						"value": "50"
+					}
+				]
+			},
+			{
+				"type": "romance",
+				"numChars": "4",
+				"edge": [
+					{
+						"from": "0",
+						"to": "1",
+						"value": "48"
+					},
+					{
+						"from": "0",
+						"to": "2",
+						"value": "28"
+					},
+					{
+						"from": "1",
+						"to": "0",
+						"value": "85"
+					},
+					{
+						"from": "1",
+						"to": "2",
+						"value": "55"
+					},
+					{
+						"from": "2",
+						"to": "0",
+						"value": "100"
+					},
+					{
+						"from": "2",
+						"to": "1",
+						"value": "55"
+					},
+					{
+						"from": "2",
+						"to": "3",
+						"value": "40"
+					},
+					{
+						"from": "3",
+						"to": "1",
+						"value": "60"
+					},
+					{
+						"from": "3",
+						"to": "2",
+						"value": "60"
+					}
+				]
+			}
+		],
+		"Relationships": {
+			"Relationship": [
+				{
+					"type": "dating",
+					"from": "Mave",
+					"to": "Edward"
+				},
+				{
+					"type": "friends",
+					"from": "Mave",
+					"to": "Karen"
+				},
+				{
+					"type": "friends",
+					"from": "Nelson",
+					"to": "Karen"
+				},
+				{
+					"type": "friends",
+					"from": "Edward",
+					"to": "Karen"
+				},
+				{
+					"type": "enemies",
+					"from": "Edward",
+					"to": "Nelson"
+				}
+			]
+		},
+		"CulturalKB": {
+			"Proposition": [
+				{
+					"type": "subjective",
+					"head": "Mave",
+					"connection": "likes",
+					"tail": "Jar Jar Binks"
+				},
+				{
+					"type": "subjective",
+					"head": "Nelson",
+					"connection": "likes",
+					"tail": "Jar Jar Binks"
+				},
+				{
+					"type": "subjective",
+					"head": "Karen",
+					"connection": "dislike",
+					"tail": "pizza"
+				},
+				{
+					"type": "subjective",
+					"head": "Edward",
+					"connection": "dislike",
+					"tail": "The Notebook"
+				},
+				{
+					"type": "subjective",
+					"head": "Nelson",
+					"connection": "has",
+					"tail": "The Notebook"
+				},
+				{
+					"type": "subjective",
+					"head": "Nelson",
+					"connection": "wants",
+					"tail": "pizza"
+				},
+				{
+					"type": "subjective",
+					"head": "Edward",
+					"connection": "has",
+					"tail": "pizza"
+				},
+				{
+					"type": "subjective",
+					"head": "Mave",
+					"connection": "dislikes",
+					"tail": "spiders"
+				},
+				{
+					"type": "subjective",
+					"head": "Mave",
+					"connection": "wants",
+					"tail": "roses"
+				},
+				{
+					"type": "subjective",
+					"head": "Edward",
+					"connection": "has",
+					"tail": "roses"
+				},
+				{
+					"type": "subjective",
+					"head": "Karen",
+					"connection": "likes",
+					"tail": "Stephen Colbert"
+				},
+				{
+					"type": "truth",
+					"head": "Jar Jar Binks",
+					"connection": "are",
+					"tail": "lame"
+				},
+				{
+					"type": "truth",
+					"head": "math",
+					"connection": "are",
+					"tail": "lame"
+				},
+				{
+					"type": "truth",
+					"head": "pizza",
+					"connection": "are",
+					"tail": "cool"
+				},
+				{
+					"type": "truth",
+					"head": "Teenage Mutant Ninja Turtles",
+					"connection": "are",
+					"tail": "cool"
+				},
+				{
+					"type": "truth",
+					"head": "school lunch",
+					"connection": "are",
+					"tail": "gross"
+				},
+				{
+					"type": "truth",
+					"head": "wedgies",
+					"connection": "are",
+					"tail": "mean"
+				},
+				{
+					"type": "truth",
+					"head": "Stephen Colbert",
+					"connection": "are",
+					"tail": "funny"
+				},
+				{
+					"type": "truth",
+					"head": "spider",
+					"connection": "are",
+					"tail": "bad ass"
+				},
+				{
+					"type": "truth",
+					"head": "roses",
+					"connection": "are",
+					"tail": "romantic"
+				},
+				{
+					"type": "truth",
+					"head": "The Notebook",
+					"connection": "are",
+					"tail": "romantic"
+				}
+			]
+		}
+	}
+}

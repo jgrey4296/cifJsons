@@ -1,0 +1,4666 @@
+{
+	"PromWeek": {
+		"Story": [
+			{
+				"title": "Social Games",
+				"isTutorial": "false",
+				"screenShot": "SocialGame",
+				"locked": "true",
+				"Description": {
+					"$t": "Learn how the play the Game!"
+				},
+				"Levels": {
+					"Level": [
+						{
+							"title": "Sunday - Ego Rising",
+							"timeLimit": "10",
+							"endable": "false",
+							"useDefinedCastPositions": "false",
+							"cameraZoom": "1",
+							"useDefinedCameraPosition": "false",
+							"cameraX": "800",
+							"cameraY": "1400",
+							"Description": {
+								"$t": "Yep"
+							},
+							"Setting": {
+								"$t": "neighborhood"
+							},
+							"Cast": {
+								"CharacterName": [
+									{
+										"$t": "Oswald"
+									},
+									{
+										"$t": "Lil"
+									},
+									{
+										"$t": "Cassandra"
+									},
+									{
+										"$t": "Lucas"
+									}
+								]
+							},
+							"GoalRules": {
+								"Rule": [
+									{
+										"Predicate": [
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Lil",
+												"second": "Monica",
+												"comparator": "greaterthan",
+												"value": "55",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Cassandra",
+												"second": "Monica",
+												"comparator": "greaterthan",
+												"value": "90",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											}
+										]
+									},
+									{
+										"Predicate": [
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Cassandra",
+												"second": "Monica",
+												"comparator": "greaterthan",
+												"value": "90",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Lucas",
+												"second": "Monica",
+												"comparator": "greaterthan",
+												"value": "30",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											}
+										]
+									},
+									{
+										"Predicate": [
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Lil",
+												"second": "Monica",
+												"comparator": "greaterthan",
+												"value": "55",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Lucas",
+												"second": "Monica",
+												"comparator": "greaterthan",
+												"value": "30",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											}
+										]
+									}
+								]
+							}
+						},
+						{
+							"title": "Tuesday - Stopping the Popular Competition",
+							"timeLimit": "15",
+							"endable": "false",
+							"useDefinedCastPositions": "false",
+							"cameraZoom": "1",
+							"useDefinedCameraPosition": "false",
+							"cameraX": "800",
+							"cameraY": "1400",
+							"Description": {
+								"$t": "Monica's frenemy Naomi is ruining her Prom fame. Make sure to bring Naomi down by either getting her to break up or cheat with her current boyfriend, get her to stop being friends with Monica, or get 2 people think she is less cool."
+							},
+							"Setting": {
+								"$t": "cornerstore"
+							},
+							"Cast": {
+								"CharacterName": [
+									{
+										"$t": "Buzz"
+									},
+									{
+										"$t": "Monica"
+									},
+									{
+										"$t": "Naomi"
+									},
+									{
+										"$t": "Nicholas"
+									}
+								]
+							},
+							"GoalRules": {
+								"Rule": [
+									{
+										"Predicate": {
+											"type": "relationship",
+											"first": "Naomi",
+											"second": "Buzz",
+											"relationship": "dating",
+											"negated": "true",
+											"intent": "false",
+											"isSFDB": "false",
+											"window": "0",
+											"numTimesUniquelyTrueFlag": "false",
+											"numTimesUniquelyTrue": "0"
+										}
+									},
+									{
+										"Predicate": {
+											"type": "relationship",
+											"first": "Naomi",
+											"second": "y",
+											"relationship": "dating",
+											"negated": "false",
+											"intent": "false",
+											"isSFDB": "false",
+											"window": "0",
+											"numTimesUniquelyTrueFlag": "true",
+											"numTimesUniquelyTrue": "2",
+											"numTimesRoleSlot": "first"
+										}
+									},
+									{
+										"Predicate": {
+											"type": "relationship",
+											"first": "Monica",
+											"second": "Naomi",
+											"relationship": "friends",
+											"negated": "true",
+											"intent": "false",
+											"isSFDB": "false",
+											"window": "0",
+											"numTimesUniquelyTrueFlag": "false",
+											"numTimesUniquelyTrue": "0"
+										}
+									},
+									{
+										"Predicate": [
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "x",
+												"second": "Naomi",
+												"comparator": "lessthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "true",
+												"numTimesUniquelyTrue": "2",
+												"numTimesRoleSlot": "second"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "x",
+												"second": "Naomi",
+												"comparator": "lessthan",
+												"value": "50",
+												"negated": "true",
+												"intent": "false",
+												"isSFDB": "true",
+												"window": "20",
+												"numTimesUniquelyTrueFlag": "true",
+												"numTimesUniquelyTrue": "2",
+												"numTimesRoleSlot": "second"
+											}
+										]
+									}
+								]
+							}
+						},
+						{
+							"title": "Friday - Getting a Date",
+							"timeLimit": "10",
+							"endable": "false",
+							"useDefinedCastPositions": "false",
+							"cameraZoom": "1",
+							"useDefinedCameraPosition": "false",
+							"cameraX": "800",
+							"cameraY": "1400",
+							"Description": {
+								"$t": "Oh No! The day of the Prom is approaching fast and Monica doesn't have a boyfriend to be Prom King. Monica will have to find a new boyfriend or else it will be the end of the World."
+							},
+							"Setting": {
+								"$t": "lockers"
+							},
+							"Cast": {
+								"CharacterName": [
+									{
+										"$t": "Monica"
+									},
+									{
+										"$t": "Zack"
+									},
+									{
+										"$t": "Buzz"
+									},
+									{
+										"$t": "Edward"
+									}
+								]
+							},
+							"GoalRules": {
+								"Rule": {
+									"Predicate": {
+										"type": "relationship",
+										"first": "Monica",
+										"second": "y",
+										"relationship": "dating",
+										"negated": "false",
+										"intent": "false",
+										"isSFDB": "false",
+										"numTimesUniquelyTrueFlag": "false"
+									}
+								}
+							}
+						},
+						{
+							"title": "Game Over!",
+							"timeLimit": "20",
+							"endable": "false",
+							"Description": {
+								"$t": "Please reload the webpage to restart the demo."
+							},
+							"Setting": {
+								"$t": "cornerstore"
+							},
+							"Cast": {
+								"CharacterName": [
+									{
+										"$t": "Zack"
+									},
+									{
+										"$t": "Buzz"
+									}
+								]
+							},
+							"GoalRules": {
+								"Rule": {
+									"Predicate": [
+										{
+											"type": "relationship",
+											"first": "Zack",
+											"second": "Monica",
+											"relationship": "dating",
+											"negated": "false",
+											"intent": "false",
+											"isSFDB": "false",
+											"window": "0",
+											"numTimesUniquelyTrueFlag": "false",
+											"numTimesUniquelyTrue": "0"
+										},
+										{
+											"type": "status",
+											"status": "popular",
+											"first": "Monica",
+											"negated": "false",
+											"intent": "false",
+											"isSFDB": "false",
+											"window": "0",
+											"numTimesUniquelyTrueFlag": "false",
+											"numTimesUniquelyTrue": "0"
+										}
+									]
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"title": "Project Popularstein",
+				"Description": {
+					"$t": "After Naomi's previous FAILED makeover, she must try again on new unpopular blood. Help Naomi complete her new makeover project."
+				},
+				"Levels": {
+					"Level": [
+						{
+							"title": "Operation: Trust Gain",
+							"timeLimit": "15",
+							"endable": "false",
+							"useDefinedCastPositions": "false",
+							"cameraZoom": "1",
+							"useDefinedCameraPosition": "false",
+							"cameraX": "800",
+							"cameraY": "1400",
+							"Description": {
+								"$t": "In order to begin this popularity makeover, Naomi must gain the trust of the unfashionable Gunter. To stoop that low, she will have to become his friend, or even go as far as date him."
+							},
+							"Setting": {
+								"$t": "park"
+							},
+							"Cast": {
+								"CharacterName": [
+									{
+										"$t": "Naomi"
+									},
+									{
+										"$t": "Edward"
+									},
+									{
+										"$t": "Gunter"
+									}
+								]
+							},
+							"GoalRules": {
+								"Rule": {
+									"Predicate": {
+										"type": "relationship",
+										"first": "Naomi",
+										"second": "Gunter",
+										"relationship": "friends",
+										"negated": "false",
+										"intent": "false",
+										"isSFDB": "false",
+										"window": "0",
+										"numTimesUniquelyTrueFlag": "false",
+										"numTimesUniquelyTrue": "0"
+									}
+								}
+							}
+						},
+						{
+							"title": "Operation: Rise to Power",
+							"timeLimit": "20",
+							"endable": "false",
+							"useDefinedCastPositions": "false",
+							"cameraZoom": "1",
+							"useDefinedCameraPosition": "false",
+							"cameraX": "800",
+							"cameraY": "1400",
+							"Description": {
+								"$t": "Under Naomi's wing, Gunter must go out and make enough friends in order to become the new popular kid in school."
+							},
+							"Setting": {
+								"$t": "lockers"
+							},
+							"Cast": {
+								"CharacterName": [
+									{
+										"$t": "Naomi"
+									},
+									{
+										"$t": "Gunter"
+									},
+									{
+										"$t": "Oswald"
+									},
+									{
+										"$t": "Chloe"
+									},
+									{
+										"$t": "Monica"
+									}
+								]
+							},
+							"GoalRules": {
+								"Rule": {
+									"Predicate": {
+										"type": "relationship",
+										"first": "Gunter",
+										"second": "y",
+										"relationship": "friends",
+										"negated": "false",
+										"intent": "false",
+										"isSFDB": "false",
+										"numTimesUniquelyTrueFlag": "true",
+										"numTimesUniquelyTrue": "5",
+										"numTimesRoleSlot": "first"
+									}
+								}
+							}
+						},
+						{
+							"title": "Operation: Drop the Baggage",
+							"timeLimit": "15",
+							"endable": "false",
+							"useDefinedCastPositions": "false",
+							"cameraZoom": "1",
+							"useDefinedCameraPosition": "false",
+							"cameraX": "800",
+							"cameraY": "1400",
+							"Description": {
+								"$t": "Naomi's tutelage was going successfully, but a major error has occurred. Being friends with Edward is equivalent to social suicide. Something must be done. Gunter must leave this baggage behind on his own, or socially die trying."
+							},
+							"Setting": {
+								"$t": "neighborhood"
+							},
+							"Cast": {
+								"CharacterName": [
+									{
+										"$t": "Gunter"
+									},
+									{
+										"$t": "Edward"
+									},
+									{
+										"$t": "Mave"
+									}
+								]
+							},
+							"GoalRules": {
+								"Rule": {
+									"Predicate": {
+										"type": "relationship",
+										"first": "Gunter",
+										"second": "Edward",
+										"relationship": "friends",
+										"negated": "true",
+										"intent": "false",
+										"isSFDB": "false",
+										"window": "0",
+										"numTimesUniquelyTrueFlag": "false",
+										"numTimesUniquelyTrue": "0"
+									}
+								}
+							}
+						},
+						{
+							"title": "Game Over!",
+							"timeLimit": "20",
+							"endable": "false",
+							"useDefinedCastPositions": "false",
+							"useDefinedCameraPosition": "false",
+							"cameraX": "800",
+							"cameraY": "1400",
+							"Description": {
+								"$t": "Please reload the webpage to restart the demo."
+							},
+							"Setting": {
+								"$t": "cornerstore"
+							},
+							"Cast": {
+								"CharacterName": [
+									{
+										"$t": "Zack"
+									},
+									{
+										"$t": "Buzz"
+									}
+								]
+							},
+							"GoalRules": {
+								"Rule": {
+									"Predicate": [
+										{
+											"type": "relationship",
+											"first": "Zack",
+											"second": "Monica",
+											"relationship": "dating",
+											"negated": "false",
+											"intent": "false",
+											"isSFDB": "false",
+											"window": "0",
+											"numTimesUniquelyTrueFlag": "false",
+											"numTimesUniquelyTrue": "0"
+										},
+										{
+											"type": "status",
+											"status": "popular",
+											"first": "Monica",
+											"negated": "false",
+											"intent": "false",
+											"isSFDB": "false",
+											"window": "0",
+											"numTimesUniquelyTrueFlag": "false",
+											"numTimesUniquelyTrue": "0"
+										}
+									]
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"title": "FoG",
+				"Description": {
+					"$t": "We make story for Prom Week"
+				},
+				"Levels": {
+					"Level": [
+						{
+							"title": "Arm Candy",
+							"timeLimit": "30",
+							"endable": "false",
+							"useDefinedCastPositions": "true",
+							"useDefinedCameraPosition": "false",
+							"cameraX": "800",
+							"cameraY": "1400",
+							"Description": {
+								"$t": "Every king needs a queen. Zack is going to have to score a girlfriend that is totally cool before he stands a chance at becoming prom royalty."
+							},
+							"Setting": {
+								"$t": "lockers"
+							},
+							"Cast": {
+								"CharacterName": [
+									{
+										"startX": "600",
+										"startY": "1000",
+										"$t": "Simon"
+									},
+									{
+										"startX": "700",
+										"startY": "1000",
+										"$t": "Chloe"
+									},
+									{
+										"startX": "800",
+										"startY": "1000",
+										"$t": "Zack"
+									},
+									{
+										"startX": "900",
+										"startY": "1000",
+										"$t": "Monica"
+									},
+									{
+										"startX": "1000",
+										"startY": "1000",
+										"$t": "Buzz"
+									}
+								]
+							},
+							"GoalRules": {
+								"Rule": [
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "x",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "status",
+												"status": "popular",
+												"first": "x",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											}
+										]
+									},
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Chloe",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Zack",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Monica",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Simon",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Buzz",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											}
+										]
+									}
+								]
+							}
+						},
+						{
+							"title": "Game Over!",
+							"timeLimit": "20",
+							"endable": "false",
+							"Description": {
+								"$t": "Please reload the webpage to restart the demo."
+							},
+							"Setting": {
+								"$t": "cornerstore"
+							},
+							"Cast": {
+								"CharacterName": [
+									{
+										"$t": "Zack"
+									},
+									{
+										"$t": "Buzz"
+									}
+								]
+							},
+							"GoalRules": {
+								"Rule": [
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Monica",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "status",
+												"status": "popular",
+												"first": "Monica",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											}
+										]
+									},
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Chloe",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "status",
+												"status": "popular",
+												"first": "Chloe",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											}
+										]
+									},
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Chloe",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Zack",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Monica",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Simon",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Buzz",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											}
+										]
+									}
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"title": "PromKing",
+				"Description": {
+					"$t": "Zack's a l33t dude, but even his friends say he's obnoxious. (His enemies say things we won't repeat here.) Can your deft social maneuvering crown this ubergeek the Prom King?"
+				},
+				"Levels": {
+					"Level": [
+						{
+							"title": "Who You Know",
+							"timeLimit": "29",
+							"endable": "false",
+							"Description": {
+								"$t": "Getting crowned Prom King isn't just a popularity contest - it's also about playing the judges. Naomi's head of the Prom Committee, so if Zack wants that crown, he'd better make sure she understands how freaking cool he is."
+							},
+							"Setting": {
+								"$t": "lockers"
+							},
+							"Cast": {
+								"CharacterName": [
+									{
+										"$t": "Zack"
+									},
+									{
+										"$t": "Chloe"
+									},
+									{
+										"$t": "Naomi"
+									}
+								]
+							},
+							"GoalRules": {
+								"Rule": [
+									{
+										"Predicate": {
+											"type": "network",
+											"networkType": "cool",
+											"first": "Naomi",
+											"second": "Zack",
+											"comparator": "greaterthan",
+											"value": "66",
+											"negated": "false",
+											"intent": "false",
+											"isSFDB": "false",
+											"window": "0",
+											"numTimesUniquelyTrueFlag": "false",
+											"numTimesUniquelyTrue": "0"
+										}
+									},
+									{
+										"Predicate": {
+											"type": "network",
+											"networkType": "romance",
+											"first": "Naomi",
+											"second": "Zack",
+											"comparator": "greaterthan",
+											"value": "66",
+											"negated": "false",
+											"intent": "false",
+											"isSFDB": "false",
+											"window": "0",
+											"numTimesUniquelyTrueFlag": "false",
+											"numTimesUniquelyTrue": "0"
+										}
+									},
+									{
+										"Predicate": {
+											"type": "relationship",
+											"first": "Zack",
+											"second": "Naomi",
+											"relationship": "dating",
+											"negated": "false",
+											"intent": "false",
+											"isSFDB": "false",
+											"window": "0",
+											"numTimesUniquelyTrueFlag": "false",
+											"numTimesUniquelyTrue": "0"
+										}
+									}
+								]
+							}
+						},
+						{
+							"title": "Arm Candy",
+							"timeLimit": "10",
+							"endable": "false",
+							"Description": {
+								"$t": "Every king needs a queen. Zack is going to have to score a girlfriend that is totally cool before he stands a chance at becoming prom royalty."
+							},
+							"Setting": {
+								"$t": "park"
+							},
+							"Cast": {
+								"CharacterName": [
+									{
+										"$t": "Chloe"
+									},
+									{
+										"$t": "Lil"
+									},
+									{
+										"$t": "Zack"
+									},
+									{
+										"$t": "Monica"
+									},
+									{
+										"$t": "Jordan"
+									}
+								]
+							},
+							"GoalRules": {
+								"Rule": [
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Monica",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "status",
+												"status": "popular",
+												"first": "Monica",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											}
+										]
+									},
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Lil",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Chloe",
+												"second": "Lil",
+												"comparator": "greaterthan",
+												"value": "66",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Jordan",
+												"second": "Lil",
+												"comparator": "greaterthan",
+												"value": "66",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											}
+										]
+									},
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Lil",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Zack",
+												"second": "Lil",
+												"comparator": "greaterthan",
+												"value": "66",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Jordan",
+												"second": "Lil",
+												"comparator": "greaterthan",
+												"value": "66",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											}
+										]
+									},
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "x",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "relationship",
+												"first": "x",
+												"second": "responder",
+												"relationship": "friends",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "true",
+												"numTimesUniquelyTrue": "2",
+												"numTimesRoleSlot": "first"
+											}
+										]
+									}
+								]
+							}
+						},
+						{
+							"title": "The Big Night",
+							"timeLimit": "10",
+							"endable": "true",
+							"Description": {
+								"$t": "OMG, it's the night of the Prom! Everyone looks swank and the air is thick with anticipation (or maybe just cheap cologne). Zack has one last chance to become the Prom King... but how many hearts must break along the way?"
+							},
+							"Setting": {
+								"$t": "prom"
+							},
+							"Cast": {
+								"CharacterName": [
+									{
+										"$t": "Zack"
+									},
+									{
+										"$t": "Doug"
+									},
+									{
+										"$t": "Jordan"
+									},
+									{
+										"$t": "Naomi"
+									},
+									{
+										"$t": "Lil"
+									},
+									{
+										"$t": "Nicholas"
+									},
+									{
+										"$t": "Monica"
+									}
+								],
+								"$c": [
+									"<CharacterName>Buzz</CharacterName>",
+									"<CharacterName>Chloe</CharacterName>",
+									"<CharacterName>Simon</CharacterName>"
+								]
+							},
+							"GoalRules": {
+								"Rule": {
+									"$c": "- Magic checking who is Prom King?!"
+								}
+							}
+						}
+					],
+					"$c": "<Level title=\"Stand a chance...\" timeLimit=\"10\" endable=\"false\">\r\n\t\t\t\t\t<Description>Zack is doomed as long as the popular kids despise him. Get the high school royalty to stop thinking of him as an enemy, and he's one step closer to stealing their crown.</Description>\r\n\t\t\t\t\t<Setting>neighborhood</Setting>\r\n\t\t\t\t\t<Cast>\r\n\t\t\t\t\t\t<CharacterName>Zack</CharacterName>\r\n\t\t\t\t\t\t<CharacterName>Simon</CharacterName>\r\n\t\t\t\t\t\t<CharacterName>Buzz</CharacterName>\r\n\t\t\t\t\t\t<CharacterName>Nicholas</CharacterName>\r\n\t\t\t\t\t\t<CharacterName>Chloe</CharacterName>\r\n\t\t\t\t\t</Cast>\r\n\t\t\t\t\t<GoalRules>\r\n\t\t\t\t\t\t<Rule>\r\n\t\t\t\t\t\t\t<Predicate type=\"relationship\" first=\"Zack\" second=\"Nicholas\" relationship=\"enemies\" negated=\"true\" intent=\"false\" isSFDB=\"false\" window=\"0\" numTimesUniquelyTrueFlag=\"false\" numTimesUniquelyTrue=\"0\" numTimesRoleSlot=\"\"/>\r\n\t\t\t\t\t\t</Rule>\r\n\t\t\t\t\t\t<Rule>\r\n\t\t\t\t\t\t\t<Predicate type=\"relationship\" first=\"Zack\" second=\"Buzz\" relationship=\"enemies\" negated=\"true\" intent=\"false\" isSFDB=\"false\" window=\"0\" numTimesUniquelyTrueFlag=\"false\" numTimesUniquelyTrue=\"0\" numTimesRoleSlot=\"\"/>\r\n\t\t\t\t\t\t</Rule>\r\n\t\t\t\t\t</GoalRules>\r\n\t\t\t\t</Level>"
+				},
+				"Endings": {
+					"Ending": [
+						{
+							"name": "Zack Triumphs",
+							"Preconditions": {
+								"Rule": [
+									{
+										"name": "Zack (or Zacklike)",
+										"id": "0",
+										"Predicate": [
+											{
+												"type": "trait",
+												"trait": "arrogant",
+												"first": "initiator",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "trait",
+												"trait": "stubborn",
+												"first": "initiator",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											}
+										]
+									},
+									{
+										"name": "dating someone",
+										"id": "1",
+										"Predicate": {
+											"type": "relationship",
+											"first": "initiator",
+											"second": "responder",
+											"relationship": "dating",
+											"negated": "false",
+											"intent": "false",
+											"isSFDB": "false",
+											"window": "0",
+											"numTimesUniquelyTrueFlag": "false",
+											"numTimesUniquelyTrue": "0"
+										}
+									},
+									{
+										"name": "done something lame ever",
+										"id": "3",
+										"Predicate": {
+											"type": "SFDB label",
+											"first": "initiator",
+											"label": "lame",
+											"negated": "false",
+											"intent": "false",
+											"isSFDB": "true",
+											"window": "0",
+											"numTimesUniquelyTrueFlag": "false",
+											"numTimesUniquelyTrue": "0"
+										}
+									}
+								]
+							},
+							"Instantiations": {
+								"Instantiation": {
+									"id": "0",
+									"name": "Default Instantiation Name",
+									"LineOfDialogue": [
+										{
+											"lineNumber": "1",
+											"responderLine": "Oh %i%, you did it! You're the Prom %gender(i,King, Queen)%!",
+											"primarySpeaker": "responder",
+											"initiatorBodyAnimation": "dance_cool",
+											"initiatorFaceAnimation": "null",
+											"initiatorFaceState": "very happy",
+											"responderBodyAnimation": "dance_lame",
+											"responderFaceAnimation": "null",
+											"responderFaceState": "very happy",
+											"otherBodyAnimation": "idle",
+											"otherFaceAnimation": "null",
+											"time": "0",
+											"initiatorIsThought": "false",
+											"responderIsThought": "false",
+											"otherIsThought": "false",
+											"initiatorIsDelayed": "false",
+											"responderIsDelayed": "false",
+											"otherIsDelayed": "false",
+											"initiatorIsPicture": "false",
+											"responderIsPicture": "false",
+											"otherIsPicture": "false",
+											"initiatorAddressing": "responder",
+											"responderAddressing": "initiator",
+											"otherAddressing": "initiator",
+											"isOtherChorus": "false",
+											"Rule": {
+												"name": "Anonymous Rule",
+												"id": "-1"
+											}
+										},
+										{
+											"lineNumber": "0",
+											"initiatorLine": "But of course, %r%. Did you ever doubt me? I never doubted me.",
+											"primarySpeaker": "initiator",
+											"initiatorBodyAnimation": "talking_medium",
+											"initiatorFaceAnimation": "null",
+											"initiatorFaceState": "very happy",
+											"responderBodyAnimation": "idle",
+											"responderFaceAnimation": "null",
+											"responderFaceState": "null",
+											"otherBodyAnimation": "idle",
+											"otherFaceAnimation": "null",
+											"otherFaceState": "null",
+											"time": "0",
+											"initiatorIsThought": "false",
+											"responderIsThought": "false",
+											"otherIsThought": "false",
+											"initiatorIsDelayed": "false",
+											"responderIsDelayed": "false",
+											"otherIsDelayed": "false",
+											"initiatorIsPicture": "false",
+											"responderIsPicture": "false",
+											"otherIsPicture": "false",
+											"initiatorAddressing": "responder",
+											"responderAddressing": "initiator",
+											"otherAddressing": "initiator",
+											"isOtherChorus": "false",
+											"Rule": {
+												"name": "Anonymous Rule",
+												"id": "-1"
+											}
+										},
+										{
+											"lineNumber": "2",
+											"responderLine": "Well, there was that one time when %toc1%...",
+											"primarySpeaker": "responder",
+											"initiatorBodyAnimation": "idle",
+											"initiatorFaceAnimation": "null",
+											"responderBodyAnimation": "talking_long",
+											"responderFaceAnimation": "null",
+											"responderFaceState": "very happy",
+											"otherBodyAnimation": "idle",
+											"otherFaceAnimation": "null",
+											"time": "0",
+											"initiatorIsThought": "false",
+											"responderIsThought": "false",
+											"otherIsThought": "false",
+											"initiatorIsDelayed": "false",
+											"responderIsDelayed": "false",
+											"otherIsDelayed": "false",
+											"initiatorIsPicture": "false",
+											"responderIsPicture": "false",
+											"otherIsPicture": "false",
+											"initiatorAddressing": "responder",
+											"responderAddressing": "initiator",
+											"otherAddressing": "initiator",
+											"isOtherChorus": "false",
+											"Rule": {
+												"name": "Anonymous Rule",
+												"id": "-1"
+											}
+										},
+										{
+											"lineNumber": "3",
+											"initiatorLine": "Silence! My first act as king is to strip that from the yearbook record!",
+											"primarySpeaker": "initiator",
+											"initiatorBodyAnimation": "accuse",
+											"initiatorFaceAnimation": "null",
+											"initiatorFaceState": "angry",
+											"responderBodyAnimation": "punchReaction",
+											"responderFaceAnimation": "null",
+											"responderFaceState": "concerned",
+											"otherBodyAnimation": "idle",
+											"otherFaceAnimation": "null",
+											"time": "0",
+											"initiatorIsThought": "false",
+											"responderIsThought": "false",
+											"otherIsThought": "false",
+											"initiatorIsDelayed": "false",
+											"responderIsDelayed": "false",
+											"otherIsDelayed": "false",
+											"initiatorIsPicture": "false",
+											"responderIsPicture": "false",
+											"otherIsPicture": "false",
+											"initiatorAddressing": "responder",
+											"responderAddressing": "initiator",
+											"otherAddressing": "initiator",
+											"isOtherChorus": "false",
+											"Rule": {
+												"name": "Anonymous Rule",
+												"id": "-1"
+											}
+										},
+										{
+											"lineNumber": "4",
+											"initiatorLine": "For my second act... I think somebody is getting an upgrade.",
+											"primarySpeaker": "initiator",
+											"initiatorBodyAnimation": "brush_hair",
+											"initiatorFaceAnimation": "null",
+											"initiatorFaceState": "happy",
+											"responderBodyAnimation": "idle",
+											"responderFaceAnimation": "null",
+											"responderFaceState": "concerned",
+											"otherBodyAnimation": "idle",
+											"otherFaceAnimation": "null",
+											"time": "0",
+											"initiatorIsThought": "false",
+											"responderIsThought": "false",
+											"otherIsThought": "false",
+											"initiatorIsDelayed": "false",
+											"responderIsDelayed": "false",
+											"otherIsDelayed": "false",
+											"initiatorIsPicture": "false",
+											"responderIsPicture": "false",
+											"otherIsPicture": "false",
+											"initiatorAddressing": "responder",
+											"responderAddressing": "initiator",
+											"otherAddressing": "initiator",
+											"isOtherChorus": "false",
+											"Rule": {
+												"name": "Anonymous Rule",
+												"id": "-1"
+											}
+										},
+										{
+											"lineNumber": "5",
+											"responderLine": "%i%... you mean...?",
+											"primarySpeaker": "responder",
+											"initiatorBodyAnimation": "idle",
+											"initiatorFaceAnimation": "null",
+											"responderBodyAnimation": "gasp",
+											"responderFaceAnimation": "null",
+											"responderFaceState": "happy",
+											"otherBodyAnimation": "idle",
+											"otherFaceAnimation": "null",
+											"time": "0",
+											"initiatorIsThought": "false",
+											"responderIsThought": "false",
+											"otherIsThought": "false",
+											"initiatorIsDelayed": "false",
+											"responderIsDelayed": "false",
+											"otherIsDelayed": "false",
+											"initiatorIsPicture": "false",
+											"responderIsPicture": "false",
+											"otherIsPicture": "false",
+											"initiatorAddressing": "responder",
+											"responderAddressing": "initiator",
+											"otherAddressing": "initiator",
+											"isOtherChorus": "false",
+											"Rule": {
+												"name": "Anonymous Rule",
+												"id": "-1"
+											}
+										},
+										{
+											"lineNumber": "6",
+											"initiatorLine": "You know it, gigababe. You're now.... my tera-babe.",
+											"primarySpeaker": "initiator",
+											"initiatorBodyAnimation": "console",
+											"initiatorFaceAnimation": "null",
+											"initiatorFaceState": "happy",
+											"responderBodyAnimation": "idle",
+											"responderFaceAnimation": "null",
+											"otherBodyAnimation": "idle",
+											"otherFaceAnimation": "null",
+											"time": "0",
+											"initiatorIsThought": "false",
+											"responderIsThought": "false",
+											"otherIsThought": "false",
+											"initiatorIsDelayed": "false",
+											"responderIsDelayed": "false",
+											"otherIsDelayed": "false",
+											"initiatorIsPicture": "false",
+											"responderIsPicture": "false",
+											"otherIsPicture": "false",
+											"initiatorAddressing": "responder",
+											"responderAddressing": "initiator",
+											"otherAddressing": "initiator",
+											"isOtherChorus": "false",
+											"Rule": {
+												"name": "Anonymous Rule",
+												"id": "-1"
+											}
+										},
+										{
+											"lineNumber": "7",
+											"responderLine": "Best. Prom. Evar.",
+											"primarySpeaker": "responder",
+											"initiatorBodyAnimation": "idle",
+											"initiatorFaceAnimation": "null",
+											"responderBodyAnimation": "idle",
+											"responderFaceAnimation": "null",
+											"responderFaceState": "very happy",
+											"otherBodyAnimation": "idle",
+											"otherFaceAnimation": "null",
+											"time": "0",
+											"initiatorIsThought": "false",
+											"responderIsThought": "false",
+											"otherIsThought": "false",
+											"initiatorIsDelayed": "false",
+											"responderIsDelayed": "false",
+											"otherIsDelayed": "false",
+											"initiatorIsPicture": "false",
+											"responderIsPicture": "false",
+											"otherIsPicture": "false",
+											"initiatorAddressing": "responder",
+											"responderAddressing": "initiator",
+											"otherAddressing": "initiator",
+											"isOtherChorus": "false",
+											"Rule": {
+												"name": "Anonymous Rule",
+												"id": "-1"
+											}
+										},
+										{
+											"lineNumber": "8",
+											"primarySpeaker": "initiator",
+											"initiatorBodyAnimation": "kiss",
+											"initiatorFaceAnimation": "null",
+											"initiatorFaceState": "very happy",
+											"responderBodyAnimation": "kiss",
+											"responderFaceAnimation": "null",
+											"responderFaceState": "very happy",
+											"otherBodyAnimation": "idle",
+											"otherFaceAnimation": "null",
+											"time": "0",
+											"initiatorIsThought": "false",
+											"responderIsThought": "false",
+											"otherIsThought": "false",
+											"initiatorIsDelayed": "false",
+											"responderIsDelayed": "false",
+											"otherIsDelayed": "false",
+											"initiatorIsPicture": "false",
+											"responderIsPicture": "false",
+											"otherIsPicture": "false",
+											"initiatorAddressing": "responder",
+											"responderAddressing": "initiator",
+											"otherAddressing": "initiator",
+											"isOtherChorus": "false",
+											"Rule": {
+												"name": "Anonymous Rule",
+												"id": "-1"
+											}
+										}
+									],
+									"ToC1": {
+										"$t": "%SFDB_(lame,i,,0)%"
+									},
+									"ToC2": {},
+									"ToC3": {},
+									"ConditionalRules": {}
+								}
+							}
+						},
+						{
+							"name": "The Popular Reign",
+							"Preconditions": {
+								"Rule": {
+									"name": "Royalty ending precondition",
+									"id": "0",
+									"Predicate": [
+										{
+											"type": "relationship",
+											"first": "initiator",
+											"second": "responder",
+											"relationship": "dating",
+											"negated": "false",
+											"intent": "false",
+											"isSFDB": "false",
+											"window": "0",
+											"numTimesUniquelyTrueFlag": "false",
+											"numTimesUniquelyTrue": "0"
+										},
+										{
+											"type": "status",
+											"status": "popular",
+											"first": "initiator",
+											"negated": "false",
+											"intent": "false",
+											"isSFDB": "false",
+											"window": "0",
+											"numTimesUniquelyTrueFlag": "false",
+											"numTimesUniquelyTrue": "0"
+										},
+										{
+											"type": "status",
+											"status": "popular",
+											"first": "responder",
+											"negated": "false",
+											"intent": "false",
+											"isSFDB": "false",
+											"window": "0",
+											"numTimesUniquelyTrueFlag": "false",
+											"numTimesUniquelyTrue": "0"
+										}
+									]
+								}
+							},
+							"Instantiations": {
+								"Instantiation": {
+									"id": "0",
+									"name": "Ending Royalty",
+									"LineOfDialogue": [
+										{
+											"lineNumber": "0",
+											"initiatorLine": "Alright!!",
+											"primarySpeaker": "initiator",
+											"initiatorBodyAnimation": "toss_hands_up",
+											"initiatorFaceAnimation": "surprised_action",
+											"initiatorFaceState": "very happy",
+											"responderBodyAnimation": "toss_hands_up",
+											"responderFaceAnimation": "no action",
+											"responderFaceState": "very happy",
+											"otherBodyAnimation": "null",
+											"otherFaceAnimation": "null",
+											"otherFaceState": "null",
+											"time": "0",
+											"initiatorIsThought": "false",
+											"responderIsThought": "false",
+											"otherIsThought": "false",
+											"initiatorIsDelayed": "false",
+											"responderIsDelayed": "false",
+											"otherIsDelayed": "false",
+											"initiatorIsPicture": "false",
+											"responderIsPicture": "false",
+											"otherIsPicture": "false",
+											"initiatorAddressing": "responder",
+											"responderAddressing": "initiator",
+											"otherAddressing": "initiator",
+											"isOtherChorus": "false",
+											"Rule": {
+												"name": "Anonymous Rule",
+												"id": "-1"
+											}
+										},
+										{
+											"lineNumber": "1",
+											"initiatorLine": "Come, my %gender(r,king,queen)%, let's wave to the little people...",
+											"primarySpeaker": "initiator",
+											"initiatorBodyAnimation": "handing",
+											"initiatorFaceAnimation": "null",
+											"initiatorFaceState": "very happy",
+											"responderBodyAnimation": "idle",
+											"responderFaceAnimation": "null",
+											"otherBodyAnimation": "idle",
+											"otherFaceAnimation": "null",
+											"time": "0",
+											"initiatorIsThought": "false",
+											"responderIsThought": "false",
+											"otherIsThought": "false",
+											"initiatorIsDelayed": "false",
+											"responderIsDelayed": "false",
+											"otherIsDelayed": "false",
+											"initiatorIsPicture": "false",
+											"responderIsPicture": "false",
+											"otherIsPicture": "false",
+											"initiatorAddressing": "responder",
+											"responderAddressing": "initiator",
+											"otherAddressing": "initiator",
+											"isOtherChorus": "false",
+											"Rule": {
+												"name": "Anonymous Rule",
+												"id": "-1"
+											}
+										},
+										{
+											"lineNumber": "4",
+											"responderLine": "They look so small from over here...",
+											"primarySpeaker": "responder",
+											"initiatorBodyAnimation": "idle",
+											"initiatorFaceAnimation": "null",
+											"responderBodyAnimation": "wave",
+											"responderFaceAnimation": "surprised_action",
+											"otherBodyAnimation": "idle",
+											"otherFaceAnimation": "null",
+											"time": "0",
+											"initiatorIsThought": "false",
+											"responderIsThought": "false",
+											"otherIsThought": "false",
+											"initiatorIsDelayed": "false",
+											"responderIsDelayed": "false",
+											"otherIsDelayed": "false",
+											"initiatorIsPicture": "false",
+											"responderIsPicture": "false",
+											"otherIsPicture": "false",
+											"initiatorAddressing": "responder",
+											"responderAddressing": "initiator",
+											"otherAddressing": "initiator",
+											"isOtherChorus": "false",
+											"Rule": {
+												"name": "Anonymous Rule",
+												"id": "-1"
+											}
+										},
+										{
+											"lineNumber": "2",
+											"responderLine": "Oh, %i%,  who would have thought the first time we met that one day we'd be crowned prom royalty!",
+											"primarySpeaker": "responder",
+											"initiatorBodyAnimation": "idle",
+											"initiatorFaceAnimation": "null",
+											"responderBodyAnimation": "talking_long",
+											"responderFaceAnimation": "null",
+											"responderFaceState": "anxious",
+											"otherBodyAnimation": "idle",
+											"otherFaceAnimation": "null",
+											"time": "0",
+											"initiatorIsThought": "false",
+											"responderIsThought": "false",
+											"otherIsThought": "false",
+											"initiatorIsDelayed": "false",
+											"responderIsDelayed": "false",
+											"otherIsDelayed": "false",
+											"initiatorIsPicture": "false",
+											"responderIsPicture": "false",
+											"otherIsPicture": "false",
+											"initiatorAddressing": "responder",
+											"responderAddressing": "initiator",
+											"otherAddressing": "initiator",
+											"isOtherChorus": "false",
+											"Rule": {
+												"name": "Anonymous Rule",
+												"id": "-1"
+											}
+										},
+										{
+											"lineNumber": "6",
+											"initiatorLine": "Well... I couldn't say for both of us, but....",
+											"primarySpeaker": "initiator",
+											"initiatorBodyAnimation": "console",
+											"initiatorFaceState": "concerned",
+											"responderBodyAnimation": "idle",
+											"responderFaceAnimation": "null",
+											"responderFaceState": "happy",
+											"otherBodyAnimation": "idle",
+											"otherFaceAnimation": "null",
+											"time": "0",
+											"initiatorIsThought": "false",
+											"responderIsThought": "false",
+											"otherIsThought": "false",
+											"initiatorIsDelayed": "false",
+											"responderIsDelayed": "false",
+											"otherIsDelayed": "false",
+											"initiatorIsPicture": "false",
+											"responderIsPicture": "false",
+											"otherIsPicture": "false",
+											"initiatorAddressing": "responder",
+											"responderAddressing": "initiator",
+											"otherAddressing": "initiator",
+											"isOtherChorus": "false",
+											"Rule": {
+												"name": "Anonymous Rule",
+												"id": "-1"
+											}
+										},
+										{
+											"lineNumber": "3",
+											"initiatorLine": "I always knew that %if(0,I'd)else(you'd)% be.",
+											"primarySpeaker": "initiator",
+											"initiatorBodyAnimation": "talking_short",
+											"initiatorFaceState": "happy",
+											"responderBodyAnimation": "idle",
+											"responderFaceAnimation": "null",
+											"otherBodyAnimation": "idle",
+											"otherFaceAnimation": "null",
+											"time": "0",
+											"initiatorIsThought": "false",
+											"responderIsThought": "false",
+											"otherIsThought": "false",
+											"initiatorIsDelayed": "false",
+											"responderIsDelayed": "false",
+											"otherIsDelayed": "false",
+											"initiatorIsPicture": "false",
+											"responderIsPicture": "false",
+											"otherIsPicture": "false",
+											"initiatorAddressing": "responder",
+											"responderAddressing": "initiator",
+											"otherAddressing": "initiator",
+											"isOtherChorus": "false",
+											"Rule": {
+												"name": "Anonymous Rule",
+												"id": "-1"
+											}
+										},
+										{
+											"lineNumber": "5",
+											"primarySpeaker": "initiator",
+											"initiatorBodyAnimation": "kiss",
+											"initiatorFaceAnimation": "null",
+											"responderBodyAnimation": "kiss",
+											"responderFaceAnimation": "null",
+											"otherBodyAnimation": "idle",
+											"otherFaceAnimation": "null",
+											"time": "0",
+											"initiatorIsThought": "false",
+											"responderIsThought": "false",
+											"otherIsThought": "false",
+											"initiatorIsDelayed": "false",
+											"responderIsDelayed": "false",
+											"otherIsDelayed": "false",
+											"initiatorIsPicture": "false",
+											"responderIsPicture": "false",
+											"otherIsPicture": "false",
+											"initiatorAddressing": "responder",
+											"responderAddressing": "initiator",
+											"otherAddressing": "initiator",
+											"isOtherChorus": "false",
+											"Rule": {
+												"name": "Anonymous Rule",
+												"id": "-1"
+											}
+										}
+									],
+									"ToC1": {},
+									"ToC2": {},
+									"ToC3": {},
+									"ConditionalRules": {
+										"Rule": {
+											"name": "i is arrogant",
+											"id": "0",
+											"Predicate": {
+												"type": "trait",
+												"trait": "arrogant",
+												"first": "null",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											}
+										}
+									}
+								}
+							}
+						},
+						{
+							"name": "The King's Leap",
+							"Preconditions": {
+								"Rule": {
+									"name": "Coronation proposal ending precondition",
+									"id": "2",
+									"Predicate": [
+										{
+											"type": "relationship",
+											"first": "initiator",
+											"second": "responder",
+											"relationship": "dating",
+											"negated": "true",
+											"intent": "false",
+											"isSFDB": "false",
+											"window": "0",
+											"numTimesUniquelyTrueFlag": "false",
+											"numTimesUniquelyTrue": "0"
+										},
+										{
+											"type": "relationship",
+											"first": "initiator",
+											"second": "other",
+											"relationship": "dating",
+											"negated": "true",
+											"intent": "false",
+											"isSFDB": "false",
+											"window": "0",
+											"numTimesUniquelyTrueFlag": "false",
+											"numTimesUniquelyTrue": "0"
+										},
+										{
+											"type": "network",
+											"networkType": "romance",
+											"first": "initiator",
+											"second": "responder",
+											"comparator": "greaterthan",
+											"value": "66",
+											"negated": "false",
+											"intent": "false",
+											"isSFDB": "false",
+											"window": "0",
+											"numTimesUniquelyTrueFlag": "false",
+											"numTimesUniquelyTrue": "0"
+										},
+										{
+											"type": "network",
+											"networkType": "romance",
+											"first": "responder",
+											"second": "initiator",
+											"comparator": "greaterthan",
+											"value": "50",
+											"negated": "false",
+											"intent": "false",
+											"isSFDB": "false",
+											"window": "0",
+											"numTimesUniquelyTrueFlag": "false",
+											"numTimesUniquelyTrue": "0"
+										}
+									]
+								}
+							},
+							"Instantiations": {
+								"Instantiation": {
+									"id": "0",
+									"name": "Ending Coronation Proposal",
+									"LineOfDialogue": [
+										{
+											"lineNumber": "0",
+											"initiatorLine": "I'm the Prom %gender(i,King, Queen)%!  This is everything I ever wanted.",
+											"primarySpeaker": "initiator",
+											"initiatorBodyAnimation": "dance_cool",
+											"initiatorFaceAnimation": "null",
+											"initiatorFaceState": "very happy",
+											"responderBodyAnimation": "idle",
+											"responderFaceAnimation": "null",
+											"responderFaceState": "happy",
+											"otherBodyAnimation": "idle",
+											"otherFaceAnimation": "null",
+											"time": "0",
+											"initiatorIsThought": "false",
+											"responderIsThought": "false",
+											"otherIsThought": "false",
+											"initiatorIsDelayed": "false",
+											"responderIsDelayed": "false",
+											"otherIsDelayed": "false",
+											"initiatorIsPicture": "false",
+											"responderIsPicture": "false",
+											"otherIsPicture": "false",
+											"initiatorAddressing": "responder",
+											"responderAddressing": "initiator",
+											"otherAddressing": "initiator",
+											"isOtherChorus": "false",
+											"Rule": {
+												"name": "Anonymous Rule",
+												"id": "-1"
+											}
+										},
+										{
+											"lineNumber": "1",
+											"initiatorLine": "Except.... I always thought I'd have a Prom %if(0,princess)elseif(1,prince)elseif(3,king)else(queen)%...",
+											"primarySpeaker": "initiator",
+											"initiatorBodyAnimation": "talking_short",
+											"initiatorFaceAnimation": "null",
+											"initiatorFaceState": "sad",
+											"responderBodyAnimation": "idle",
+											"responderFaceAnimation": "anxious",
+											"otherBodyAnimation": "idle",
+											"otherFaceAnimation": "null",
+											"time": "0",
+											"initiatorIsThought": "false",
+											"responderIsThought": "false",
+											"otherIsThought": "false",
+											"initiatorIsDelayed": "false",
+											"responderIsDelayed": "false",
+											"otherIsDelayed": "false",
+											"initiatorIsPicture": "false",
+											"responderIsPicture": "false",
+											"otherIsPicture": "false",
+											"initiatorAddressing": "responder",
+											"responderAddressing": "initiator",
+											"otherAddressing": "initiator",
+											"isOtherChorus": "false",
+											"Rule": {
+												"name": "Anonymous Rule",
+												"id": "-1"
+											}
+										},
+										{
+											"lineNumber": "2",
+											"responderLine": "You will. There must be someone out there for you...",
+											"primarySpeaker": "responder",
+											"initiatorBodyAnimation": "idle",
+											"initiatorFaceAnimation": "null",
+											"responderBodyAnimation": "hug",
+											"responderFaceAnimation": "null",
+											"responderFaceState": "anxious",
+											"otherBodyAnimation": "idle",
+											"otherFaceAnimation": "null",
+											"time": "0",
+											"initiatorIsThought": "false",
+											"responderIsThought": "false",
+											"otherIsThought": "false",
+											"initiatorIsDelayed": "false",
+											"responderIsDelayed": "false",
+											"otherIsDelayed": "false",
+											"initiatorIsPicture": "false",
+											"responderIsPicture": "false",
+											"otherIsPicture": "false",
+											"initiatorAddressing": "responder",
+											"responderAddressing": "initiator",
+											"otherAddressing": "initiator",
+											"isOtherChorus": "false",
+											"Rule": {
+												"name": "Anonymous Rule",
+												"id": "-1"
+											}
+										},
+										{
+											"lineNumber": "3",
+											"initiatorLine": "Maybe that someone is closer than either of us realize.",
+											"primarySpeaker": "initiator",
+											"initiatorBodyAnimation": "casual_talking",
+											"initiatorFaceAnimation": "null",
+											"initiatorFaceState": "happy",
+											"responderFaceAnimation": "null",
+											"responderFaceState": "concerned",
+											"otherBodyAnimation": "idle",
+											"otherFaceAnimation": "null",
+											"time": "0",
+											"initiatorIsThought": "false",
+											"responderIsThought": "false",
+											"otherIsThought": "false",
+											"initiatorIsDelayed": "false",
+											"responderIsDelayed": "false",
+											"otherIsDelayed": "false",
+											"initiatorIsPicture": "false",
+											"responderIsPicture": "false",
+											"otherIsPicture": "false",
+											"initiatorAddressing": "responder",
+											"responderAddressing": "initiator",
+											"otherAddressing": "initiator",
+											"isOtherChorus": "false",
+											"Rule": {
+												"name": "Anonymous Rule",
+												"id": "-1"
+											}
+										},
+										{
+											"lineNumber": "4",
+											"initiatorLine": "%r%, will you be my Prom %if(0,princess)elseif(1,prince)elseif(3,king)else(queen)%?",
+											"primarySpeaker": "initiator",
+											"initiatorBodyAnimation": "console",
+											"initiatorFaceAnimation": "null",
+											"initiatorFaceState": "happy",
+											"responderBodyAnimation": "blush",
+											"responderFaceAnimation": "null",
+											"otherBodyAnimation": "idle",
+											"otherFaceAnimation": "null",
+											"time": "0",
+											"initiatorIsThought": "false",
+											"responderIsThought": "false",
+											"otherIsThought": "false",
+											"initiatorIsDelayed": "false",
+											"responderIsDelayed": "false",
+											"otherIsDelayed": "false",
+											"initiatorIsPicture": "false",
+											"responderIsPicture": "false",
+											"otherIsPicture": "false",
+											"initiatorAddressing": "responder",
+											"responderAddressing": "initiator",
+											"otherAddressing": "initiator",
+											"isOtherChorus": "false",
+											"Rule": {
+												"name": "Anonymous Rule",
+												"id": "-1"
+											}
+										},
+										{
+											"lineNumber": "5",
+											"responderLine": "Oh, %i%.  There are a million reasons to say no, and only one reason to say yes!",
+											"primarySpeaker": "responder",
+											"initiatorBodyAnimation": "idle",
+											"initiatorFaceAnimation": "null",
+											"responderBodyAnimation": "excited_talk",
+											"responderFaceAnimation": "null",
+											"responderFaceState": "concerned",
+											"otherBodyAnimation": "idle",
+											"otherFaceAnimation": "null",
+											"time": "0",
+											"initiatorIsThought": "false",
+											"responderIsThought": "false",
+											"otherIsThought": "false",
+											"initiatorIsDelayed": "false",
+											"responderIsDelayed": "false",
+											"otherIsDelayed": "false",
+											"initiatorIsPicture": "false",
+											"responderIsPicture": "false",
+											"otherIsPicture": "false",
+											"initiatorAddressing": "responder",
+											"responderAddressing": "initiator",
+											"otherAddressing": "initiator",
+											"isOtherChorus": "false",
+											"Rule": {
+												"name": "Anonymous Rule",
+												"id": "-1"
+											}
+										},
+										{
+											"lineNumber": "6",
+											"initiatorLine": "Then say yes.",
+											"primarySpeaker": "initiator",
+											"initiatorBodyAnimation": "shrug",
+											"initiatorFaceAnimation": "null",
+											"initiatorFaceState": "very happy",
+											"responderBodyAnimation": "idle",
+											"responderFaceAnimation": "null",
+											"otherBodyAnimation": "idle",
+											"otherFaceAnimation": "null",
+											"time": "0",
+											"initiatorIsThought": "false",
+											"responderIsThought": "false",
+											"otherIsThought": "false",
+											"initiatorIsDelayed": "false",
+											"responderIsDelayed": "false",
+											"otherIsDelayed": "false",
+											"initiatorIsPicture": "false",
+											"responderIsPicture": "false",
+											"otherIsPicture": "false",
+											"initiatorAddressing": "responder",
+											"responderAddressing": "initiator",
+											"otherAddressing": "initiator",
+											"isOtherChorus": "false",
+											"Rule": {
+												"name": "Anonymous Rule",
+												"id": "-1"
+											}
+										},
+										{
+											"lineNumber": "7",
+											"primarySpeaker": "initiator",
+											"initiatorBodyAnimation": "kiss",
+											"initiatorFaceAnimation": "null",
+											"responderBodyAnimation": "kiss",
+											"responderFaceAnimation": "null",
+											"responderFaceState": "very happy",
+											"otherBodyAnimation": "idle",
+											"otherFaceAnimation": "null",
+											"time": "0",
+											"initiatorIsThought": "false",
+											"responderIsThought": "false",
+											"otherIsThought": "false",
+											"initiatorIsDelayed": "false",
+											"responderIsDelayed": "false",
+											"otherIsDelayed": "false",
+											"initiatorIsPicture": "false",
+											"responderIsPicture": "false",
+											"otherIsPicture": "false",
+											"initiatorAddressing": "responder",
+											"responderAddressing": "initiator",
+											"otherAddressing": "initiator",
+											"isOtherChorus": "false",
+											"Rule": {
+												"name": "Anonymous Rule",
+												"id": "-1"
+											}
+										}
+									],
+									"ToC1": {},
+									"ToC2": {},
+									"ToC3": {},
+									"ConditionalRules": {
+										"Rule": [
+											{
+												"name": "i is female, r is female",
+												"id": "0",
+												"Predicate": [
+													{
+														"type": "trait",
+														"trait": "female",
+														"first": "initiator",
+														"negated": "false",
+														"intent": "false",
+														"isSFDB": "false",
+														"window": "0",
+														"numTimesUniquelyTrueFlag": "false",
+														"numTimesUniquelyTrue": "0",
+														"numTimesRoleSlot": "first"
+													},
+													{
+														"type": "trait",
+														"trait": "female",
+														"first": "responder",
+														"negated": "false",
+														"intent": "false",
+														"isSFDB": "false",
+														"window": "0",
+														"numTimesUniquelyTrueFlag": "false",
+														"numTimesUniquelyTrue": "0"
+													}
+												]
+											},
+											{
+												"name": "i is male, r is male",
+												"id": "1",
+												"Predicate": [
+													{
+														"type": "trait",
+														"trait": "male",
+														"first": "initiator",
+														"negated": "false",
+														"intent": "false",
+														"isSFDB": "false",
+														"window": "0",
+														"numTimesUniquelyTrueFlag": "false",
+														"numTimesUniquelyTrue": "0",
+														"numTimesRoleSlot": "first"
+													},
+													{
+														"type": "trait",
+														"trait": "male",
+														"first": "responder",
+														"negated": "false",
+														"intent": "false",
+														"isSFDB": "false",
+														"window": "0",
+														"numTimesUniquelyTrueFlag": "false",
+														"numTimesUniquelyTrue": "0"
+													}
+												]
+											},
+											{
+												"name": "i is female, r is male",
+												"id": "3",
+												"Predicate": [
+													{
+														"type": "trait",
+														"trait": "female",
+														"first": "initiator",
+														"negated": "false",
+														"intent": "false",
+														"isSFDB": "false",
+														"window": "0",
+														"numTimesUniquelyTrueFlag": "false",
+														"numTimesUniquelyTrue": "0",
+														"numTimesRoleSlot": "first"
+													},
+													{
+														"type": "trait",
+														"trait": "male",
+														"first": "responder",
+														"negated": "false",
+														"intent": "false",
+														"isSFDB": "false",
+														"window": "0",
+														"numTimesUniquelyTrueFlag": "false",
+														"numTimesUniquelyTrue": "0"
+													}
+												]
+											}
+										]
+									}
+								}
+							}
+						},
+						{
+							"name": "And the winner is...",
+							"Preconditions": {
+								"Rule": {
+									"name": "Coronation generic precondition",
+									"id": "0",
+									"Predicate": {
+										"type": "network",
+										"networkType": "buddy",
+										"first": "initiator",
+										"second": "responder",
+										"comparator": "greaterthan",
+										"value": "66",
+										"negated": "false",
+										"intent": "false",
+										"isSFDB": "false",
+										"window": "0",
+										"numTimesUniquelyTrueFlag": "false",
+										"numTimesUniquelyTrue": "0"
+									}
+								}
+							},
+							"Instantiations": {
+								"Instantiation": {
+									"id": "0",
+									"name": "Ending Generic",
+									"LineOfDialogue": [
+										{
+											"lineNumber": "0",
+											"initiatorLine": "Alright, I'm the Prom %gender(i,King,Queen)%!  %positiveadj%!",
+											"primarySpeaker": "initiator",
+											"initiatorBodyAnimation": "toss_hands_up",
+											"initiatorFaceAnimation": "null",
+											"initiatorFaceState": "very happy",
+											"responderBodyAnimation": "idle",
+											"responderFaceAnimation": "null",
+											"otherBodyAnimation": "idle",
+											"otherFaceAnimation": "null",
+											"time": "0",
+											"initiatorIsThought": "false",
+											"responderIsThought": "false",
+											"otherIsThought": "false",
+											"initiatorIsDelayed": "false",
+											"responderIsDelayed": "false",
+											"otherIsDelayed": "false",
+											"initiatorIsPicture": "false",
+											"responderIsPicture": "false",
+											"otherIsPicture": "false",
+											"initiatorAddressing": "responder",
+											"responderAddressing": "initiator",
+											"otherAddressing": "initiator",
+											"isOtherChorus": "false",
+											"Rule": {
+												"name": "Anonymous Rule",
+												"id": "-1"
+											}
+										},
+										{
+											"lineNumber": "1",
+											"responderLine": "Woo-hoo!",
+											"primarySpeaker": "responder",
+											"initiatorBodyAnimation": "idle",
+											"initiatorFaceAnimation": "null",
+											"responderBodyAnimation": "toss_hands_up",
+											"responderFaceAnimation": "null",
+											"responderFaceState": "very happy",
+											"otherBodyAnimation": "idle",
+											"otherFaceAnimation": "null",
+											"time": "0",
+											"initiatorIsThought": "false",
+											"responderIsThought": "false",
+											"otherIsThought": "false",
+											"initiatorIsDelayed": "false",
+											"responderIsDelayed": "false",
+											"otherIsDelayed": "false",
+											"initiatorIsPicture": "false",
+											"responderIsPicture": "false",
+											"otherIsPicture": "false",
+											"initiatorAddressing": "responder",
+											"responderAddressing": "initiator",
+											"otherAddressing": "initiator",
+											"isOtherChorus": "false",
+											"Rule": {
+												"name": "Anonymous Rule",
+												"id": "-1"
+											}
+										},
+										{
+											"lineNumber": "2",
+											"initiatorLine": "I'd like to thank everyone who helped make this moment possible, the Prom Selection Committee, my friends, %random(whoever invented proms back in the 1960s or whatever,the president of the United States,German expressionism,tofu products in general)%, %random(astronaut ice cream,Superman ice cream,the internet,the Academy)%, %random(the Police Academy,my barber,the circus,the dairy section at our local supermarket)%, %random(our high school,our team mascot,modern medicine,the letter Q)%...",
+											"primarySpeaker": "initiator",
+											"initiatorBodyAnimation": "talking_long",
+											"initiatorFaceAnimation": "null",
+											"initiatorFaceState": "happy",
+											"responderBodyAnimation": "idle",
+											"responderFaceAnimation": "null",
+											"otherBodyAnimation": "idle",
+											"otherFaceAnimation": "null",
+											"time": "0",
+											"initiatorIsThought": "false",
+											"responderIsThought": "false",
+											"otherIsThought": "false",
+											"initiatorIsDelayed": "false",
+											"responderIsDelayed": "false",
+											"otherIsDelayed": "false",
+											"initiatorIsPicture": "false",
+											"responderIsPicture": "false",
+											"otherIsPicture": "false",
+											"initiatorAddressing": "responder",
+											"responderAddressing": "initiator",
+											"otherAddressing": "initiator",
+											"isOtherChorus": "false",
+											"Rule": {
+												"name": "Anonymous Rule",
+												"id": "-1"
+											}
+										},
+										{
+											"lineNumber": "3",
+											"responderLine": "Wrap it up!",
+											"primarySpeaker": "initiator",
+											"initiatorBodyAnimation": "idle",
+											"initiatorFaceAnimation": "null",
+											"initiatorFaceState": "resentful",
+											"responderBodyAnimation": "shocked",
+											"responderFaceAnimation": "disinterest_action",
+											"responderFaceState": "disinterested",
+											"otherBodyAnimation": "idle",
+											"otherFaceAnimation": "null",
+											"time": "0",
+											"initiatorIsThought": "false",
+											"responderIsThought": "false",
+											"otherIsThought": "false",
+											"initiatorIsDelayed": "false",
+											"responderIsDelayed": "false",
+											"otherIsDelayed": "false",
+											"initiatorIsPicture": "false",
+											"responderIsPicture": "false",
+											"otherIsPicture": "false",
+											"initiatorAddressing": "responder",
+											"responderAddressing": "initiator",
+											"otherAddressing": "initiator",
+											"isOtherChorus": "false",
+											"Rule": {
+												"name": "Anonymous Rule",
+												"id": "-1"
+											}
+										},
+										{
+											"lineNumber": "4",
+											"initiatorLine": "And, uh, my parents and, of course, Mr. Al Garcia!  Thank you, good night!",
+											"primarySpeaker": "initiator",
+											"initiatorBodyAnimation": "talking_short",
+											"initiatorFaceAnimation": "null",
+											"initiatorFaceState": "happy",
+											"responderBodyAnimation": "idle",
+											"responderFaceAnimation": "null",
+											"otherBodyAnimation": "idle",
+											"otherFaceAnimation": "null",
+											"time": "0",
+											"initiatorIsThought": "false",
+											"responderIsThought": "false",
+											"otherIsThought": "false",
+											"initiatorIsDelayed": "false",
+											"responderIsDelayed": "false",
+											"otherIsDelayed": "false",
+											"initiatorIsPicture": "false",
+											"responderIsPicture": "false",
+											"otherIsPicture": "false",
+											"initiatorAddressing": "responder",
+											"responderAddressing": "initiator",
+											"otherAddressing": "initiator",
+											"isOtherChorus": "false",
+											"Rule": {
+												"name": "Anonymous Rule",
+												"id": "-1"
+											}
+										}
+									],
+									"ToC1": {},
+									"ToC2": {},
+									"ToC3": {},
+									"ConditionalRules": {}
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"title": "The Return of Fake Story",
+				"Description": {
+					"$t": "Probably shouldn't hit this one either."
+				},
+				"Levels": {
+					"Level": [
+						{
+							"title": "Arm Candy",
+							"timeLimit": "30",
+							"endable": "false",
+							"Description": {
+								"$t": "Every king needs a queen. Zack is going to have to score a girlfriend that is totally cool before he stands a chance at becoming prom royalty."
+							},
+							"Setting": {
+								"$t": "lockers"
+							},
+							"Cast": {
+								"CharacterName": [
+									{
+										"$t": "Simon"
+									},
+									{
+										"$t": "Chloe"
+									},
+									{
+										"$t": "Zack"
+									},
+									{
+										"$t": "Monica"
+									},
+									{
+										"$t": "Buzz"
+									}
+								]
+							},
+							"GoalRules": {
+								"Rule": [
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "x",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "status",
+												"status": "popular",
+												"first": "x",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											}
+										]
+									},
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Chloe",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Zack",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Monica",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Simon",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Buzz",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											}
+										]
+									}
+								]
+							}
+						},
+						{
+							"title": "Game Over!",
+							"timeLimit": "20",
+							"endable": "false",
+							"Description": {
+								"$t": "Please reload the webpage to restart the demo."
+							},
+							"Setting": {
+								"$t": "cornerstore"
+							},
+							"Cast": {
+								"CharacterName": [
+									{
+										"$t": "Zack"
+									},
+									{
+										"$t": "Buzz"
+									}
+								]
+							},
+							"GoalRules": {
+								"Rule": [
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Monica",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "status",
+												"status": "popular",
+												"first": "Monica",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											}
+										]
+									},
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Chloe",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "status",
+												"status": "popular",
+												"first": "Chloe",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											}
+										]
+									},
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Chloe",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Zack",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Monica",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Simon",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Buzz",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											}
+										]
+									}
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"title": "The Bottom HUD",
+				"isTutorial": "false",
+				"screenShot": "MegaUI",
+				"locked": "true",
+				"Description": {
+					"$t": "Learn about the MEGA UI!!!!!11!!!1!1!"
+				},
+				"Levels": {
+					"Level": [
+						{
+							"title": "Arm Candy",
+							"timeLimit": "30",
+							"endable": "false",
+							"Description": {
+								"$t": "Every king needs a queen. Zack is going to have to score a girlfriend that is totally cool before he stands a chance at becoming prom royalty."
+							},
+							"Setting": {
+								"$t": "lockers"
+							},
+							"Cast": {
+								"CharacterName": [
+									{
+										"$t": "Buzz"
+									},
+									{
+										"$t": "Chloe"
+									},
+									{
+										"$t": "Zack"
+									},
+									{
+										"$t": "Monica"
+									},
+									{
+										"$t": "Simon"
+									}
+								]
+							},
+							"GoalRules": {
+								"Rule": [
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "x",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "status",
+												"status": "popular",
+												"first": "x",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											}
+										]
+									},
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Chloe",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Zack",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Monica",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Simon",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Buzz",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											}
+										]
+									}
+								]
+							}
+						},
+						{
+							"title": "Game Over!",
+							"timeLimit": "20",
+							"endable": "false",
+							"Description": {
+								"$t": "Please reload the webpage to restart the demo."
+							},
+							"Setting": {
+								"$t": "cornerstore"
+							},
+							"Cast": {
+								"CharacterName": [
+									{
+										"$t": "Zack"
+									},
+									{
+										"$t": "Buzz"
+									}
+								]
+							},
+							"GoalRules": {
+								"Rule": [
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Monica",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "status",
+												"status": "popular",
+												"first": "Monica",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											}
+										]
+									},
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Chloe",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "status",
+												"status": "popular",
+												"first": "Chloe",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											}
+										]
+									},
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Chloe",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Zack",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Monica",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Simon",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Buzz",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											}
+										]
+									}
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"title": "Basic Gameplay 1",
+				"screenShot": "gameplayBasics",
+				"storyLeadCharacter": "Chloe",
+				"isTutorial": "true",
+				"shouldDisplay": "false",
+				"Description": {
+					"$t": "Get started learning to play Prom Week!"
+				},
+				"ToDoList": {},
+				"Levels": {
+					"Level": {
+						"title": "Basic Gameplay 1",
+						"timeLimit": "30",
+						"cameraZoom": "1",
+						"useDefinedCameraPosition": "false",
+						"cameraX": "800",
+						"cameraY": "1400",
+						"endable": "false",
+						"isTutorial": "true",
+						"shouldDisplay": "false",
+						"tutorialScript": "OvertureOne",
+						"Description": {
+							"$t": "Get started learning to play Prom Week!"
+						},
+						"Setting": {
+							"$t": "lockers"
+						},
+						"Cast": {
+							"CharacterName": [
+								{
+									"$t": "Chloe"
+								},
+								{
+									"$t": "Zack"
+								}
+							]
+						},
+						"GoalRules": {}
+					}
+				}
+			},
+			{
+				"title": "Basic Gameplay 2",
+				"screenShot": "gameplayBasics",
+				"storyLeadCharacter": "Zack",
+				"isTutorial": "true",
+				"shouldDisplay": "false",
+				"Description": {
+					"$t": "How to help characters achieve their goals."
+				},
+				"ToDoList": {
+					"ToDoItem": {
+						"name": "Zack is Single",
+						"Condition": {
+							"Rule": {
+								"Predicate": {
+									"type": "relationship",
+									"first": "initiator",
+									"second": "other",
+									"relationship": "dating",
+									"negated": "true",
+									"intent": "false",
+									"isSFDB": "false",
+									"window": "0",
+									"numTimesUniquelyTrueFlag": "true",
+									"numTimesUniquelyTrue": "1",
+									"numTimesRoleSlot": "first"
+								}
+							}
+						}
+					}
+				},
+				"Levels": {
+					"Level": {
+						"title": "Basic Gameplay 2",
+						"timeLimit": "30",
+						"cameraZoom": "1",
+						"useDefinedCameraPosition": "false",
+						"cameraX": "800",
+						"cameraY": "1400",
+						"endable": "false",
+						"isTutorial": "true",
+						"shouldDisplay": "false",
+						"tutorialScript": "OvertureTwo",
+						"Description": {
+							"$t": "How to help characters achieve their goals."
+						},
+						"Setting": {
+							"$t": "lockers"
+						},
+						"Cast": {
+							"CharacterName": [
+								{
+									"$t": "Zack"
+								},
+								{
+									"$t": "Chloe"
+								}
+							]
+						},
+						"GoalRules": {}
+					}
+				}
+			},
+			{
+				"title": "Lesson 3: Feelings and Stuff",
+				"screenShot": "gameplayBasics",
+				"storyLeadCharacter": "Edward",
+				"isTutorial": "true",
+				"shouldDisplay": "false",
+				"Description": {
+					"$t": "Learn how to see and change how characters feel about each other."
+				},
+				"ToDoList": {},
+				"Levels": {
+					"Level": {
+						"title": "Lesson 3: Feelings and Stuff",
+						"timeLimit": "30",
+						"cameraZoom": "1",
+						"useDefinedCameraPosition": "false",
+						"cameraX": "800",
+						"cameraY": "1400",
+						"endable": "false",
+						"isTutorial": "true",
+						"shouldDisplay": "false",
+						"tutorialScript": "Tutorial3",
+						"Description": {
+							"$t": "Learn how to see and change how characters feel about each other."
+						},
+						"Setting": {
+							"$t": "lockers"
+						},
+						"Cast": {
+							"CharacterName": [
+								{
+									"$t": "Edward"
+								},
+								{
+									"$t": "Mave"
+								},
+								{
+									"$t": "Oswald"
+								}
+							]
+						},
+						"GoalRules": {}
+					}
+				}
+			},
+			{
+				"title": "Lesson 4: Character Motives",
+				"screenShot": "gameplayBasics",
+				"storyLeadCharacter": "Oswald",
+				"isTutorial": "true",
+				"shouldDisplay": "false",
+				"Description": {
+					"$t": "Learn why characters want to do things and how to surf the social state."
+				},
+				"ToDoList": {},
+				"Levels": {
+					"Level": {
+						"title": "Lesson 4: Character Motives",
+						"timeLimit": "30",
+						"cameraZoom": "1",
+						"useDefinedCameraPosition": "false",
+						"cameraX": "800",
+						"cameraY": "1400",
+						"endable": "false",
+						"isTutorial": "true",
+						"shouldDisplay": "false",
+						"tutorialScript": "Tutorial4",
+						"Description": {
+							"$t": "Learn why characters want to do things and how to surf the social state."
+						},
+						"Setting": {
+							"$t": "lockers"
+						},
+						"Cast": {
+							"CharacterName": [
+								{
+									"$t": "Oswald"
+								},
+								{
+									"$t": "Lucas"
+								},
+								{
+									"$t": "Buzz"
+								}
+							]
+						},
+						"GoalRules": {}
+					}
+				}
+			},
+			{
+				"title": "Fake Story: The Last Battle",
+				"Description": {
+					"$t": "This time, it's personal. Really, don't press it."
+				},
+				"Levels": {
+					"Level": [
+						{
+							"title": "Arm Candy",
+							"timeLimit": "30",
+							"endable": "false",
+							"Description": {
+								"$t": "Every king needs a queen. Zack is going to have to score a girlfriend that is totally cool before he stands a chance at becoming prom royalty."
+							},
+							"Setting": {
+								"$t": "lockers"
+							},
+							"Cast": {
+								"CharacterName": [
+									{
+										"$t": "Simon"
+									},
+									{
+										"$t": "Chloe"
+									},
+									{
+										"$t": "Zack"
+									},
+									{
+										"$t": "Monica"
+									},
+									{
+										"$t": "Buzz"
+									}
+								]
+							},
+							"GoalRules": {
+								"Rule": [
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "x",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "status",
+												"status": "popular",
+												"first": "x",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											}
+										]
+									},
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Chloe",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Zack",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Monica",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Simon",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Buzz",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											}
+										]
+									}
+								]
+							}
+						},
+						{
+							"title": "Game Over!",
+							"timeLimit": "20",
+							"endable": "false",
+							"Description": {
+								"$t": "Please reload the webpage to restart the demo."
+							},
+							"Setting": {
+								"$t": "cornerstore"
+							},
+							"Cast": {
+								"CharacterName": [
+									{
+										"$t": "Zack"
+									},
+									{
+										"$t": "Buzz"
+									}
+								]
+							},
+							"GoalRules": {
+								"Rule": [
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Monica",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "status",
+												"status": "popular",
+												"first": "Monica",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											}
+										]
+									},
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Chloe",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "status",
+												"status": "popular",
+												"first": "Chloe",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											}
+										]
+									},
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Chloe",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Zack",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Monica",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Simon",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Buzz",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											}
+										]
+									}
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"title": "Fake Story: Something of the Something",
+				"Description": {
+					"$t": "I think we might have missed something there."
+				},
+				"Levels": {
+					"Level": [
+						{
+							"title": "You pressed it didn't you?",
+							"timeLimit": "30",
+							"endable": "false",
+							"Description": {
+								"$t": "Why did you do that?"
+							},
+							"Setting": {
+								"$t": "lockers"
+							},
+							"Cast": {
+								"CharacterName": [
+									{
+										"$t": "Simon"
+									},
+									{
+										"$t": "Chloe"
+									},
+									{
+										"$t": "Zack"
+									},
+									{
+										"$t": "Monica"
+									},
+									{
+										"$t": "Buzz"
+									}
+								]
+							},
+							"GoalRules": {
+								"Rule": [
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "x",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "status",
+												"status": "popular",
+												"first": "x",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											}
+										]
+									},
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Chloe",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Zack",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Monica",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Simon",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Buzz",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											}
+										]
+									}
+								]
+							}
+						},
+						{
+							"title": "Game Over!",
+							"timeLimit": "20",
+							"endable": "false",
+							"Description": {
+								"$t": "Please reload the webpage to restart the demo."
+							},
+							"Setting": {
+								"$t": "cornerstore"
+							},
+							"Cast": {
+								"CharacterName": [
+									{
+										"$t": "Zack"
+									},
+									{
+										"$t": "Buzz"
+									}
+								]
+							},
+							"GoalRules": {
+								"Rule": [
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Monica",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "status",
+												"status": "popular",
+												"first": "Monica",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											}
+										]
+									},
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Chloe",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "status",
+												"status": "popular",
+												"first": "Chloe",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											}
+										]
+									},
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Chloe",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Zack",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Monica",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Simon",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Buzz",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											}
+										]
+									}
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"title": "Fake Story: Part 27",
+				"Description": {
+					"$t": "This could go on for awhile."
+				},
+				"Levels": {
+					"Level": [
+						{
+							"title": "Arm Candy",
+							"timeLimit": "30",
+							"endable": "false",
+							"Description": {
+								"$t": "Every king needs a queen. Zack is going to have to score a girlfriend that is totally cool before he stands a chance at becoming prom royalty."
+							},
+							"Setting": {
+								"$t": "lockers"
+							},
+							"Cast": {
+								"CharacterName": [
+									{
+										"$t": "Simon"
+									},
+									{
+										"$t": "Chloe"
+									},
+									{
+										"$t": "Zack"
+									},
+									{
+										"$t": "Monica"
+									},
+									{
+										"$t": "Buzz"
+									}
+								]
+							},
+							"GoalRules": {
+								"Rule": [
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "x",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "status",
+												"status": "popular",
+												"first": "x",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											}
+										]
+									},
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Chloe",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Zack",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Monica",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Simon",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Buzz",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											}
+										]
+									}
+								]
+							}
+						},
+						{
+							"title": "Game Over!",
+							"timeLimit": "20",
+							"endable": "false",
+							"Description": {
+								"$t": "Please reload the webpage to restart the demo."
+							},
+							"Setting": {
+								"$t": "cornerstore"
+							},
+							"Cast": {
+								"CharacterName": [
+									{
+										"$t": "Zack"
+									},
+									{
+										"$t": "Buzz"
+									}
+								]
+							},
+							"GoalRules": {
+								"Rule": [
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Monica",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "status",
+												"status": "popular",
+												"first": "Monica",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											}
+										]
+									},
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Chloe",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "status",
+												"status": "popular",
+												"first": "Chloe",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											}
+										]
+									},
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Chloe",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Zack",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Monica",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Simon",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Buzz",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											}
+										]
+									}
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"title": "That Other Fake Story",
+				"Description": {
+					"$t": "We have a lot of campaigns to write."
+				},
+				"Levels": {
+					"Level": [
+						{
+							"title": "Arm Candy",
+							"timeLimit": "30",
+							"endable": "false",
+							"Description": {
+								"$t": "Every king needs a queen. Zack is going to have to score a girlfriend that is totally cool before he stands a chance at becoming prom royalty."
+							},
+							"Setting": {
+								"$t": "lockers"
+							},
+							"Cast": {
+								"CharacterName": [
+									{
+										"$t": "Simon"
+									},
+									{
+										"$t": "Chloe"
+									},
+									{
+										"$t": "Zack"
+									},
+									{
+										"$t": "Monica"
+									},
+									{
+										"$t": "Buzz"
+									}
+								]
+							},
+							"GoalRules": {
+								"Rule": [
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "x",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "status",
+												"status": "popular",
+												"first": "x",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											}
+										]
+									},
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Chloe",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Zack",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Monica",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Simon",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Buzz",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											}
+										]
+									}
+								]
+							}
+						},
+						{
+							"title": "Game Over!",
+							"timeLimit": "20",
+							"endable": "false",
+							"Description": {
+								"$t": "Please reload the webpage to restart the demo."
+							},
+							"Setting": {
+								"$t": "cornerstore"
+							},
+							"Cast": {
+								"CharacterName": [
+									{
+										"$t": "Zack"
+									},
+									{
+										"$t": "Buzz"
+									}
+								]
+							},
+							"GoalRules": {
+								"Rule": [
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Monica",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "status",
+												"status": "popular",
+												"first": "Monica",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											}
+										]
+									},
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Chloe",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "status",
+												"status": "popular",
+												"first": "Chloe",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											}
+										]
+									},
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Chloe",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Zack",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Monica",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Simon",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Buzz",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											}
+										]
+									}
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"title": "Almost There: A Fake Story Tale",
+				"Description": {
+					"$t": "Stories... so delicious."
+				},
+				"Levels": {
+					"Level": [
+						{
+							"title": "Arm Candy",
+							"timeLimit": "30",
+							"endable": "false",
+							"Description": {
+								"$t": "Every king needs a queen. Zack is going to have to score a girlfriend that is totally cool before he stands a chance at becoming prom royalty."
+							},
+							"Setting": {
+								"$t": "lockers"
+							},
+							"Cast": {
+								"CharacterName": [
+									{
+										"$t": "Simon"
+									},
+									{
+										"$t": "Chloe"
+									},
+									{
+										"$t": "Zack"
+									},
+									{
+										"$t": "Monica"
+									},
+									{
+										"$t": "Buzz"
+									}
+								]
+							},
+							"GoalRules": {
+								"Rule": [
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "x",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "status",
+												"status": "popular",
+												"first": "x",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											}
+										]
+									},
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Chloe",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Zack",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Monica",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Simon",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Buzz",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											}
+										]
+									}
+								]
+							}
+						},
+						{
+							"title": "Game Over!",
+							"timeLimit": "20",
+							"endable": "false",
+							"Description": {
+								"$t": "Please reload the webpage to restart the demo."
+							},
+							"Setting": {
+								"$t": "cornerstore"
+							},
+							"Cast": {
+								"CharacterName": [
+									{
+										"$t": "Zack"
+									},
+									{
+										"$t": "Buzz"
+									}
+								]
+							},
+							"GoalRules": {
+								"Rule": [
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Monica",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "status",
+												"status": "popular",
+												"first": "Monica",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											}
+										]
+									},
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Chloe",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "status",
+												"status": "popular",
+												"first": "Chloe",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											}
+										]
+									},
+									{
+										"Predicate": [
+											{
+												"type": "relationship",
+												"first": "Zack",
+												"second": "Chloe",
+												"relationship": "dating",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false",
+												"numTimesUniquelyTrue": "0"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Zack",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Monica",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Simon",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											},
+											{
+												"type": "network",
+												"networkType": "cool",
+												"first": "Buzz",
+												"second": "Chloe",
+												"comparator": "greaterthan",
+												"value": "50",
+												"negated": "false",
+												"intent": "false",
+												"isSFDB": "false",
+												"window": "0",
+												"numTimesUniquelyTrueFlag": "false"
+											}
+										]
+									}
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"title": "They're waiting for you, Gordon. In the TEST Chamber.",
+				"storyLeadCharacter": "Buzz",
+				"locked": "true",
+				"toUnlock": "5",
+				"Description": {
+					"$t": "Funny that you'd show up today, Gordon. It's a Red Letter Day!"
+				},
+				"ToDoList": {},
+				"Levels": {
+					"Level": {
+						"title": "AperatureDay: In the Testing Labs",
+						"timeLimit": "99",
+						"endable": "true",
+						"useDefinedCastPositions": "false",
+						"cameraZoom": "1",
+						"useDefinedCameraPosition": "false",
+						"cameraX": "800",
+						"cameraY": "1400",
+						"isTutorial": "false",
+						"Description": {
+							"$t": "Oh, it's *you*... It's been a looong time. How have you been? I've been *really* busy being dead. You know, after you MURDERED me. Okay, look. We both said a lot of things that you're going to regret. But I think we can put our differences behind us. For Science. You Monster."
+						},
+						"Setting": {
+							"$t": "lockers"
+						},
+						"Cast": {
+							"$c": "Note from GladOS: Place your testing subjects in the skeleton form below...\r\n\t\t\t\t\t\t\t\t\t\t\t\t  Simply increment the X value by 100, for each character you add.\r\n\t\t\t\t\t\t\t\t\t\t\t\t  Remember also to change storyLeadCharacter in the Story tag above to the first character below!",
+							"CharacterName": [
+								{
+									"startX": "600",
+									"startY": "1000",
+									"$t": "Buzz"
+								},
+								{
+									"startX": "700",
+									"startY": "1000",
+									"$t": "Cassandra"
+								},
+								{
+									"startX": "800",
+									"startY": "1000",
+									"$t": "Nicholas"
+								},
+								{
+									"startX": "900",
+									"startY": "1000",
+									"$t": "Monica"
+								},
+								{
+									"startX": "1000",
+									"startY": "1000",
+									"$t": "Chloe"
+								},
+								{
+									"startX": "1100",
+									"startY": "1000",
+									"$t": "Oswald"
+								}
+							]
+						},
+						"GoalRules": {}
+					}
+				},
+				"Endings": {}
+			}
+		],
+		"$c": [
+			"<Story title=\"Buzz Story\">\r\n\t\t<Description>Completely devoid of any description whatsoever!</Description>\r\n\t\t\t<Levels>\r\n\t\t\t\t<Level title=\"Putting them in their Place\" timeLimit=\"15\" endable=\"false\">\r\n\t\t\t\t\t<Description>Life is simple for Buzz. Being MVP of the football team and having a popular girlfriend was just given to him. However things are taking a turn for the worse, since now the geeks of the highschool are trying to bring Buzz down. Help Buzz bully Simon and Zack to put them in their place.</Description>\r\n\t\t\t\t\t<Setting>neighborhood</Setting>\r\n\t\t\t\t\t<Cast>\r\n\t\t\t\t\t\t<CharacterName>Buzz</CharacterName>\r\n\t\t\t\t\t\t<CharacterName>Simon</CharacterName>\r\n\t\t\t\t\t\t<CharacterName>Zack</CharacterName>\r\n\t\t\t\t\t</Cast>\r\n\t\t\t\t\t<GoalRules>\r\n\t\t\t\t\t\t<Rule>\r\n\t\t\t\t\t\t\t<Predicate type=\"relationship\" first=\"Buzz\" second=\"Zack\" relationship=\"enemies\" negated=\"false\" intent=\"false\" isSFDB=\"false\" window=\"0\" numTimesUniquelyTrueFlag=\"true\" numTimesUniquelyTrue=\"2\" numTimesRoleSlot=\"initiator\"/>\r\n\t\t\t\t\t\t\t<Predicate type=\"relationship\" first=\"Buzz\" second=\"Simon\" relationship=\"enemies\" negated=\"false\" intent=\"false\" isSFDB=\"false\" window=\"0\" numTimesUniquelyTrueFlag=\"true\" numTimesUniquelyTrue=\"2\" numTimesRoleSlot=\"initiator\"/>\r\n\t\t\t\t\t\t</Rule>\r\n\t\t\t\t\t</GoalRules>\r\n\t\t\t\t</Level>\r\n\t\t\t\t<Level title=\"Game Over!\" timeLimit=\"20\" endable=\"false\">\r\n\t\t\t\t\t<Description>Please reload the webpage to restart the demo.</Description>\r\n\t\t\t\t\t<Setting>cornerstore</Setting>\r\n\t\t\t\t\t<Cast>\r\n\t\t\t\t\t\t<CharacterName>Zack</CharacterName>\r\n\t\t\t\t\t\t<CharacterName>Buzz</CharacterName>\r\n\t\t\t\t\t</Cast>\r\n\t\t\t\t\t<GoalRules>\r\n\t\t\t\t\t\t\t<Rule>\r\n\t\t\t\t\t\t\t\t<Predicate type=\"relationship\" first=\"Zack\" second=\"Monica\" relationship=\"dating\" negated=\"false\" intent=\"false\" isSFDB=\"false\" window=\"0\" numTimesUniquelyTrueFlag=\"false\" numTimesUniquelyTrue=\"0\" numTimesRoleSlot=\"\"/>\r\n\t\t\t\t\t\t\t\t<Predicate type=\"status\" status=\"popular\" first=\"Monica\" second=\"\" negated=\"false\" intent=\"false\" isSFDB=\"false\" window=\"0\" numTimesUniquelyTrueFlag=\"false\" numTimesUniquelyTrue=\"0\" numTimesRoleSlot=\"\"/>\r\n\t\t\t\t\t\t\t</Rule>\r\n\t\t\t\t\t</GoalRules>\r\n\t\t\t\t</Level>\r\n\t\t\t</Levels>\r\n\t\t</Story>",
+			"REMEMBER, new tutorials also have to be declared in AuthoringLibrary.mxml",
+			"<Story title=\"Lesson 5: Achieving Your Goals\" screenShot=\"gameplayBasics\" storyLeadCharacter=\"Jordan\" isTutorial=\"true\" shouldDisplay=\"false\">\r\n\t\t<Description>Become a highly successful Prom Player by pursuing goals like a pro.</Description>\r\n\t\t\t<ToDoList>\r\n\t\t\t\t<ToDoItem name=\"Jordan Makes Two Friends\">\r\n\t\t\t\t\t<Condition>\r\n\t\t\t\t\t\t<Rule>\r\n\t\t\t\t\t\t\t<Predicate type=\"relationship\" first=\"initiator\" second=\"responder\" relationship=\"friends\" negated=\"false\" intent=\"false\" isSFDB=\"false\" window=\"0\" numTimesUniquelyTrueFlag=\"true\" numTimesUniquelyTrue=\"2\" numTimesRoleSlot=\"\"/>\r\n\t\t\t\t\t\t</Rule>\r\n\t\t\t\t\t</Condition>\r\n\t\t\t\t</ToDoItem>\r\n\t\t\t\t<ToDoItem name=\"Jordan Does Two Nice Things\">\r\n\t\t\t\t\t<Condition>\r\n\t\t\t\t\t\t<Rule>\r\n\t\t\t\t\t\t\t<Predicate type=\"SFDB label\" first=\"initiator\" second=\"\" label=\"cat: positive\" negated=\"false\" intent=\"false\" isSFDB=\"true\" window=\"0\" numTimesUniquelyTrueFlag=\"true\" numTimesUniquelyTrue=\"2\" numTimesRoleSlot=\"first\"/>\r\n\t\t\t\t\t\t</Rule>\r\n\t\t\t\t\t</Condition>\r\n\t\t\t\t</ToDoItem>\r\n\t\t\t\t<ToDoItem name=\"Jordan Does Two Mean Things\">\r\n\t\t\t\t\t<Condition>\r\n\t\t\t\t\t\t<Rule>\r\n\t\t\t\t\t\t\t<Predicate type=\"SFDB label\" first=\"initiator\" second=\"\" label=\"cat: negative\" negated=\"false\" intent=\"false\" isSFDB=\"true\" window=\"0\" numTimesUniquelyTrueFlag=\"true\" numTimesUniquelyTrue=\"2\" numTimesRoleSlot=\"first\"/>\r\n\t\t\t\t\t\t</Rule>\r\n\t\t\t\t\t</Condition>\r\n\t\t\t\t</ToDoItem>\r\n\t\t\t\t<ToDoItem name=\"Jordan Starts Dating\">\r\n\t\t\t\t\t<Condition>\r\n\t\t\t\t\t\t<Rule>\r\n\t\t\t\t\t\t\t<Predicate type=\"relationship\" first=\"initiator\" second=\"responder\" relationship=\"dating\" negated=\"false\" intent=\"false\" isSFDB=\"false\" window=\"0\" numTimesUniquelyTrueFlag=\"false\" numTimesUniquelyTrue=\"0\" numTimesRoleSlot=\"\"/>\r\n\t\t\t\t\t\t</Rule>\r\n\t\t\t\t\t</Condition>\r\n\t\t\t\t</ToDoItem>\r\n\t\t\t</ToDoList>\r\n\t\t\t<Levels>\r\n\t\t\t\t<Level title=\"Lesson 5: Achieving Your Goals\" timeLimit=\"30\" cameraZoom=\"1\" useDefinedCameraPosition=\"false\" cameraX=\"800\" cameraY=\"1400\" endable=\"false\" isTutorial=\"true\" shouldDisplay=\"false\" tutorialScript=\"Tutorial5\">\r\n\t\t\t\t\t<Description>Become a highly successful Prom Player by pursuing goals like a pro.</Description>\r\n\t\t\t\t\t<Setting>lockers</Setting>\r\n\t\t\t\t\t<Cast>\r\n\t\t\t\t\t\t<CharacterName>Jordan</CharacterName>\r\n\t\t\t\t\t\t<CharacterName>Doug</CharacterName>\r\n\t\t\t\t\t\t<CharacterName>Monica</CharacterName>\r\n\t\t\t\t\t</Cast>\r\n\t\t\t\t\t<GoalRules>\r\n\t\t\t\t\t</GoalRules>\r\n\t\t\t\t</Level>\t\r\n\t\t\t</Levels>\r\n\t\t</Story>"
+		]
+	}
+}

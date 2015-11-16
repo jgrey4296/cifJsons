@@ -1,0 +1,6524 @@
+{
+	"$c": "0=Doug, 1=Jordan, 2=Buzz, 3=Naomi, 4=Lil, 5=Nicholas, 6=Zack, 7=Chloe, 8=Simon, 9=Monica, 10=oswald, 11=Lucas, 12=Edward, 13=Mave, 14=Gunter, 15=Cassandra, 16=Phoebe  17=Kate",
+	"CiFState": {
+		"time": "0",
+		"Cast": {
+			"Character": [
+				{
+					"name": "Doug",
+					"networkID": "0",
+					"Trait": [
+						{
+							"type": "male"
+						},
+						{
+							"type": "shy"
+						},
+						{
+							"type": "oblivious"
+						},
+						{
+							"type": "pacifist"
+						},
+						{
+							"type": "afraid of commitment"
+						},
+						{
+							"type": "muscular"
+						},
+						{
+							"type": "wears a hat"
+						},
+						{
+							"type": "doug"
+						},
+						{
+							"type": "anyone"
+						}
+					],
+					"Locution": [
+						{
+							"type": "greeting",
+							"$t": "sup"
+						},
+						{
+							"type": "shocked",
+							"$t": "woah"
+						},
+						{
+							"type": "positiveadj",
+							"$t": "groovy"
+						},
+						{
+							"type": "pejorative",
+							"$t": "poser"
+						},
+						{
+							"type": "sweetie",
+							"$t": "babe"
+						},
+						{
+							"type": "buddymale",
+							"$t": "bro"
+						},
+						{
+							"type": "buddyfemale",
+							"$t": "chica"
+						}
+					]
+				},
+				{
+					"name": "Simon",
+					"networkID": "8",
+					"Trait": [
+						{
+							"type": "male"
+						},
+						{
+							"type": "brainy"
+						},
+						{
+							"type": "loyal"
+						},
+						{
+							"type": "irritable"
+						},
+						{
+							"type": "afraid of commitment"
+						},
+						{
+							"type": "simon"
+						},
+						{
+							"type": "anyone"
+						}
+					],
+					"Locution": [
+						{
+							"type": "greeting",
+							"$t": "hi"
+						},
+						{
+							"type": "shocked",
+							"$t": "impossible"
+						},
+						{
+							"type": "positiveadj",
+							"$t": "perfect"
+						},
+						{
+							"type": "pejorative",
+							"$t": "idiot"
+						},
+						{
+							"type": "sweetie",
+							"$t": "lady love"
+						},
+						{
+							"type": "buddymale",
+							"$t": "brosef"
+						},
+						{
+							"type": "buddyfemale",
+							"$t": "homegirl"
+						}
+					],
+					"Status": [
+						{
+							"type": "has a crush on",
+							"from": "Simon",
+							"to": "Monica"
+						},
+						{
+							"type": "pities",
+							"from": "Naomi",
+							"to": "Simon"
+						},
+						{
+							"type": "pities",
+							"from": "Monica",
+							"to": "Simon"
+						}
+					]
+				},
+				{
+					"name": "Monica",
+					"networkID": "9",
+					"Trait": [
+						{
+							"type": "female"
+						},
+						{
+							"type": "cold"
+						},
+						{
+							"type": "attention hog"
+						},
+						{
+							"type": "sex magnet"
+						},
+						{
+							"type": "vengeful"
+						},
+						{
+							"type": "cares about fashion"
+						},
+						{
+							"type": "monica"
+						},
+						{
+							"type": "anyone"
+						}
+					],
+					"Locution": [
+						{
+							"type": "greeting",
+							"$t": "oh"
+						},
+						{
+							"type": "shocked",
+							"$t": "shut up"
+						},
+						{
+							"type": "positiveadj",
+							"$t": "super-cute"
+						},
+						{
+							"type": "pejorative",
+							"$t": "nobody"
+						},
+						{
+							"type": "sweetie",
+							"$t": "love-monkey"
+						},
+						{
+							"type": "buddymale",
+							"$t": "boy"
+						},
+						{
+							"type": "buddyfemale",
+							"$t": "girl"
+						}
+					],
+					"$c": "<Status type=\"has a crush on\" from=\"Monica\" to=\"Oswald\"/>",
+					"Status": [
+						{
+							"type": "envies",
+							"from": "Monica",
+							"to": "Naomi"
+						},
+						{
+							"type": "popular",
+							"from": "Monica"
+						}
+					]
+				},
+				{
+					"name": "Zack",
+					"networkID": "6",
+					"Trait": [
+						{
+							"type": "male"
+						},
+						{
+							"type": "arrogant"
+						},
+						{
+							"type": "stubborn"
+						},
+						{
+							"type": "outgoing"
+						},
+						{
+							"type": "honest"
+						},
+						{
+							"type": "muscular"
+						},
+						{
+							"type": "zack"
+						},
+						{
+							"type": "anyone"
+						}
+					],
+					"Locution": [
+						{
+							"type": "greeting",
+							"$t": "oh hai"
+						},
+						{
+							"type": "shocked",
+							"$t": "what teh f"
+						},
+						{
+							"type": "positiveadj",
+							"$t": "roxor"
+						},
+						{
+							"type": "pejorative",
+							"$t": "n00b"
+						},
+						{
+							"type": "sweetie",
+							"$t": "gigababe"
+						},
+						{
+							"type": "buddymale",
+							"$t": "guildie"
+						},
+						{
+							"type": "buddyfemale",
+							"$t": "guildie"
+						}
+					],
+					"Status": {
+						"type": "has a crush on",
+						"from": "Zack",
+						"to": "Chloe"
+					}
+				},
+				{
+					"name": "Oswald",
+					"networkID": "10",
+					"Trait": [
+						{
+							"type": "male"
+						},
+						{
+							"type": "arrogant"
+						},
+						{
+							"type": "smooth talker"
+						},
+						{
+							"type": "competitive"
+						},
+						{
+							"type": "attention hog"
+						},
+						{
+							"type": "muscular"
+						},
+						{
+							"type": "cares about fashion"
+						},
+						{
+							"type": "oswald"
+						},
+						{
+							"type": "anyone"
+						}
+					],
+					"Locution": [
+						{
+							"type": "greeting",
+							"$t": "hi hi"
+						},
+						{
+							"type": "shocked",
+							"$t": "ghastly"
+						},
+						{
+							"type": "positiveadj",
+							"$t": "divine"
+						},
+						{
+							"type": "pejorative",
+							"$t": "animal"
+						},
+						{
+							"type": "sweetie",
+							"$t": "love dove"
+						},
+						{
+							"type": "buddymale",
+							"$t": "good sir"
+						},
+						{
+							"type": "buddyfemale",
+							"$t": "good woman"
+						}
+					],
+					"Status": {
+						"type": "honor roll",
+						"from": "Oswald"
+					}
+				},
+				{
+					"name": "Nicholas",
+					"networkID": "5",
+					"Trait": [
+						{
+							"type": "male"
+						},
+						{
+							"type": "arrogant"
+						},
+						{
+							"type": "swinger"
+						},
+						{
+							"type": "vengeful"
+						},
+						{
+							"type": "witty"
+						},
+						{
+							"type": "cares about fashion"
+						},
+						{
+							"type": "nicholas"
+						},
+						{
+							"type": "anyone"
+						}
+					],
+					"Locution": [
+						{
+							"type": "greeting",
+							"$t": "greetings"
+						},
+						{
+							"type": "shocked",
+							"$t": "my oh my"
+						},
+						{
+							"type": "positiveadj",
+							"$t": "lovely"
+						},
+						{
+							"type": "pejorative",
+							"$t": "simpering moron"
+						},
+						{
+							"type": "sweetie",
+							"$t": "snookie-wookums"
+						},
+						{
+							"type": "buddymale",
+							"$t": "my man"
+						},
+						{
+							"type": "buddyfemale",
+							"$t": "dahhrling"
+						}
+					]
+				},
+				{
+					"name": "Lil",
+					"networkID": "4",
+					"Trait": [
+						{
+							"type": "female"
+						},
+						{
+							"type": "dishonest"
+						},
+						{
+							"type": "clumsy"
+						},
+						{
+							"type": "takes things slowly"
+						},
+						{
+							"type": "mopey"
+						},
+						{
+							"type": "lil"
+						},
+						{
+							"type": "anyone"
+						}
+					],
+					"Locution": [
+						{
+							"type": "greeting",
+							"$t": "hello"
+						},
+						{
+							"type": "shocked",
+							"$t": "oh"
+						},
+						{
+							"type": "positiveadj",
+							"$t": "neat"
+						},
+						{
+							"type": "pejorative",
+							"$t": "freakshow"
+						},
+						{
+							"type": "sweetie",
+							"$t": "love"
+						},
+						{
+							"type": "buddymale",
+							"$t": "man"
+						},
+						{
+							"type": "buddyfemale",
+							"$t": "man"
+						}
+					]
+				},
+				{
+					"name": "Naomi",
+					"networkID": "3",
+					"Trait": [
+						{
+							"type": "female"
+						},
+						{
+							"type": "sympathetic"
+						},
+						{
+							"type": "jealous"
+						},
+						{
+							"type": "self destructive"
+						},
+						{
+							"type": "brainy"
+						},
+						{
+							"type": "cares about fashion"
+						},
+						{
+							"type": "naomi"
+						},
+						{
+							"type": "anyone"
+						}
+					],
+					"Locution": [
+						{
+							"type": "greeting",
+							"$t": "hey hey"
+						},
+						{
+							"type": "shocked",
+							"$t": "my word"
+						},
+						{
+							"type": "positiveadj",
+							"$t": "amazing"
+						},
+						{
+							"type": "pejorative",
+							"$t": "waste of space"
+						},
+						{
+							"type": "sweetie",
+							"$t": "sugar"
+						},
+						{
+							"type": "buddymale",
+							"$t": "my man"
+						},
+						{
+							"type": "buddyfemale",
+							"$t": "sweetness"
+						}
+					]
+				},
+				{
+					"name": "Buzz",
+					"networkID": "2",
+					"Trait": [
+						{
+							"type": "male"
+						},
+						{
+							"type": "mean"
+						},
+						{
+							"type": "inarticulate"
+						},
+						{
+							"type": "ripped"
+						},
+						{
+							"type": "hothead"
+						},
+						{
+							"type": "muscular"
+						},
+						{
+							"type": "buzz"
+						},
+						{
+							"type": "anyone"
+						}
+					],
+					"Locution": [
+						{
+							"type": "greeting",
+							"$t": "uhhhh"
+						},
+						{
+							"type": "shocked",
+							"$t": "the f?"
+						},
+						{
+							"type": "positiveadj",
+							"$t": "tight"
+						},
+						{
+							"type": "pejorative",
+							"$t": "crapface"
+						},
+						{
+							"type": "sweetie",
+							"$t": "babe"
+						},
+						{
+							"type": "buddymale",
+							"$t": "dude"
+						},
+						{
+							"type": "buddyfemale",
+							"$t": "girl dude"
+						}
+					]
+				},
+				{
+					"name": "Jordan",
+					"networkID": "1",
+					"Trait": [
+						{
+							"type": "female"
+						},
+						{
+							"type": "loyal"
+						},
+						{
+							"type": "confident"
+						},
+						{
+							"type": "competitive"
+						},
+						{
+							"type": "impulsive"
+						},
+						{
+							"type": "wears a hat"
+						},
+						{
+							"type": "jordan"
+						},
+						{
+							"type": "anyone"
+						}
+					],
+					"Locution": [
+						{
+							"type": "greeting",
+							"$t": "hey"
+						},
+						{
+							"type": "shocked",
+							"$t": "no way"
+						},
+						{
+							"type": "positiveadj",
+							"$t": "nice"
+						},
+						{
+							"type": "pejorative",
+							"$t": "dork"
+						},
+						{
+							"type": "sweetie",
+							"$t": "cutie"
+						},
+						{
+							"type": "buddymale",
+							"$t": "man"
+						},
+						{
+							"type": "buddyfemale",
+							"$t": "man"
+						}
+					],
+					"$c": "<Status type=\"has a crush on\" from=\"Jordan\" to=\"Oswald\"/>"
+				},
+				{
+					"name": "Chloe",
+					"networkID": "7",
+					"Trait": [
+						{
+							"type": "female"
+						},
+						{
+							"type": "outgoing"
+						},
+						{
+							"type": "kind"
+						},
+						{
+							"type": "smooth talker"
+						},
+						{
+							"type": "insecure"
+						},
+						{
+							"type": "chloe"
+						},
+						{
+							"type": "anyone"
+						}
+					],
+					"Locution": [
+						{
+							"type": "greeting",
+							"$t": "what's the latest"
+						},
+						{
+							"type": "shocked",
+							"$t": "wait, what?"
+						},
+						{
+							"type": "positiveadj",
+							"$t": "wicked"
+						},
+						{
+							"type": "pejorative",
+							"$t": "zombie"
+						},
+						{
+							"type": "buddymale",
+							"$t": "punk"
+						},
+						{
+							"type": "buddyfemale",
+							"$t": "punk"
+						},
+						{
+							"type": "sweetie",
+							"$t": "hot stuff"
+						}
+					]
+				},
+				{
+					"name": "Cassandra",
+					"networkID": "15",
+					"Trait": [
+						{
+							"type": "female"
+						},
+						{
+							"type": "pacifist"
+						},
+						{
+							"type": "shallow"
+						},
+						{
+							"type": "dishonest"
+						},
+						{
+							"type": "dumb"
+						},
+						{
+							"type": "cares about fashion"
+						},
+						{
+							"type": "cassandra"
+						},
+						{
+							"type": "anyone"
+						}
+					],
+					"Status": [
+						{
+							"type": "envies",
+							"from": "Cassandra",
+							"to": "Monica"
+						},
+						{
+							"type": "desperate",
+							"from": "Cassandra"
+						}
+					],
+					"Locution": [
+						{
+							"type": "greeting",
+							"$t": "OH HIiiiii"
+						},
+						{
+							"type": "shocked",
+							"$t": "I feel faint"
+						},
+						{
+							"type": "positiveadj",
+							"$t": "cuuuuuute"
+						},
+						{
+							"type": "pejorative",
+							"$t": "loser"
+						},
+						{
+							"type": "buddymale",
+							"$t": "strong man"
+						},
+						{
+							"type": "buddyfemale",
+							"$t": "girlfriend"
+						},
+						{
+							"type": "sweetie",
+							"$t": "pumpkin dimple"
+						}
+					]
+				},
+				{
+					"name": "Lucas",
+					"networkID": "11",
+					"Trait": [
+						{
+							"type": "male"
+						},
+						{
+							"type": "emotional"
+						},
+						{
+							"type": "mopey"
+						},
+						{
+							"type": "takes things slowly"
+						},
+						{
+							"type": "weakling"
+						},
+						{
+							"type": "lucas"
+						},
+						{
+							"type": "anyone"
+						}
+					],
+					"Locution": [
+						{
+							"type": "greeting",
+							"$t": "*sigh* Oh, it's you"
+						},
+						{
+							"type": "shocked",
+							"$t": "unreal"
+						},
+						{
+							"type": "positiveadj",
+							"$t": "beautiful"
+						},
+						{
+							"type": "pejorative",
+							"$t": "soulless automaton"
+						},
+						{
+							"type": "buddymale",
+							"$t": "compadre"
+						},
+						{
+							"type": "buddyfemale",
+							"$t": "chica"
+						},
+						{
+							"type": "sweetie",
+							"$t": "rainbow blossom"
+						}
+					]
+				},
+				{
+					"name": "Edward",
+					"networkID": "12",
+					"Trait": [
+						{
+							"type": "male"
+						},
+						{
+							"type": "forgiving"
+						},
+						{
+							"type": "weakling"
+						},
+						{
+							"type": "dumb"
+						},
+						{
+							"type": "self destructive"
+						},
+						{
+							"type": "cares about fashion"
+						},
+						{
+							"type": "wears a hat"
+						},
+						{
+							"type": "edward"
+						},
+						{
+							"type": "anyone"
+						}
+					],
+					"$c": "<Trait type=\"competitive\"/>",
+					"Locution": [
+						{
+							"type": "greeting",
+							"$t": "saladtations"
+						},
+						{
+							"type": "shocked",
+							"$t": "what the..."
+						},
+						{
+							"type": "positiveadj",
+							"$t": "goth"
+						},
+						{
+							"type": "pejorative",
+							"$t": "emo"
+						},
+						{
+							"type": "buddymale",
+							"$t": "fellow creature"
+						},
+						{
+							"type": "buddyfemale",
+							"$t": "orchid of darkness"
+						},
+						{
+							"type": "sweetie",
+							"$t": "devil dove"
+						}
+					],
+					"Status": [
+						{
+							"type": "grateful toward",
+							"from": "Edward",
+							"to": "Mave"
+						},
+						{
+							"type": "envies",
+							"from": "Edward",
+							"to": "Nicholas"
+						}
+					]
+				},
+				{
+					"name": "Mave",
+					"networkID": "13",
+					"Trait": [
+						{
+							"type": "female"
+						},
+						{
+							"type": "hothead"
+						},
+						{
+							"type": "domineering"
+						},
+						{
+							"type": "deep"
+						},
+						{
+							"type": "honest"
+						},
+						{
+							"type": "cares about fashion"
+						},
+						{
+							"type": "mave"
+						},
+						{
+							"type": "anyone"
+						}
+					],
+					"Status": [
+						{
+							"type": "has a crush on",
+							"from": "Mave",
+							"to": "Gunter"
+						},
+						{
+							"type": "pities",
+							"from": "Mave",
+							"to": "Monica"
+						},
+						{
+							"type": "wants to pick on",
+							"from": "Mave",
+							"to": "Buzz"
+						}
+					],
+					"Locution": [
+						{
+							"type": "greeting",
+							"$t": "listen to me"
+						},
+						{
+							"type": "shocked",
+							"$t": "the horror"
+						},
+						{
+							"type": "positiveadj",
+							"$t": "acceptable"
+						},
+						{
+							"type": "pejorative",
+							"$t": "plebeian"
+						},
+						{
+							"type": "sweetie",
+							"$t": "dark angel"
+						},
+						{
+							"type": "buddymale",
+							"$t": "friend"
+						},
+						{
+							"type": "buddyfemale",
+							"$t": "friend"
+						}
+					]
+				},
+				{
+					"name": "Gunter",
+					"networkID": "14",
+					"Trait": [
+						{
+							"type": "male"
+						},
+						{
+							"type": "ripped"
+						},
+						{
+							"type": "outgoing"
+						},
+						{
+							"type": "confident"
+						},
+						{
+							"type": "oblivious"
+						},
+						{
+							"type": "gunter"
+						},
+						{
+							"type": "anyone"
+						}
+					],
+					"Status": {
+						"type": "scared of",
+						"from": "Cassandra",
+						"to": "Gunter"
+					},
+					"Locution": [
+						{
+							"type": "greeting",
+							"$t": "..."
+						},
+						{
+							"type": "shocked",
+							"$t": "..."
+						},
+						{
+							"type": "positiveadj",
+							"$t": "(untranslatable)"
+						},
+						{
+							"type": "pejorative",
+							"$t": "wunderstank"
+						},
+						{
+							"type": "sweetie",
+							"$t": "liebewurst"
+						},
+						{
+							"type": "buddymale",
+							"$t": "mannlicher freund"
+						},
+						{
+							"type": "buddyfemale",
+							"$t": "weiblicher freund"
+						}
+					]
+				},
+				{
+					"name": "Phoebe",
+					"networkID": "16",
+					"Trait": [
+						{
+							"type": "female"
+						},
+						{
+							"type": "stubborn"
+						},
+						{
+							"type": "shallow"
+						},
+						{
+							"type": "irritable"
+						},
+						{
+							"type": "jealous"
+						},
+						{
+							"type": "cares about fashion"
+						},
+						{
+							"type": "phoebe"
+						},
+						{
+							"type": "anyone"
+						}
+					],
+					"Locution": [
+						{
+							"type": "greeting",
+							"$t": "Hmmmm"
+						},
+						{
+							"type": "shocked",
+							"$t": "I... I..."
+						},
+						{
+							"type": "positiveadj",
+							"$t": "cute-and-sad"
+						},
+						{
+							"type": "pejorative",
+							"$t": "cheese-head"
+						},
+						{
+							"type": "sweetie",
+							"$t": "teardrop"
+						},
+						{
+							"type": "buddymale",
+							"$t": "companion"
+						},
+						{
+							"type": "buddyfemale",
+							"$t": "companion"
+						}
+					],
+					"Status": {
+						"type": "lonely",
+						"from": "Phoebe"
+					}
+				},
+				{
+					"name": "Kate",
+					"networkID": "17",
+					"Trait": [
+						{
+							"type": "female"
+						},
+						{
+							"type": "clumsy"
+						},
+						{
+							"type": "loving"
+						},
+						{
+							"type": "humble"
+						},
+						{
+							"type": "emotional"
+						},
+						{
+							"type": "kate"
+						},
+						{
+							"type": "anyone"
+						}
+					],
+					"Status": [
+						{
+							"type": "feels out of place",
+							"from": "Kate"
+						},
+						{
+							"type": "grossed out",
+							"from": "Kate"
+						}
+					],
+					"Locution": [
+						{
+							"type": "greeting",
+							"$t": "hiya"
+						},
+						{
+							"type": "shocked",
+							"$t": "well I never..."
+						},
+						{
+							"type": "positiveadj",
+							"$t": "nifty"
+						},
+						{
+							"type": "pejorative",
+							"$t": "skeezebag"
+						},
+						{
+							"type": "sweetie",
+							"$t": "snickerdoodle"
+						},
+						{
+							"type": "buddymale",
+							"$t": "acquaintance"
+						},
+						{
+							"type": "buddyfemale",
+							"$t": "acquaintance"
+						}
+					]
+				}
+			],
+			"$c": "<Character name=\"Trip\" networkID=\"18\" >\n      <Trait type=\"male\"/>\n      <Trait type=\"afraid of commitment\"/>\n      <Trait type=\"shallow\"/>\n      <Trait type=\"arrogant\"/>\n      <Trait type=\"defensive\"/>\t  \n\t  \n      <Locution type=\"greeting\">Hey</Locution>\n      <Locution type=\"shocked\">Oh, how European</Locution>\n\t  <Locution type=\"positiveadj\">really, uh... pretty great</Locution>\n      <Locution type=\"pejorative\">jerk</Locution>\n\n      <Locution type=\"sweetie\">honey</Locution>\n\t  <Locution type=\"buddymale\">buddy</Locution>\n\t  <Locution type=\"buddyfemale\">buddy</Locution>\t  \n    </Character>\n\t\n\t<Character name=\"Grace\" networkID=\"19\" >\n      <Trait type=\"female\"/>\n      <Trait type=\"deep\"/>\n      <Trait type=\"self-destructive\"/>\n\t  <Trait type=\"hothead\"/>\n\t  <Trait type=\"insecure\"/>\n\t  \n      <Locution type=\"greeting\">Oh, hello</Locution>\n      <Locution type=\"shocked\">*nervous coughing*</Locution>\n\t  <Locution type=\"positiveadj\">really great</Locution>\n      <Locution type=\"pejorative\">child</Locution>\n\n      <Locution type=\"sweetie\">dear</Locution>\n\t  <Locution type=\"buddymale\">sweetheart</Locution>\n\t  <Locution type=\"buddyfemale\">sweetheart</Locution>\t  \n    </Character>\n\t\n\t<Proposition type=\"subjective\" head=\"Trip\" connection=\"likes\" tail=\"martini\"/>\n\t<Proposition type=\"subjective\" head=\"Trip\" connection=\"has\" tail=\"eight-ball\"/>\n\t<Proposition type=\"subjective\" head=\"Grace\" connection=\"dislikes\" tail=\"martini\"/>\n\t<Proposition type=\"subjective\" head=\"Trip\" connection=\"has\" tail=\"Italy picture\"/>\n\t<Proposition type=\"subjective\" head=\"Grace\" connection=\"dislikes\" tail=\"Italy picture\"/>\n\t<Proposition type=\"subjective\" head=\"Grace\" connection=\"has\" tail=\"brass bull\"/>\n\t<Proposition type=\"subjective\" head=\"Grace\" connection=\"dislikes\" tail=\"brass bull\"/>"
+		},
+		"SFDB": {
+			"$c": "NOTE: Each backstoryContext event must be at a unique time. Keep these in order, please!",
+			"BackstoryContext": [
+				{
+					"time": "-2",
+					"initiator": "Gunter",
+					"responder": "Buzz",
+					"SFDBLabel": "taboo",
+					"PerformanceRealizationString": "%i% stared silently into %rp% bedroom window all night"
+				},
+				{
+					"time": "-3",
+					"initiator": "Lil",
+					"responder": "Zack",
+					"SFDBLabel": "mean",
+					"PerformanceRealizationString": "%i% gave %r% a high five so hard that it hurt %pron(r,his/her)% hand"
+				},
+				{
+					"time": "-4",
+					"initiator": "Naomi",
+					"responder": "Lil",
+					"SFDBLabel": "nice",
+					"PerformanceRealizationString": "%i% decided to make %r% %pron(i,his/her)% project"
+				},
+				{
+					"time": "-5",
+					"initiator": "Nicholas",
+					"responder": "Monica",
+					"SFDBLabel": "mean",
+					"PerformanceRealizationString": "%i% cheated off of %rp% homework"
+				},
+				{
+					"time": "-6",
+					"initiator": "Monica",
+					"responder": "Nicholas",
+					"SFDBLabel": "nice",
+					"PerformanceRealizationString": "%i% offered to let %r% cheat off %pron(i,his/her)% homework"
+				},
+				{
+					"time": "-7",
+					"initiator": "Cassandra",
+					"responder": "Monica",
+					"SFDBLabel": "nice",
+					"PerformanceRealizationString": "%i% got %r% a cute new case for %pron(r,his/her)% cell phone"
+				},
+				{
+					"time": "-8",
+					"initiator": "Gunter",
+					"responder": "Buzz",
+					"SFDBLabel": "rude",
+					"PerformanceRealizationString": "%i% stood in %rp% front lawn all evening, again"
+				},
+				{
+					"time": "-9",
+					"initiator": "Gunter",
+					"responder": "Kate",
+					"SFDBLabel": "gross",
+					"PerformanceRealizationString": "%i% put a banana slug on %rp% head"
+				},
+				{
+					"time": "-10",
+					"initiator": "Doug",
+					"responder": "Jordan",
+					"SFDBLabel": "nice",
+					"PerformanceRealizationString": "%i% walked %r% home from school after %prons(r,he/she)% failed that test"
+				},
+				{
+					"time": "-11",
+					"initiator": "Cassandra",
+					"responder": "Naomi",
+					"SFDBLabel": "cool",
+					"PerformanceRealizationString": "%list(i,r,and)% went shopping at the mall and totally got those amazing prom outfits"
+				},
+				{
+					"time": "-12",
+					"initiator": "Gunter",
+					"responder": "Buzz",
+					"SFDBLabel": "funny",
+					"PerformanceRealizationString": "%i% stood around across the street from %rp% house all day, the first time at least"
+				},
+				{
+					"time": "-13",
+					"initiator": "Jordan",
+					"responder": "Doug",
+					"SFDBLabel": "cool",
+					"PerformanceRealizationString": "%i% showed %r% how to do that awesome skate trick"
+				},
+				{
+					"time": "-14",
+					"initiator": "Buzz",
+					"responder": "Gunter",
+					"SFDBLabel": "nice",
+					"PerformanceRealizationSting": "%i% invited %r% to %pron(i,his/her)% football game"
+				},
+				{
+					"time": "-15",
+					"initiator": "Nicholas",
+					"responder": "Lil",
+					"SFDBLabel": "rude",
+					"PerformanceRealizationString": "%i% told %r% %prons(r,he/she)% dressed like a depressed clown"
+				},
+				{
+					"time": "-16",
+					"initiator": "Doug",
+					"responder": "Jordan",
+					"SFDBLabel": "funny",
+					"PerformanceRealizationString": "%i% did that sweet impression of the assistant principal"
+				},
+				{
+					"time": "-17",
+					"initiator": "Jordan",
+					"responder": "Doug",
+					"SFDBLabel": "nice",
+					"PerformanceRealizationString": "%i% helped %r% out with %pron(r,his/her)% homework"
+				},
+				{
+					"time": "-20",
+					"initiator": "Jordan",
+					"responder": "Doug",
+					"SFDBLabel": "funny",
+					"PerformanceRealizationString": "%i% told %r% that awesome joke about koalas"
+				},
+				{
+					"time": "-21",
+					"initiator": "Lucas",
+					"responder": "Gunter",
+					"SFDBLabel": "embarrassing",
+					"PerformanceRealizationString": "%i% cried the first time %r% tried to speak to %pron(i,him/her)%"
+				},
+				{
+					"time": "-22",
+					"initiator": "Oswald",
+					"responder": "Nicholas",
+					"SFDBLabel": "embarrassing",
+					"PerformanceRealizationString": "%list(i,r,and)% both got up to accept that award for America's most fashionable teenager even though it actually went to that prick from Detroit"
+				},
+				{
+					"time": "-23",
+					"initiator": "Cassandra",
+					"responder": "Lil",
+					"SFDBLabel": "rude",
+					"PerformanceRealizationString": "%i% told %r% %prons(r,he/she)% looked like a possom that got hit by a truck and dropped in a lake of grease"
+				},
+				{
+					"time": "-24",
+					"initiator": "Doug",
+					"responder": "Jordan",
+					"SFDBLabel": "cool",
+					"PerformanceRealizationString": "%i% fixed %rp% bike"
+				},
+				{
+					"time": "-25",
+					"initiator": "Gunter",
+					"responder": "Cassandra",
+					"SFDBLabel": "taboo",
+					"PerformanceRealizationSting": "%i% gave %r% a nude calendar of %pron(i,him/her)%self for %pron(r,his/her)% birthday"
+				},
+				{
+					"time": "-26",
+					"initiator": "Lucas",
+					"responder": "Edward",
+					"SFDBLabel": "funny",
+					"PerformanceRealizationString": "%i% tried to legally change %pron(i,his/her)% name to Crying Hearts but only %rs% would call %pron(i,him/her)% that"
+				},
+				{
+					"time": "-30",
+					"initiator": "Buzz",
+					"responder": "Simon",
+					"SFDBLabel": "mean",
+					"PerformanceRealizationString": "%i% gave %r% a wedgie in gym class"
+				},
+				{
+					"time": "-31",
+					"initiator": "Doug",
+					"responder": "Phoebe",
+					"SFDBLabel": "nice",
+					"PerformanceRealizationString": "%i% bought %r% a banana slug figurine to make up for the crash"
+				},
+				{
+					"time": "-32",
+					"initiator": "Gunter",
+					"responder": "Zack",
+					"SFDBLabel": "taboo",
+					"PerformanceRealizationSting": "%i% stripped naked in %rp% homeroom"
+				},
+				{
+					"time": "-33",
+					"initiator": "Jordan",
+					"responder": "Doug",
+					"SFDBLabel": "nice",
+					"PerformanceRealizationString": "%i% helped %r% out with %pron(r,his/her)% homework"
+				},
+				{
+					"time": "-34",
+					"initiator": "Simon",
+					"responder": "Zack",
+					"SFDBLabel": "cool",
+					"PerformanceRealizationString": "%i% let %r% cheat off %pron(i,his/her)% homework"
+				},
+				{
+					"time": "-35",
+					"initiator": "Zack",
+					"responder": "Jordan",
+					"SFDBLabel": "rude",
+					"PerformanceRealizationString": "%i% unfriended %r% with extreme prejudice"
+				},
+				{
+					"time": "-36",
+					"initiator": "Zack",
+					"responder": "Naomi",
+					"SFDBLabel": "embarrassing",
+					"PerformanceRealizationString": "%i% thought %r% %pron(r,was/were)% flirting with %pron(i,him/her)% when %prons(r,he/she)% beat %pron(i,him/her)% at chess"
+				},
+				{
+					"time": "-37",
+					"initiator": "Buzz",
+					"responder": "Nicholas",
+					"SFDBLabel": "mean",
+					"PerformanceRealizationString": "%i% called %r% a momma's boy"
+				},
+				{
+					"time": "-40",
+					"initiator": "Buzz",
+					"responder": "Zack",
+					"SFDBLabel": "mean",
+					"PerformanceRealizationString": "%i% flushed %rp% homework down the toilet"
+				},
+				{
+					"time": "-45",
+					"initiator": "Monica",
+					"responder": "Naomi",
+					"SFDBLabel": "rude",
+					"PerformanceRealizationString": "%i% told everyone %r% %pron(r,was/were)% the one who farted"
+				},
+				{
+					"time": "-50",
+					"initiator": "Mave",
+					"responder": "Simon",
+					"SFDBLabel": "mean",
+					"PerformanceRealizationString": "%i% kicked %r% out of chess club after 'the B.O. incident'"
+				},
+				{
+					"time": "-52",
+					"initiator": "Cassandra",
+					"responder": "Lucas",
+					"SFDBLabel": "rude",
+					"PerformanceRealizationString": "%r% asked %i% to the Fall Ball and %prons(i,he/she)% laughed in %pron(r,his/her)% face"
+				},
+				{
+					"time": "-54",
+					"initiator": "Doug",
+					"responder": "Phoebe",
+					"SFDBLabel": "lame",
+					"PerformanceRealizationString": "%i% accidentally crashed into %r% with %pron(i,his/her)% skateboard"
+				},
+				{
+					"time": "-55",
+					"initiator": "Monica",
+					"responder": "Mave",
+					"SFDBLabel": "mean",
+					"PerformanceRealizationString": "%i% posted that video online of %rp% fifth grade talent show"
+				},
+				{
+					"time": "-56",
+					"initiator": "Edward",
+					"responder": "Kate",
+					"SFDBLabel": "cool",
+					"PerformanceRealizationString": "%list(i,r,and)% got mistaken by the paparazzi for that couple from that vampire movie"
+				},
+				{
+					"time": "-58",
+					"initiator": "Gunter",
+					"responder": "Cassandra",
+					"SFDBLabel": "taboo",
+					"PerformanceRealizationSting": "%i% %pron(i,was/were)% %rp% home ec partner and brought half a cat"
+				},
+				{
+					"time": "-60",
+					"initiator": "Kate",
+					"responder": "Chloe",
+					"SFDBLabel": "cool",
+					"PerformanceRealizationString": "%i% played a clarinet solo at that one party at %rp% house"
+				},
+				{
+					"time": "-61",
+					"initiator": "Kate",
+					"responder": "Simon",
+					"SFDBLabel": "nice",
+					"PerformanceRealizationString": "%list(i,r,and)% studied for chemistry together"
+				},
+				{
+					"time": "-62",
+					"initiator": "Simon",
+					"responder": "Kate",
+					"SFDBLabel": "nice",
+					"PerformanceRealizationString": "%i% helped %r% learn to program in Java"
+				},
+				{
+					"time": "-63",
+					"initiator": "Kate",
+					"responder": "Simon",
+					"SFDBLabel": "cool",
+					"PerformanceRealizationString": "%list(i,r,and)% dressed up as robots for Halloween"
+				},
+				{
+					"time": "-64",
+					"initiator": "Simon",
+					"responder": "Kate",
+					"SFDBLabel": "funny",
+					"PerformanceRealizationString": "%i% introduced %r% to %pron(r,his/her)% new favorite TV show"
+				},
+				{
+					"time": "-65",
+					"initiator": "Phoebe",
+					"responder": "Mave",
+					"SFDBLabel": "embarrassing",
+					"PerformanceRealizationString": "%i% %pron(i,was/were)% rebuffed for trying to cry on %rp% shoulder"
+				},
+				{
+					"time": "-66",
+					"initiator": "Simon",
+					"responder": "Mave",
+					"SFDBLabel": "mean",
+					"PerformanceRealizationString": "%i% kicked %r% out of poetry club after 'the dead swan incident'"
+				},
+				{
+					"time": "-68",
+					"initiator": "Zack",
+					"responder": "Doug",
+					"SFDBLabel": "rude",
+					"PerformanceRealizationString": "%i% told %r% that %pron(r,his/her)% clothes were so 2000s"
+				},
+				{
+					"time": "-70",
+					"initiator": "Zack",
+					"responder": "Lil",
+					"SFDBLabel": "romantic",
+					"PerformanceRealizationString": "%i% wrote that perl script to ask %r% out"
+				},
+				{
+					"time": "-72",
+					"initiator": "Monica",
+					"responder": "Lil",
+					"SFDBLabel": "rude",
+					"PerformanceRealizationString": "%i% spilled soda all over %r% and pretended it was %pron(r,his/her)% fault"
+				},
+				{
+					"time": "-74",
+					"initiator": "Oswald",
+					"responder": "Kate",
+					"SFDBLabel": "mean",
+					"PerformanceRealizationString": "%i% dated %r% for two weeks at band camp and then pretended not to know %pron(r,him/her)% at school next fall"
+				},
+				{
+					"time": "-76",
+					"initiator": "Zack",
+					"responder": "Nicholas",
+					"SFDBLabel": "rude",
+					"PerformanceRealizationString": "%i% totally stomped on %rp% paper in English class"
+				},
+				{
+					"time": "-78",
+					"initiator": "Buzz",
+					"responder": "Lil",
+					"SFDBLabel": "mean",
+					"PerformanceRealizationString": "%i% made fun of %rp% hair over the PA system"
+				},
+				{
+					"time": "-80",
+					"initiator": "Cassandra",
+					"responder": "Nicholas",
+					"SFDBLabel": "embarrassing",
+					"PerformanceRealizationString": "%list(i,r,and)% did that scene from Who's Afraid of Virginia Woolf in drama and got a little too into it"
+				},
+				{
+					"time": "-82",
+					"initiator": "Zack",
+					"responder": "Buzz",
+					"SFDBLabel": "rude",
+					"PerformanceRealizationString": "%i% posted that embarassing picture of %r% to SkimddIt"
+				},
+				{
+					"time": "-84",
+					"initiator": "Edward",
+					"responder": "Mave",
+					"SFDBLabel": "nice",
+					"PerformanceRealizationString": "%i% convinced %r% to stop moping and become a goth"
+				},
+				{
+					"time": "-86",
+					"initiator": "Buzz",
+					"responder": "Doug",
+					"SFDBLabel": "mean",
+					"PerformanceRealizationString": "%i% broke %rp% skateboard in half"
+				},
+				{
+					"time": "-88",
+					"initiator": "Edward",
+					"responder": "Mave",
+					"SFDBLabel": "romantic",
+					"PerformanceRealizationString": "%i% arranged those dead birds in the shape of a heart for %r%"
+				},
+				{
+					"time": "-90",
+					"initiator": "Lucas",
+					"responder": "Phoebe",
+					"SFDBLabel": "lame",
+					"PerformanceRealizationString": "%list(i,r,and)% read that lame poem about dead swans at the talent show assembly"
+				},
+				{
+					"time": "-92",
+					"initiator": "Monica",
+					"responder": "Simon",
+					"SFDBLabel": "rude",
+					"PerformanceRealizationString": "%i% texted that mortifying video from %rp% blog to everyone"
+				},
+				{
+					"time": "-94",
+					"initiator": "Nicholas",
+					"responder": "Zack",
+					"SFDBLabel": "mean",
+					"PerformanceRealizationString": "%i% broke %rp% glasses in gym class"
+				},
+				{
+					"time": "-96",
+					"initiator": "Oswald",
+					"responder": "Doug",
+					"SFDBLabel": "mean",
+					"PerformanceRealizationString": "%i% had %pron(i,his/her)% father's lawyers serve %r% cease and desist orders for being over the legal limit of hippie"
+				},
+				{
+					"time": "-98",
+					"initiator": "Edward",
+					"responder": "Monica",
+					"SFDBLabel": "embarrassing",
+					"PerformanceRealizationString": "%list(i,r,and)% used to go to the mall together"
+				},
+				{
+					"time": "-100",
+					"initiator": "Edward",
+					"responder": "Monica",
+					"SFDBLabel": "rude",
+					"PerformanceRealizationString": "%i% dissed %r% for totally selling out"
+				},
+				{
+					"time": "-110",
+					"initiator": "Monica",
+					"responder": "Edward",
+					"SFDBLabel": "mean",
+					"PerformanceRealizationString": "%i% dissed %r% for totally selling out"
+				},
+				{
+					"time": "-120",
+					"initiator": "Buzz",
+					"responder": "Monica",
+					"SFDBLabel": "mean",
+					"PerformanceRealizationString": "%i% cheated on %r% with that sophomore chick"
+				},
+				{
+					"time": "-130",
+					"initiator": "Buzz",
+					"responder": "Monica",
+					"SFDBLabel": "bad ass",
+					"PerformanceRealizationString": "%i% asked %r% out in the middle of the homecoming assembly"
+				},
+				{
+					"time": "-140",
+					"initiator": "Monica",
+					"responder": "Jordan",
+					"SFDBLabel": "rude",
+					"PerformanceRealizationString": "%i% pretended not to notice %r% at the mall"
+				},
+				{
+					"time": "-150",
+					"initiator": "Monica",
+					"responder": "Lil",
+					"SFDBLabel": "mean",
+					"PerformanceRealizationString": "%i% made that fake dating profile for %r% and posted the link all over"
+				},
+				{
+					"time": "-160",
+					"initiator": "Oswald",
+					"responder": "Cassandra",
+					"SFDBLabel": "mean",
+					"PerformanceRealizationString": "%i% congratulated %r% at the pep assembly for winning the prize hog award at the state fair"
+				},
+				{
+					"time": "-170",
+					"initiator": "Oswald",
+					"responder": "Mave",
+					"SFDBLabel": "mean",
+					"PerformanceRealizationString": "%i% two-timed on %r% with that sexy three-time squash champion"
+				},
+				{
+					"time": "-180",
+					"initiator": "Cassandra",
+					"responder": "Oswald",
+					"SFDBLabel": "mean",
+					"PerformanceRealizationString": "%i% broke up with %r% in the middle of %pron(r,his/her)% tennis match specifically to make %pron(r,him/her)% lose"
+				},
+				{
+					"time": "-190",
+					"initiator": "Buzz",
+					"responder": "Cassandra",
+					"SFDBLabel": "mean",
+					"PerformanceRealizationString": "%i% dumped %r% right after the football game"
+				},
+				{
+					"time": "-200",
+					"initiator": "Buzz",
+					"responder": "Cassandra",
+					"SFDBLabel": "romantic",
+					"PerformanceRealizationString": "%i% asked %r% out during halftime of the football game"
+				},
+				{
+					"time": "-210",
+					"initiator": "Jordan",
+					"responder": "Naomi",
+					"SFDBLabel": "nice",
+					"PerformanceRealizationString": "%list(i,r,and)% stopped being friends because %rs% %pron(r,was/were)% getting too popular or something"
+				},
+				{
+					"time": "-220",
+					"initiator": "Lil",
+					"responder": "Lucas",
+					"SFDBLabel": "cool",
+					"PerformanceRealizationString": "%ip% parents went to France and %prons(i,he/she)% and %r% had that rave at %pron(i,his/her)% house"
+				},
+				{
+					"time": "-300",
+					"initiator": "Kate",
+					"responder": "Simon",
+					"SFDBLabel": "lame",
+					"PerformanceRealizationString": "%i% made a valentine for every person in %rp% math class"
+				},
+				{
+					"time": "-310",
+					"initiator": "Naomi",
+					"responder": "Jordan",
+					"SFDBLabel": "nice",
+					"PerformanceRealizationString": "%i% became friends with %r%"
+				},
+				{
+					"time": "-320",
+					"initiator": "Simon",
+					"responder": "Naomi",
+					"SFDBLabel": "lame",
+					"PerformanceRealizationString": "%i% invited %r% to chess club by filling %pron(r,his/her)% backpack with pawns"
+				},
+				{
+					"time": "-500",
+					"initiator": "Kate",
+					"responder": "Monica",
+					"SFDBLabel": "lame",
+					"PerformanceRealizationString": "%i% asked %r% for help tying %pron(i,his/her) shoes"
+				},
+				{
+					"time": "-800",
+					"initiator": "Zack",
+					"responder": "Simon",
+					"SFDBLabel": "funny",
+					"PerformanceRealizationString": "%list(i,r,and)% hacked the school's network together in eighth grade"
+				},
+				{
+					"time": "-1000",
+					"initiator": "Buzz",
+					"responder": "Lucas",
+					"SFDBLabel": "mean",
+					"PerformanceRealizationString": "%i% used to beat %r% up in third grade all the time"
+				},
+				{
+					"time": "-1500",
+					"initiator": "Zack",
+					"responder": "Simon",
+					"SFDBLabel": "nice",
+					"PerformanceRealizationString": "%list(i,r,and)% became best friends in like third grade"
+				}
+			]
+		},
+		"$c": [
+			"*****************************************************************************************\n  BUDDY - BUDDY - BUDDY - BUDDY - BUDDY \n  *****************************************************************************************\n\tBuzz\t  2\n\tCassandra 15\n\tChloe\t  7\n\tDoug\t  0\n\tEdward\t  12\n\tGunter\t  14\n\tJordan\t  1\n\tKate\t  17\n\tLil\t\t  4\n\tLucas\t  11\n\tMave\t  13\n\tMonica\t  9\n\tNaomi \t  3\n\tNicholas  5\n\tOswald \t  10\n\tPhoebe \t  16\n\tSimon \t  8\n\tZack\t  6",
+			"*****************************************************************\n  ROMANCE - ROMANCE - ROMANCE - ROMANCE - ROMANCE \n  *****************************************************************\n\tBuzz\t  2\n\tCassandra 15\n\tChloe\t  7\n\tDoug\t  0\n\tEdward\t  12\n\tGunter\t  14\n\tJordan\t  1\n\tKate\t  17\n\tLil\t\t  4\n\tLucas\t  11\n\tMave\t  13\n\tMonica\t  9\n\tNaomi \t  3\n\tNicholas  5\n\tOswald \t  10\n\tPhoebe \t  16\n\tSimon \t  8\n\tZack\t  6",
+			"*****************************************************************************************\n  COOL - COOL - COOL - COOL - COOL - COOL \n  *****************************************************************************************\n \tBuzz\t  2\n\tCassandra 15\n\tChloe\t  7\n\tDoug\t  0\n\tEdward\t  12\n\tGunter\t  14\n\tJordan\t  1\n\tKate\t  17\n\tLil\t\t  4\n\tLucas\t  11\n\tMave\t  13\n\tMonica\t  9\n\tNaomi \t  3\n\tNicholas  5\n\tOswald \t  10\n\tPhoebe \t  16\n\tSimon \t  8\n\tZack\t  6"
+		],
+		"Network": [
+			{
+				"type": "buddy",
+				"numChars": "18",
+				"edge": [
+					{
+						"from": "0",
+						"to": "1",
+						"value": "75"
+					},
+					{
+						"from": "0",
+						"to": "10",
+						"value": "15"
+					},
+					{
+						"from": "0",
+						"to": "9",
+						"value": "15"
+					},
+					{
+						"from": "0",
+						"to": "12",
+						"value": "10"
+					},
+					{
+						"from": "0",
+						"to": "7",
+						"value": "70"
+					},
+					{
+						"from": "5",
+						"to": "6",
+						"value": "50"
+					},
+					{
+						"from": "1",
+						"to": "3",
+						"value": "55"
+					},
+					{
+						"from": "2",
+						"to": "11",
+						"value": "55"
+					},
+					{
+						"from": "2",
+						"to": "10",
+						"value": "45"
+					},
+					{
+						"from": "2",
+						"to": "9",
+						"value": "50"
+					},
+					{
+						"from": "6",
+						"to": "16",
+						"value": "100"
+					},
+					{
+						"from": "2",
+						"to": "6",
+						"value": "20"
+					},
+					{
+						"from": "2",
+						"to": "7",
+						"value": "80"
+					},
+					{
+						"from": "3",
+						"to": "1",
+						"value": "55"
+					},
+					{
+						"from": "3",
+						"to": "6",
+						"value": "55"
+					},
+					{
+						"from": "3",
+						"to": "4",
+						"value": "80"
+					},
+					{
+						"from": "4",
+						"to": "3",
+						"value": "35"
+					},
+					{
+						"from": "4",
+						"to": "10",
+						"value": "10"
+					},
+					{
+						"from": "4",
+						"to": "5",
+						"value": "10"
+					},
+					{
+						"from": "6",
+						"to": "8",
+						"value": "80"
+					},
+					{
+						"from": "6",
+						"to": "2",
+						"value": "10"
+					},
+					{
+						"from": "6",
+						"to": "5",
+						"value": "10"
+					},
+					{
+						"from": "7",
+						"to": "0",
+						"value": "70"
+					},
+					{
+						"from": "7",
+						"to": "1",
+						"value": "70"
+					},
+					{
+						"from": "7",
+						"to": "2",
+						"value": "70"
+					},
+					{
+						"from": "7",
+						"to": "3",
+						"value": "70"
+					},
+					{
+						"from": "7",
+						"to": "4",
+						"value": "70"
+					},
+					{
+						"from": "7",
+						"to": "8",
+						"value": "70"
+					},
+					{
+						"from": "8",
+						"to": "6",
+						"value": "85"
+					},
+					{
+						"from": "9",
+						"to": "3",
+						"value": "10"
+					},
+					{
+						"from": "9",
+						"to": "2",
+						"value": "50"
+					},
+					{
+						"from": "9",
+						"to": "6",
+						"value": "10"
+					},
+					{
+						"from": "13",
+						"to": "0",
+						"value": "20"
+					},
+					{
+						"from": "13",
+						"to": "1",
+						"value": "40"
+					},
+					{
+						"from": "13",
+						"to": "2",
+						"value": "5"
+					},
+					{
+						"from": "13",
+						"to": "3",
+						"value": "20"
+					},
+					{
+						"from": "13",
+						"to": "4",
+						"value": "50"
+					},
+					{
+						"from": "13",
+						"to": "5",
+						"value": "20"
+					},
+					{
+						"from": "13",
+						"to": "6",
+						"value": "5"
+					},
+					{
+						"from": "13",
+						"to": "7",
+						"value": "20"
+					},
+					{
+						"from": "13",
+						"to": "8",
+						"value": "5"
+					},
+					{
+						"from": "13",
+						"to": "9",
+						"value": "20"
+					},
+					{
+						"from": "13",
+						"to": "10",
+						"value": "5"
+					},
+					{
+						"from": "13",
+						"to": "11",
+						"value": "20"
+					},
+					{
+						"from": "13",
+						"to": "12",
+						"value": "60"
+					},
+					{
+						"from": "13",
+						"to": "14",
+						"value": "20"
+					},
+					{
+						"from": "13",
+						"to": "15",
+						"value": "5"
+					},
+					{
+						"from": "13",
+						"to": "16",
+						"value": "20"
+					},
+					{
+						"from": "13",
+						"to": "17",
+						"value": "20"
+					},
+					{
+						"from": "14",
+						"to": "0",
+						"value": "50"
+					},
+					{
+						"from": "14",
+						"to": "1",
+						"value": "50"
+					},
+					{
+						"from": "14",
+						"to": "2",
+						"value": "50"
+					},
+					{
+						"from": "14",
+						"to": "3",
+						"value": "50"
+					},
+					{
+						"from": "14",
+						"to": "4",
+						"value": "50"
+					},
+					{
+						"from": "14",
+						"to": "5",
+						"value": "50"
+					},
+					{
+						"from": "14",
+						"to": "6",
+						"value": "50"
+					},
+					{
+						"from": "14",
+						"to": "7",
+						"value": "50"
+					},
+					{
+						"from": "14",
+						"to": "8",
+						"value": "50"
+					},
+					{
+						"from": "14",
+						"to": "9",
+						"value": "50"
+					},
+					{
+						"from": "14",
+						"to": "10",
+						"value": "50"
+					},
+					{
+						"from": "14",
+						"to": "11",
+						"value": "50"
+					},
+					{
+						"from": "14",
+						"to": "12",
+						"value": "70"
+					},
+					{
+						"from": "14",
+						"to": "13",
+						"value": "70"
+					},
+					{
+						"from": "14",
+						"to": "15",
+						"value": "50"
+					},
+					{
+						"from": "14",
+						"to": "16",
+						"value": "50"
+					},
+					{
+						"from": "14",
+						"to": "17",
+						"value": "50"
+					},
+					{
+						"from": "12",
+						"to": "0",
+						"value": "60"
+					},
+					{
+						"from": "12",
+						"to": "1",
+						"value": "60"
+					},
+					{
+						"from": "12",
+						"to": "2",
+						"value": "60"
+					},
+					{
+						"from": "12",
+						"to": "3",
+						"value": "60"
+					},
+					{
+						"from": "12",
+						"to": "4",
+						"value": "40"
+					},
+					{
+						"from": "12",
+						"to": "5",
+						"value": "60"
+					},
+					{
+						"from": "12",
+						"to": "6",
+						"value": "40"
+					},
+					{
+						"from": "12",
+						"to": "7",
+						"value": "80"
+					},
+					{
+						"from": "12",
+						"to": "8",
+						"value": "60"
+					},
+					{
+						"from": "12",
+						"to": "9",
+						"value": "80"
+					},
+					{
+						"from": "12",
+						"to": "10",
+						"value": "60"
+					},
+					{
+						"from": "12",
+						"to": "11",
+						"value": "80"
+					},
+					{
+						"from": "12",
+						"to": "13",
+						"value": "60"
+					},
+					{
+						"from": "12",
+						"to": "14",
+						"value": "80"
+					},
+					{
+						"from": "12",
+						"to": "15",
+						"value": "60"
+					},
+					{
+						"from": "12",
+						"to": "16",
+						"value": "60"
+					},
+					{
+						"from": "12",
+						"to": "17",
+						"value": "60"
+					},
+					{
+						"from": "11",
+						"to": "0",
+						"value": "20"
+					},
+					{
+						"from": "11",
+						"to": "1",
+						"value": "20"
+					},
+					{
+						"from": "11",
+						"to": "2",
+						"value": "5"
+					},
+					{
+						"from": "11",
+						"to": "3",
+						"value": "25"
+					},
+					{
+						"from": "11",
+						"to": "4",
+						"value": "20"
+					},
+					{
+						"from": "11",
+						"to": "5",
+						"value": "5"
+					},
+					{
+						"from": "11",
+						"to": "6",
+						"value": "20"
+					},
+					{
+						"from": "11",
+						"to": "7",
+						"value": "20"
+					},
+					{
+						"from": "11",
+						"to": "8",
+						"value": "20"
+					},
+					{
+						"from": "11",
+						"to": "9",
+						"value": "5"
+					},
+					{
+						"from": "11",
+						"to": "10",
+						"value": "5"
+					},
+					{
+						"from": "11",
+						"to": "13",
+						"value": "5"
+					},
+					{
+						"from": "11",
+						"to": "12",
+						"value": "5"
+					},
+					{
+						"from": "11",
+						"to": "14",
+						"value": "5"
+					},
+					{
+						"from": "11",
+						"to": "15",
+						"value": "5"
+					},
+					{
+						"from": "11",
+						"to": "16",
+						"value": "60"
+					},
+					{
+						"from": "11",
+						"to": "17",
+						"value": "20"
+					},
+					{
+						"from": "17",
+						"to": "0",
+						"value": "80"
+					},
+					{
+						"from": "17",
+						"to": "1",
+						"value": "80"
+					},
+					{
+						"from": "17",
+						"to": "2",
+						"value": "60"
+					},
+					{
+						"from": "17",
+						"to": "3",
+						"value": "60"
+					},
+					{
+						"from": "17",
+						"to": "4",
+						"value": "80"
+					},
+					{
+						"from": "17",
+						"to": "5",
+						"value": "20"
+					},
+					{
+						"from": "17",
+						"to": "6",
+						"value": "80"
+					},
+					{
+						"from": "17",
+						"to": "7",
+						"value": "80"
+					},
+					{
+						"from": "17",
+						"to": "8",
+						"value": "80"
+					},
+					{
+						"from": "17",
+						"to": "9",
+						"value": "70"
+					},
+					{
+						"from": "17",
+						"to": "10",
+						"value": "70"
+					},
+					{
+						"from": "17",
+						"to": "11",
+						"value": "80"
+					},
+					{
+						"from": "17",
+						"to": "12",
+						"value": "80"
+					},
+					{
+						"from": "17",
+						"to": "13",
+						"value": "80"
+					},
+					{
+						"from": "17",
+						"to": "14",
+						"value": "20"
+					},
+					{
+						"from": "17",
+						"to": "15",
+						"value": "60"
+					},
+					{
+						"from": "17",
+						"to": "16",
+						"value": "80"
+					},
+					{
+						"from": "16",
+						"to": "0",
+						"value": "30"
+					},
+					{
+						"from": "16",
+						"to": "1",
+						"value": "30"
+					},
+					{
+						"from": "16",
+						"to": "2",
+						"value": "30"
+					},
+					{
+						"from": "16",
+						"to": "3",
+						"value": "30"
+					},
+					{
+						"from": "16",
+						"to": "4",
+						"value": "80"
+					},
+					{
+						"from": "16",
+						"to": "5",
+						"value": "30"
+					},
+					{
+						"from": "16",
+						"to": "6",
+						"value": "30"
+					},
+					{
+						"from": "16",
+						"to": "7",
+						"value": "50"
+					},
+					{
+						"from": "16",
+						"to": "8",
+						"value": "30"
+					},
+					{
+						"from": "16",
+						"to": "9",
+						"value": "30"
+					},
+					{
+						"from": "16",
+						"to": "10",
+						"value": "30"
+					},
+					{
+						"from": "16",
+						"to": "11",
+						"value": "80"
+					},
+					{
+						"from": "16",
+						"to": "12",
+						"value": "20"
+					},
+					{
+						"from": "16",
+						"to": "13",
+						"value": "20"
+					},
+					{
+						"from": "16",
+						"to": "14",
+						"value": "20"
+					},
+					{
+						"from": "16",
+						"to": "15",
+						"value": "30"
+					},
+					{
+						"from": "16",
+						"to": "17",
+						"value": "30"
+					},
+					{
+						"from": "15",
+						"to": "0",
+						"value": "20"
+					},
+					{
+						"from": "15",
+						"to": "1",
+						"value": "20"
+					},
+					{
+						"from": "15",
+						"to": "2",
+						"value": "80"
+					},
+					{
+						"from": "15",
+						"to": "3",
+						"value": "80"
+					},
+					{
+						"from": "15",
+						"to": "4",
+						"value": "80"
+					},
+					{
+						"from": "15",
+						"to": "5",
+						"value": "80"
+					},
+					{
+						"from": "15",
+						"to": "6",
+						"value": "20"
+					},
+					{
+						"from": "15",
+						"to": "7",
+						"value": "60"
+					},
+					{
+						"from": "15",
+						"to": "8",
+						"value": "20"
+					},
+					{
+						"from": "15",
+						"to": "9",
+						"value": "80"
+					},
+					{
+						"from": "15",
+						"to": "10",
+						"value": "80"
+					},
+					{
+						"from": "15",
+						"to": "11",
+						"value": "80"
+					},
+					{
+						"from": "15",
+						"to": "12",
+						"value": "20"
+					},
+					{
+						"from": "15",
+						"to": "13",
+						"value": "20"
+					},
+					{
+						"from": "15",
+						"to": "14",
+						"value": "20"
+					},
+					{
+						"from": "15",
+						"to": "16",
+						"value": "20"
+					},
+					{
+						"from": "15",
+						"to": "17",
+						"value": "20"
+					},
+					{
+						"from": "10",
+						"to": "0",
+						"value": "20"
+					},
+					{
+						"from": "10",
+						"to": "1",
+						"value": "20"
+					},
+					{
+						"from": "10",
+						"to": "2",
+						"value": "40"
+					},
+					{
+						"from": "10",
+						"to": "3",
+						"value": "50"
+					},
+					{
+						"from": "10",
+						"to": "4",
+						"value": "10"
+					},
+					{
+						"from": "10",
+						"to": "5",
+						"value": "40"
+					},
+					{
+						"from": "10",
+						"to": "6",
+						"value": "20"
+					},
+					{
+						"from": "10",
+						"to": "7",
+						"value": "10"
+					},
+					{
+						"from": "10",
+						"to": "8",
+						"value": "20"
+					},
+					{
+						"from": "10",
+						"to": "9",
+						"value": "40"
+					},
+					{
+						"from": "10",
+						"to": "11",
+						"value": "10"
+					},
+					{
+						"from": "10",
+						"to": "12",
+						"value": "10"
+					},
+					{
+						"from": "10",
+						"to": "13",
+						"value": "10"
+					},
+					{
+						"from": "10",
+						"to": "14",
+						"value": "10"
+					},
+					{
+						"from": "10",
+						"to": "15",
+						"value": "40"
+					},
+					{
+						"from": "10",
+						"to": "16",
+						"value": "10"
+					},
+					{
+						"from": "10",
+						"to": "17",
+						"value": "20"
+					},
+					{
+						"from": "10",
+						"to": "18",
+						"value": "20"
+					}
+				],
+				"$c": [
+					"Doug and Chloe are friends because of new Tutorial 1.",
+					"Buzz likes Chloe to make it easier to demonstrate Chloe's secondary tutorial goal.",
+					"Naomi has made Lil her \"project.\"",
+					"Chloe and Doug are friends because of new Tutorial 1.",
+					"13 == Mave (Buddy)",
+					"14 == Gunter (Buddy)",
+					"12 == Edward (Buddy)",
+					"11 == Lucas (Buddy)",
+					"17 == Kate (Buddy)",
+					"Kate is in a terrible relationship with Nicholas.",
+					"16 == Phoebe (Buddy)",
+					"15 == Cassandra (Buddy)",
+					"Oswald"
+				]
+			},
+			{
+				"type": "romance",
+				"numChars": "18",
+				"edge": [
+					{
+						"from": "0",
+						"to": "7",
+						"value": "75"
+					},
+					{
+						"from": "1",
+						"to": "0",
+						"value": "70"
+					},
+					{
+						"from": "1",
+						"to": "10",
+						"value": "75"
+					},
+					{
+						"from": "2",
+						"to": "3",
+						"value": "40"
+					},
+					{
+						"from": "2",
+						"to": "9",
+						"value": "50"
+					},
+					{
+						"from": "2",
+						"to": "5",
+						"value": "15"
+					},
+					{
+						"from": "2",
+						"to": "0",
+						"value": "0"
+					},
+					{
+						"from": "2",
+						"to": "8",
+						"value": "0"
+					},
+					{
+						"from": "2",
+						"to": "6",
+						"value": "0"
+					},
+					{
+						"from": "3",
+						"to": "2",
+						"value": "70"
+					},
+					{
+						"from": "3",
+						"to": "6",
+						"value": "25"
+					},
+					{
+						"from": "4",
+						"to": "6",
+						"value": "25"
+					},
+					{
+						"from": "4",
+						"to": "7",
+						"value": "75"
+					},
+					{
+						"from": "4",
+						"to": "9",
+						"value": "25"
+					},
+					{
+						"from": "6",
+						"to": "0",
+						"value": "5"
+					},
+					{
+						"from": "6",
+						"to": "8",
+						"value": "5"
+					},
+					{
+						"from": "6",
+						"to": "5",
+						"value": "5"
+					},
+					{
+						"from": "6",
+						"to": "2",
+						"value": "5"
+					},
+					{
+						"from": "6",
+						"to": "7",
+						"value": "90"
+					},
+					{
+						"from": "0",
+						"to": "6",
+						"value": "5"
+					},
+					{
+						"from": "0",
+						"to": "8",
+						"value": "5"
+					},
+					{
+						"from": "0",
+						"to": "5",
+						"value": "5"
+					},
+					{
+						"from": "0",
+						"to": "2",
+						"value": "5"
+					},
+					{
+						"from": "8",
+						"to": "0",
+						"value": "5"
+					},
+					{
+						"from": "8",
+						"to": "6",
+						"value": "5"
+					},
+					{
+						"from": "8",
+						"to": "5",
+						"value": "5"
+					},
+					{
+						"from": "8",
+						"to": "2",
+						"value": "5"
+					},
+					{
+						"from": "8",
+						"to": "3",
+						"value": "85"
+					},
+					{
+						"from": "8",
+						"to": "9",
+						"value": "85"
+					},
+					{
+						"from": "7",
+						"to": "3",
+						"value": "60"
+					},
+					{
+						"from": "7",
+						"to": "6",
+						"value": "90"
+					},
+					{
+						"from": "9",
+						"to": "5",
+						"value": "80"
+					},
+					{
+						"from": "9",
+						"to": "8",
+						"value": "15"
+					},
+					{
+						"from": "5",
+						"to": "9",
+						"value": "80"
+					},
+					{
+						"from": "11",
+						"to": "16",
+						"value": "20"
+					},
+					{
+						"from": "11",
+						"to": "7",
+						"value": "60"
+					},
+					{
+						"from": "11",
+						"to": "4",
+						"value": "75"
+					},
+					{
+						"from": "11",
+						"to": "9",
+						"value": "60"
+					},
+					{
+						"from": "10",
+						"to": "5",
+						"value": "40"
+					},
+					{
+						"from": "10",
+						"to": "9",
+						"value": "40"
+					},
+					{
+						"from": "10",
+						"to": "7",
+						"value": "40"
+					},
+					{
+						"from": "10",
+						"to": "17",
+						"value": "50"
+					},
+					{
+						"from": "13",
+						"to": "0",
+						"value": "20"
+					},
+					{
+						"from": "13",
+						"to": "1",
+						"value": "20"
+					},
+					{
+						"from": "13",
+						"to": "2",
+						"value": "20"
+					},
+					{
+						"from": "13",
+						"to": "3",
+						"value": "20"
+					},
+					{
+						"from": "13",
+						"to": "4",
+						"value": "20"
+					},
+					{
+						"from": "13",
+						"to": "5",
+						"value": "20"
+					},
+					{
+						"from": "13",
+						"to": "6",
+						"value": "20"
+					},
+					{
+						"from": "13",
+						"to": "7",
+						"value": "20"
+					},
+					{
+						"from": "13",
+						"to": "8",
+						"value": "20"
+					},
+					{
+						"from": "13",
+						"to": "9",
+						"value": "20"
+					},
+					{
+						"from": "13",
+						"to": "10",
+						"value": "20"
+					},
+					{
+						"from": "13",
+						"to": "11",
+						"value": "20"
+					},
+					{
+						"from": "13",
+						"to": "12",
+						"value": "50"
+					},
+					{
+						"from": "13",
+						"to": "14",
+						"value": "80"
+					},
+					{
+						"from": "13",
+						"to": "15",
+						"value": "20"
+					},
+					{
+						"from": "13",
+						"to": "16",
+						"value": "20"
+					},
+					{
+						"from": "13",
+						"to": "17",
+						"value": "20"
+					},
+					{
+						"from": "13",
+						"to": "18",
+						"value": "20"
+					},
+					{
+						"from": "14",
+						"to": "0",
+						"value": "10"
+					},
+					{
+						"from": "14",
+						"to": "1",
+						"value": "10"
+					},
+					{
+						"from": "14",
+						"to": "2",
+						"value": "90"
+					},
+					{
+						"from": "14",
+						"to": "3",
+						"value": "10"
+					},
+					{
+						"from": "14",
+						"to": "4",
+						"value": "10"
+					},
+					{
+						"from": "14",
+						"to": "5",
+						"value": "10"
+					},
+					{
+						"from": "14",
+						"to": "6",
+						"value": "10"
+					},
+					{
+						"from": "14",
+						"to": "7",
+						"value": "10"
+					},
+					{
+						"from": "14",
+						"to": "8",
+						"value": "10"
+					},
+					{
+						"from": "14",
+						"to": "9",
+						"value": "10"
+					},
+					{
+						"from": "14",
+						"to": "10",
+						"value": "10"
+					},
+					{
+						"from": "14",
+						"to": "11",
+						"value": "10"
+					},
+					{
+						"from": "14",
+						"to": "12",
+						"value": "10"
+					},
+					{
+						"from": "14",
+						"to": "13",
+						"value": "10"
+					},
+					{
+						"from": "14",
+						"to": "15",
+						"value": "90"
+					},
+					{
+						"from": "14",
+						"to": "16",
+						"value": "10"
+					},
+					{
+						"from": "14",
+						"to": "17",
+						"value": "10"
+					},
+					{
+						"from": "14",
+						"to": "18",
+						"value": "10"
+					},
+					{
+						"from": "12",
+						"to": "0",
+						"value": "30"
+					},
+					{
+						"from": "12",
+						"to": "1",
+						"value": "30"
+					},
+					{
+						"from": "12",
+						"to": "2",
+						"value": "20"
+					},
+					{
+						"from": "12",
+						"to": "3",
+						"value": "30"
+					},
+					{
+						"from": "12",
+						"to": "4",
+						"value": "30"
+					},
+					{
+						"from": "12",
+						"to": "5",
+						"value": "30"
+					},
+					{
+						"from": "12",
+						"to": "6",
+						"value": "20"
+					},
+					{
+						"from": "12",
+						"to": "7",
+						"value": "60"
+					},
+					{
+						"from": "12",
+						"to": "8",
+						"value": "20"
+					},
+					{
+						"from": "12",
+						"to": "9",
+						"value": "60"
+					},
+					{
+						"from": "12",
+						"to": "10",
+						"value": "30"
+					},
+					{
+						"from": "12",
+						"to": "11",
+						"value": "30"
+					},
+					{
+						"from": "12",
+						"to": "13",
+						"value": "10"
+					},
+					{
+						"from": "12",
+						"to": "14",
+						"value": "30"
+					},
+					{
+						"from": "12",
+						"to": "15",
+						"value": "30"
+					},
+					{
+						"from": "12",
+						"to": "16",
+						"value": "45"
+					},
+					{
+						"from": "12",
+						"to": "17",
+						"value": "77"
+					},
+					{
+						"from": "12",
+						"to": "18",
+						"value": "30"
+					},
+					{
+						"from": "17",
+						"to": "0",
+						"value": "80"
+					},
+					{
+						"from": "17",
+						"to": "1",
+						"value": "5"
+					},
+					{
+						"from": "17",
+						"to": "2",
+						"value": "90"
+					},
+					{
+						"from": "17",
+						"to": "3",
+						"value": "90"
+					},
+					{
+						"from": "17",
+						"to": "4",
+						"value": "80"
+					},
+					{
+						"from": "17",
+						"to": "5",
+						"value": "30"
+					},
+					{
+						"from": "17",
+						"to": "6",
+						"value": "80"
+					},
+					{
+						"from": "17",
+						"to": "7",
+						"value": "5"
+					},
+					{
+						"from": "17",
+						"to": "8",
+						"value": "80"
+					},
+					{
+						"from": "17",
+						"to": "9",
+						"value": "10"
+					},
+					{
+						"from": "17",
+						"to": "10",
+						"value": "90"
+					},
+					{
+						"from": "17",
+						"to": "11",
+						"value": "80"
+					},
+					{
+						"from": "17",
+						"to": "12",
+						"value": "70"
+					},
+					{
+						"from": "17",
+						"to": "13",
+						"value": "70"
+					},
+					{
+						"from": "17",
+						"to": "14",
+						"value": "5"
+					},
+					{
+						"from": "17",
+						"to": "15",
+						"value": "5"
+					},
+					{
+						"from": "17",
+						"to": "16",
+						"value": "5"
+					},
+					{
+						"from": "16",
+						"to": "0",
+						"value": "70"
+					},
+					{
+						"from": "16",
+						"to": "1",
+						"value": "20"
+					},
+					{
+						"from": "16",
+						"to": "2",
+						"value": "20"
+					},
+					{
+						"from": "16",
+						"to": "3",
+						"value": "20"
+					},
+					{
+						"from": "16",
+						"to": "4",
+						"value": "40"
+					},
+					{
+						"from": "16",
+						"to": "5",
+						"value": "20"
+					},
+					{
+						"from": "16",
+						"to": "6",
+						"value": "20"
+					},
+					{
+						"from": "16",
+						"to": "7",
+						"value": "20"
+					},
+					{
+						"from": "16",
+						"to": "8",
+						"value": "20"
+					},
+					{
+						"from": "16",
+						"to": "9",
+						"value": "20"
+					},
+					{
+						"from": "16",
+						"to": "10",
+						"value": "20"
+					},
+					{
+						"from": "16",
+						"to": "11",
+						"value": "40"
+					},
+					{
+						"from": "16",
+						"to": "12",
+						"value": "40"
+					},
+					{
+						"from": "16",
+						"to": "13",
+						"value": "20"
+					},
+					{
+						"from": "16",
+						"to": "14",
+						"value": "10"
+					},
+					{
+						"from": "16",
+						"to": "15",
+						"value": "20"
+					},
+					{
+						"from": "16",
+						"to": "17",
+						"value": "20"
+					},
+					{
+						"from": "15",
+						"to": "0",
+						"value": "20"
+					},
+					{
+						"from": "15",
+						"to": "1",
+						"value": "20"
+					},
+					{
+						"from": "15",
+						"to": "2",
+						"value": "80"
+					},
+					{
+						"from": "15",
+						"to": "3",
+						"value": "20"
+					},
+					{
+						"from": "15",
+						"to": "4",
+						"value": "20"
+					},
+					{
+						"from": "15",
+						"to": "5",
+						"value": "50"
+					},
+					{
+						"from": "15",
+						"to": "6",
+						"value": "20"
+					},
+					{
+						"from": "15",
+						"to": "7",
+						"value": "20"
+					},
+					{
+						"from": "15",
+						"to": "8",
+						"value": "20"
+					},
+					{
+						"from": "15",
+						"to": "9",
+						"value": "20"
+					},
+					{
+						"from": "15",
+						"to": "10",
+						"value": "50"
+					},
+					{
+						"from": "15",
+						"to": "11",
+						"value": "20"
+					},
+					{
+						"from": "15",
+						"to": "12",
+						"value": "20"
+					},
+					{
+						"from": "15",
+						"to": "13",
+						"value": "20"
+					},
+					{
+						"from": "15",
+						"to": "14",
+						"value": "20"
+					},
+					{
+						"from": "15",
+						"to": "16",
+						"value": "20"
+					},
+					{
+						"from": "15",
+						"to": "17",
+						"value": "20"
+					}
+				],
+				"$c": [
+					"Doug has high romance for Chloe because of new Tutorial 1",
+					"QP1: Chloe really into Zack",
+					"Oswald",
+					"13 == Mave (Romance)",
+					"13 == Gunter (Romance)",
+					"12 == Edward (Romance)",
+					"17 == Kate (Romance)",
+					"16 == Phoebe (romance)",
+					"15 == Cassandra (Romance)"
+				]
+			},
+			{
+				"type": "cool",
+				"numChars": "18",
+				"edge": [
+					{
+						"from": "3",
+						"to": "6",
+						"value": "55"
+					},
+					{
+						"from": "0",
+						"to": "1",
+						"value": "75"
+					},
+					{
+						"from": "2",
+						"to": "5",
+						"value": "70"
+					},
+					{
+						"from": "2",
+						"to": "10",
+						"value": "70"
+					},
+					{
+						"from": "3",
+						"to": "4",
+						"value": "40"
+					},
+					{
+						"from": "3",
+						"to": "8",
+						"value": "15"
+					},
+					{
+						"from": "0",
+						"to": "6",
+						"value": "30"
+					},
+					{
+						"from": "1",
+						"to": "6",
+						"value": "40"
+					},
+					{
+						"from": "2",
+						"to": "6",
+						"value": "10"
+					},
+					{
+						"from": "4",
+						"to": "6",
+						"value": "80"
+					},
+					{
+						"from": "5",
+						"to": "6",
+						"value": "10"
+					},
+					{
+						"from": "8",
+						"to": "6",
+						"value": "50"
+					},
+					{
+						"from": "6",
+						"to": "10",
+						"value": "80"
+					},
+					{
+						"from": "7",
+						"to": "0",
+						"value": "70"
+					},
+					{
+						"from": "7",
+						"to": "4",
+						"value": "70"
+					},
+					{
+						"from": "7",
+						"to": "2",
+						"value": "70"
+					},
+					{
+						"from": "7",
+						"to": "2",
+						"value": "70"
+					},
+					{
+						"from": "7",
+						"to": "9",
+						"value": "70"
+					},
+					{
+						"from": "8",
+						"to": "1",
+						"value": "60"
+					},
+					{
+						"from": "9",
+						"to": "0",
+						"value": "10"
+					},
+					{
+						"from": "9",
+						"to": "1",
+						"value": "10"
+					},
+					{
+						"from": "9",
+						"to": "2",
+						"value": "70"
+					},
+					{
+						"from": "9",
+						"to": "4",
+						"value": "10"
+					},
+					{
+						"from": "9",
+						"to": "5",
+						"value": "25"
+					},
+					{
+						"from": "9",
+						"to": "6",
+						"value": "50"
+					},
+					{
+						"from": "9",
+						"to": "7",
+						"value": "20"
+					},
+					{
+						"from": "9",
+						"to": "8",
+						"value": "10"
+					},
+					{
+						"from": "9",
+						"to": "10",
+						"value": "80"
+					},
+					{
+						"from": "13",
+						"to": "0",
+						"value": "20"
+					},
+					{
+						"from": "13",
+						"to": "1",
+						"value": "20"
+					},
+					{
+						"from": "13",
+						"to": "2",
+						"value": "5"
+					},
+					{
+						"from": "13",
+						"to": "3",
+						"value": "5"
+					},
+					{
+						"from": "13",
+						"to": "4",
+						"value": "20"
+					},
+					{
+						"from": "13",
+						"to": "5",
+						"value": "5"
+					},
+					{
+						"from": "13",
+						"to": "6",
+						"value": "20"
+					},
+					{
+						"from": "13",
+						"to": "7",
+						"value": "20"
+					},
+					{
+						"from": "13",
+						"to": "8",
+						"value": "20"
+					},
+					{
+						"from": "13",
+						"to": "9",
+						"value": "5"
+					},
+					{
+						"from": "13",
+						"to": "10",
+						"value": "5"
+					},
+					{
+						"from": "13",
+						"to": "11",
+						"value": "5"
+					},
+					{
+						"from": "13",
+						"to": "12",
+						"value": "10"
+					},
+					{
+						"from": "13",
+						"to": "14",
+						"value": "75"
+					},
+					{
+						"from": "13",
+						"to": "15",
+						"value": "4"
+					},
+					{
+						"from": "13",
+						"to": "16",
+						"value": "5"
+					},
+					{
+						"from": "13",
+						"to": "17",
+						"value": "20"
+					},
+					{
+						"from": "13",
+						"to": "18",
+						"value": "20"
+					},
+					{
+						"from": "14",
+						"to": "0",
+						"value": "50"
+					},
+					{
+						"from": "14",
+						"to": "1",
+						"value": "50"
+					},
+					{
+						"from": "14",
+						"to": "2",
+						"value": "90"
+					},
+					{
+						"from": "14",
+						"to": "3",
+						"value": "50"
+					},
+					{
+						"from": "14",
+						"to": "4",
+						"value": "50"
+					},
+					{
+						"from": "14",
+						"to": "5",
+						"value": "50"
+					},
+					{
+						"from": "14",
+						"to": "6",
+						"value": "50"
+					},
+					{
+						"from": "14",
+						"to": "7",
+						"value": "50"
+					},
+					{
+						"from": "14",
+						"to": "8",
+						"value": "50"
+					},
+					{
+						"from": "14",
+						"to": "9",
+						"value": "50"
+					},
+					{
+						"from": "14",
+						"to": "10",
+						"value": "70"
+					},
+					{
+						"from": "14",
+						"to": "11",
+						"value": "50"
+					},
+					{
+						"from": "14",
+						"to": "12",
+						"value": "50"
+					},
+					{
+						"from": "14",
+						"to": "13",
+						"value": "50"
+					},
+					{
+						"from": "14",
+						"to": "15",
+						"value": "50"
+					},
+					{
+						"from": "14",
+						"to": "16",
+						"value": "50"
+					},
+					{
+						"from": "14",
+						"to": "17",
+						"value": "50"
+					},
+					{
+						"from": "14",
+						"to": "18",
+						"value": "50"
+					},
+					{
+						"from": "10",
+						"to": "0",
+						"value": "10"
+					},
+					{
+						"from": "10",
+						"to": "1",
+						"value": "10"
+					},
+					{
+						"from": "10",
+						"to": "2",
+						"value": "60"
+					},
+					{
+						"from": "10",
+						"to": "3",
+						"value": "60"
+					},
+					{
+						"from": "10",
+						"to": "4",
+						"value": "10"
+					},
+					{
+						"from": "10",
+						"to": "5",
+						"value": "60"
+					},
+					{
+						"from": "10",
+						"to": "6",
+						"value": "10"
+					},
+					{
+						"from": "10",
+						"to": "7",
+						"value": "10"
+					},
+					{
+						"from": "10",
+						"to": "8",
+						"value": "10"
+					},
+					{
+						"from": "10",
+						"to": "9",
+						"value": "75"
+					},
+					{
+						"from": "10",
+						"to": "11",
+						"value": "10"
+					},
+					{
+						"from": "10",
+						"to": "12",
+						"value": "20"
+					},
+					{
+						"from": "10",
+						"to": "13",
+						"value": "10"
+					},
+					{
+						"from": "10",
+						"to": "14",
+						"value": "10"
+					},
+					{
+						"from": "10",
+						"to": "15",
+						"value": "60"
+					},
+					{
+						"from": "10",
+						"to": "16",
+						"value": "10"
+					},
+					{
+						"from": "10",
+						"to": "17",
+						"value": "10"
+					},
+					{
+						"from": "10",
+						"to": "18",
+						"value": "10"
+					},
+					{
+						"from": "12",
+						"to": "0",
+						"value": "20"
+					},
+					{
+						"from": "12",
+						"to": "1",
+						"value": "20"
+					},
+					{
+						"from": "12",
+						"to": "2",
+						"value": "50"
+					},
+					{
+						"from": "12",
+						"to": "3",
+						"value": "50"
+					},
+					{
+						"from": "12",
+						"to": "4",
+						"value": "15"
+					},
+					{
+						"from": "12",
+						"to": "5",
+						"value": "50"
+					},
+					{
+						"from": "12",
+						"to": "6",
+						"value": "20"
+					},
+					{
+						"from": "12",
+						"to": "7",
+						"value": "20"
+					},
+					{
+						"from": "12",
+						"to": "8",
+						"value": "20"
+					},
+					{
+						"from": "12",
+						"to": "9",
+						"value": "50"
+					},
+					{
+						"from": "12",
+						"to": "10",
+						"value": "50"
+					},
+					{
+						"from": "12",
+						"to": "11",
+						"value": "15"
+					},
+					{
+						"from": "12",
+						"to": "13",
+						"value": "70"
+					},
+					{
+						"from": "12",
+						"to": "14",
+						"value": "70"
+					},
+					{
+						"from": "12",
+						"to": "15",
+						"value": "50"
+					},
+					{
+						"from": "12",
+						"to": "16",
+						"value": "15"
+					},
+					{
+						"from": "12",
+						"to": "17",
+						"value": "30"
+					},
+					{
+						"from": "12",
+						"to": "18",
+						"value": "30"
+					}
+				],
+				"$c": [
+					"Almost everyone thinks Zack is uncool.",
+					"Monica thinks most people are uncool.",
+					"13 == Mave (Cool)",
+					"13 == Gunter (Cool)",
+					"Oswald",
+					"12 == Edward (Cool)"
+				]
+			}
+		],
+		"Relationships": {
+			"$c": [
+				"<Relationship type=\"friends\" from=\"Doug\" to=\"Jordan\"/>",
+				"to allow Doug to make a \"new\" friend in his campaign",
+				"<Relationship type=\"friends\" from=\"Naomi\" to=\"Monica\"/>",
+				"Zack's tutorial level needs Naomi to be just enemies w/Monica.",
+				"<Relationship type=\"friends\" from=\"Zack\" to=\"Monica\"/>",
+				"<Relationship type=\"friends\" from=\"Zack\" to=\"Naomi\"/>",
+				"Zack and Naomi can't be friends b/c of Zack's tutorial level",
+				"For Chloe's \"A time for peace\" goal in tutorial 1.",
+				"Chloe and Doug are friends because of new Tutorial 1.",
+				"<Relationship type=\"dating\" from=\"Chloe\" to=\"Simon\"/>",
+				"Gunter",
+				"Edward",
+				"Lucas",
+				"Kate",
+				"Kate starts with no relationships",
+				"Phoebe",
+				"Cassandra",
+				"Oswald"
+			],
+			"Relationship": [
+				{
+					"type": "friends",
+					"from": "Doug",
+					"to": "Lil"
+				},
+				{
+					"type": "enemies",
+					"from": "Doug",
+					"to": "Zack"
+				},
+				{
+					"type": "enemies",
+					"from": "Doug",
+					"to": "Simon"
+				},
+				{
+					"type": "friends",
+					"from": "Jordan",
+					"to": "Doug"
+				},
+				{
+					"type": "enemies",
+					"from": "Jordan",
+					"to": "Buzz"
+				},
+				{
+					"type": "friends",
+					"from": "Buzz",
+					"to": "Nicholas"
+				},
+				{
+					"type": "friends",
+					"from": "Buzz",
+					"to": "Oswald"
+				},
+				{
+					"type": "dating",
+					"from": "Buzz",
+					"to": "Naomi"
+				},
+				{
+					"type": "enemies",
+					"from": "Buzz",
+					"to": "Mave"
+				},
+				{
+					"type": "friends",
+					"from": "Naomi",
+					"to": "Nicholas"
+				},
+				{
+					"type": "friends",
+					"from": "Naomi",
+					"to": "Oswald"
+				},
+				{
+					"type": "dating",
+					"from": "Naomi",
+					"to": "Buzz"
+				},
+				{
+					"type": "enemies",
+					"from": "Lil",
+					"to": "Oswald"
+				},
+				{
+					"type": "enemies",
+					"from": "Lil",
+					"to": "Nicholas"
+				},
+				{
+					"type": "friends",
+					"from": "Nicholas",
+					"to": "Oswald"
+				},
+				{
+					"type": "friends",
+					"from": "Nicholas",
+					"to": "Buzz"
+				},
+				{
+					"type": "enemies",
+					"from": "Nicholas",
+					"to": "Oswald"
+				},
+				{
+					"type": "friends",
+					"from": "Zack",
+					"to": "Simon"
+				},
+				{
+					"type": "friends",
+					"from": "Zack",
+					"to": "Monica"
+				},
+				{
+					"type": "enemies",
+					"from": "Zack",
+					"to": "Monica"
+				},
+				{
+					"type": "enemies",
+					"from": "Zack",
+					"to": "Naomi"
+				},
+				{
+					"type": "enemies",
+					"from": "Buzz",
+					"to": "Chloe"
+				},
+				{
+					"type": "enemies",
+					"from": "Zack",
+					"to": "Buzz"
+				},
+				{
+					"type": "enemies",
+					"from": "Zack",
+					"to": "Jordan"
+				},
+				{
+					"type": "enemies",
+					"from": "Zack",
+					"to": "Nicholas"
+				},
+				{
+					"type": "friends",
+					"from": "Chloe",
+					"to": "Naomi"
+				},
+				{
+					"type": "friends",
+					"from": "Chloe",
+					"to": "Doug"
+				},
+				{
+					"type": "friends",
+					"from": "Simon",
+					"to": "Zack"
+				},
+				{
+					"type": "friends",
+					"from": "Simon",
+					"to": "Naomi"
+				},
+				{
+					"type": "enemies",
+					"from": "Simon",
+					"to": "Buzz"
+				},
+				{
+					"type": "enemies",
+					"from": "Simon",
+					"to": "Nicholas"
+				},
+				{
+					"type": "dating",
+					"from": "Kate",
+					"to": "Nicholas"
+				},
+				{
+					"type": "enemies",
+					"from": "Monica",
+					"to": "Naomi"
+				},
+				{
+					"type": "dating",
+					"from": "Mave",
+					"to": "Edward"
+				},
+				{
+					"type": "enemies",
+					"from": "Mave",
+					"to": "Buzz"
+				},
+				{
+					"type": "enemies",
+					"from": "Mave",
+					"to": "Monica"
+				},
+				{
+					"type": "enemies",
+					"from": "Mave",
+					"to": "Cassandra"
+				},
+				{
+					"type": "enemies",
+					"from": "Mave",
+					"to": "Oswald"
+				},
+				{
+					"type": "enemies",
+					"from": "Mave",
+					"to": "Simon"
+				},
+				{
+					"type": "enemies",
+					"from": "Mave",
+					"to": "Zack"
+				},
+				{
+					"type": "friends",
+					"from": "Gunter",
+					"to": "Zack"
+				},
+				{
+					"type": "friends",
+					"from": "Edward",
+					"to": "Monica"
+				},
+				{
+					"type": "dating",
+					"from": "Edward",
+					"to": "Mave"
+				},
+				{
+					"type": "enemies",
+					"from": "Edward",
+					"to": "Monica"
+				},
+				{
+					"type": "enemies",
+					"from": "Edward",
+					"to": "Zack"
+				},
+				{
+					"type": "enemies",
+					"from": "Edward",
+					"to": "Lil"
+				},
+				{
+					"type": "friends",
+					"from": "Lucas",
+					"to": "Phoebe"
+				},
+				{
+					"type": "enemies",
+					"from": "Lucas",
+					"to": "Oswald"
+				},
+				{
+					"type": "friends",
+					"from": "Phoebe",
+					"to": "Lil"
+				},
+				{
+					"type": "friends",
+					"from": "Phoebe",
+					"to": "Lucas"
+				},
+				{
+					"type": "friends",
+					"from": "Phoebe",
+					"to": "Doug"
+				},
+				{
+					"type": "enemies",
+					"from": "Phoebe",
+					"to": "Mave"
+				},
+				{
+					"type": "friends",
+					"from": "Cassandra",
+					"to": "Monica"
+				},
+				{
+					"type": "friends",
+					"from": "Cassandra",
+					"to": "Naomi"
+				},
+				{
+					"type": "dating",
+					"from": "Cassandra",
+					"to": "Oswald"
+				}
+			]
+		},
+		"CulturalKB": {
+			"$c": [
+				"CKB SHOULD BE SINGULAR, NOT IRREGULARLY PLURAL, AND NOT START WITH A VOWEL. You must be able to have a X, want a X, hold a X behind your back, be into Xs before they were cool, ask someone to give you their X, show someone your awesome X collection.",
+				"And now, the definitions: has, wants, likes, dislikes",
+				"Gunter",
+				"Mave"
+			],
+			"Proposition": [
+				{
+					"type": "truth",
+					"head": "skateboard",
+					"connection": "are",
+					"tail": "cool"
+				},
+				{
+					"type": "truth",
+					"head": "class ring",
+					"connection": "are",
+					"tail": "cool"
+				},
+				{
+					"type": "truth",
+					"head": "leather jacket",
+					"connection": "are",
+					"tail": "cool"
+				},
+				{
+					"type": "truth",
+					"head": "cheezeytoos snack pack",
+					"connection": "are",
+					"tail": "cool"
+				},
+				{
+					"type": "truth",
+					"head": "calculus book",
+					"connection": "are",
+					"tail": "lame"
+				},
+				{
+					"type": "truth",
+					"head": "retro phone",
+					"connection": "are",
+					"tail": "lame"
+				},
+				{
+					"type": "truth",
+					"head": "top hat",
+					"connection": "are",
+					"tail": "lame"
+				},
+				{
+					"type": "truth",
+					"head": "lightsaber",
+					"connection": "are",
+					"tail": "lame"
+				},
+				{
+					"type": "truth",
+					"head": "diamond",
+					"connection": "are",
+					"tail": "romantic"
+				},
+				{
+					"type": "truth",
+					"head": "glass rose",
+					"connection": "are",
+					"tail": "romantic"
+				},
+				{
+					"type": "truth",
+					"head": "candy heart",
+					"connection": "are",
+					"tail": "romantic"
+				},
+				{
+					"type": "truth",
+					"head": "banana slug",
+					"connection": "are",
+					"tail": "gross"
+				},
+				{
+					"type": "truth",
+					"head": "vegan burger",
+					"connection": "are",
+					"tail": "gross"
+				},
+				{
+					"type": "truth",
+					"head": "gooberball",
+					"connection": "are",
+					"tail": "gross"
+				},
+				{
+					"type": "truth",
+					"head": "bobblehead",
+					"connection": "are",
+					"tail": "funny"
+				},
+				{
+					"type": "truth",
+					"head": "laughy candy joke",
+					"connection": "are",
+					"tail": "funny"
+				},
+				{
+					"type": "truth",
+					"head": "webcomic",
+					"connection": "are",
+					"tail": "funny"
+				},
+				{
+					"type": "truth",
+					"head": "Japanese sword",
+					"connection": "are",
+					"tail": "bad ass"
+				},
+				{
+					"type": "truth",
+					"head": "smoking jacket",
+					"connection": "are",
+					"tail": "bad ass"
+				},
+				{
+					"type": "truth",
+					"head": "zombie movie",
+					"connection": "are",
+					"tail": "bad ass"
+				},
+				{
+					"type": "truth",
+					"head": "fart machine",
+					"connection": "are",
+					"tail": "mean"
+				},
+				{
+					"type": "truth",
+					"head": "hand zapper",
+					"connection": "are",
+					"tail": "mean"
+				},
+				{
+					"type": "truth",
+					"head": "dodgeball",
+					"connection": "are",
+					"tail": "mean"
+				},
+				{
+					"type": "truth",
+					"head": "dead bug",
+					"connection": "are",
+					"tail": "taboo"
+				},
+				{
+					"type": "truth",
+					"head": "chainsaw",
+					"connection": "are",
+					"tail": "taboo"
+				},
+				{
+					"type": "truth",
+					"head": "codpiece",
+					"connection": "are",
+					"tail": "taboo"
+				},
+				{
+					"type": "subjective",
+					"head": "Phoebe",
+					"connection": "wants",
+					"tail": "top hat"
+				},
+				{
+					"type": "subjective",
+					"head": "Phoebe",
+					"connection": "likes",
+					"tail": "bobblehead"
+				},
+				{
+					"type": "subjective",
+					"head": "Phoebe",
+					"connection": "dislikes",
+					"tail": "fart machine"
+				},
+				{
+					"type": "subjective",
+					"head": "Phoebe",
+					"connection": "dislikes",
+					"tail": "retro phone"
+				},
+				{
+					"type": "subjective",
+					"head": "Phoebe",
+					"connection": "dislikes",
+					"tail": "glass rose"
+				},
+				{
+					"type": "subjective",
+					"head": "Phoebe",
+					"connection": "dislikes",
+					"tail": "hand zapper"
+				},
+				{
+					"type": "subjective",
+					"head": "Phoebe",
+					"connection": "has",
+					"tail": "fart machine"
+				},
+				{
+					"type": "subjective",
+					"head": "Phoebe",
+					"connection": "has",
+					"tail": "vegan burger"
+				},
+				{
+					"type": "subjective",
+					"head": "Phoebe",
+					"connection": "likes",
+					"tail": "cheezeytoos snack pack"
+				},
+				{
+					"type": "subjective",
+					"head": "Phoebe",
+					"connection": "dislikes",
+					"tail": "vegan burger"
+				},
+				{
+					"type": "subjective",
+					"head": "Phoebe",
+					"connection": "dislikes",
+					"tail": "laughy candy joke"
+				},
+				{
+					"type": "subjective",
+					"head": "Phoebe",
+					"connection": "likes",
+					"tail": "Japanese sword"
+				},
+				{
+					"type": "subjective",
+					"head": "Phoebe",
+					"connection": "likes",
+					"tail": "candy heart"
+				},
+				{
+					"type": "subjective",
+					"head": "Phoebe",
+					"connection": "has",
+					"tail": "candy heart"
+				},
+				{
+					"type": "subjective",
+					"head": "Phoebe",
+					"connection": "dislikes",
+					"tail": "gooberball"
+				},
+				{
+					"type": "subjective",
+					"head": "Phoebe",
+					"connection": "dislikes",
+					"tail": "webcomic"
+				},
+				{
+					"type": "subjective",
+					"head": "Phoebe",
+					"connection": "likes",
+					"tail": "zombie movie"
+				},
+				{
+					"type": "subjective",
+					"head": "Cassandra",
+					"connection": "wants",
+					"tail": "diamond"
+				},
+				{
+					"type": "subjective",
+					"head": "Cassandra",
+					"connection": "wants",
+					"tail": "class ring"
+				},
+				{
+					"type": "subjective",
+					"head": "Cassandra",
+					"connection": "likes",
+					"tail": "diamond"
+				},
+				{
+					"type": "subjective",
+					"head": "Cassandra",
+					"connection": "has",
+					"tail": "bobblehead"
+				},
+				{
+					"type": "subjective",
+					"head": "Cassandra",
+					"connection": "likes",
+					"tail": "bobblehead"
+				},
+				{
+					"type": "subjective",
+					"head": "Cassandra",
+					"connection": "dislikes",
+					"tail": "glass rose"
+				},
+				{
+					"type": "subjective",
+					"head": "Cassandra",
+					"connection": "dislikes",
+					"tail": "calculus book"
+				},
+				{
+					"type": "subjective",
+					"head": "Cassandra",
+					"connection": "dislikes",
+					"tail": "fart machine"
+				},
+				{
+					"type": "subjective",
+					"head": "Cassandra",
+					"connection": "dislikes",
+					"tail": "dead bug"
+				},
+				{
+					"type": "subjective",
+					"head": "Cassandra",
+					"connection": "dislikes",
+					"tail": "banana slug"
+				},
+				{
+					"type": "subjective",
+					"head": "Cassandra",
+					"connection": "dislikes",
+					"tail": "laughy candy joke"
+				},
+				{
+					"type": "subjective",
+					"head": "Cassandra",
+					"connection": "dislikes",
+					"tail": "vegan burger"
+				},
+				{
+					"type": "subjective",
+					"head": "Cassandra",
+					"connection": "dislikes",
+					"tail": "candy heart"
+				},
+				{
+					"type": "subjective",
+					"head": "Cassandra",
+					"connection": "dislikes",
+					"tail": "gooberball"
+				},
+				{
+					"type": "subjective",
+					"head": "Cassandra",
+					"connection": "dislikes",
+					"tail": "webcomic"
+				},
+				{
+					"type": "subjective",
+					"head": "Cassandra",
+					"connection": "likes",
+					"tail": "zombie movie"
+				},
+				{
+					"type": "subjective",
+					"head": "Cassandra",
+					"connection": "dislikes",
+					"tail": "chainsaw"
+				},
+				{
+					"type": "subjective",
+					"head": "Oswald",
+					"connection": "has",
+					"tail": "skateboard"
+				},
+				{
+					"type": "subjective",
+					"head": "Oswald",
+					"connection": "has",
+					"tail": "diamond"
+				},
+				{
+					"type": "subjective",
+					"head": "Oswald",
+					"connection": "has",
+					"tail": "class ring"
+				},
+				{
+					"type": "subjective",
+					"head": "Oswald",
+					"connection": "has",
+					"tail": "leather jacket"
+				},
+				{
+					"type": "subjective",
+					"head": "Oswald",
+					"connection": "has",
+					"tail": "glass rose"
+				},
+				{
+					"type": "subjective",
+					"head": "Oswald",
+					"connection": "has",
+					"tail": "calculus book"
+				},
+				{
+					"type": "subjective",
+					"head": "Oswald",
+					"connection": "likes",
+					"tail": "diamond"
+				},
+				{
+					"type": "subjective",
+					"head": "Oswald",
+					"connection": "dislikes",
+					"tail": "calculus book"
+				},
+				{
+					"type": "subjective",
+					"head": "Oswald",
+					"connection": "dislikes",
+					"tail": "cheezeytoos snack pack"
+				},
+				{
+					"type": "subjective",
+					"head": "Oswald",
+					"connection": "dislikes",
+					"tail": "bobblehead"
+				},
+				{
+					"type": "subjective",
+					"head": "Oswald",
+					"connection": "dislikes",
+					"tail": "fart machine"
+				},
+				{
+					"type": "subjective",
+					"head": "Oswald",
+					"connection": "dislikes",
+					"tail": "dead bug"
+				},
+				{
+					"type": "subjective",
+					"head": "Oswald",
+					"connection": "likes",
+					"tail": "laughy candy joke"
+				},
+				{
+					"type": "subjective",
+					"head": "Oswald",
+					"connection": "wants",
+					"tail": "laughy candy joke"
+				},
+				{
+					"type": "subjective",
+					"head": "Oswald",
+					"connection": "likes",
+					"tail": "vegan burger"
+				},
+				{
+					"type": "subjective",
+					"head": "Oswald",
+					"connection": "has",
+					"tail": "smoking jacket"
+				},
+				{
+					"type": "subjective",
+					"head": "Oswald",
+					"connection": "has",
+					"tail": "hand zapper"
+				},
+				{
+					"type": "subjective",
+					"head": "Oswald",
+					"connection": "likes",
+					"tail": "hand zapper"
+				},
+				{
+					"type": "subjective",
+					"head": "Oswald",
+					"connection": "dislikes",
+					"tail": "candy heart"
+				},
+				{
+					"type": "subjective",
+					"head": "Oswald",
+					"connection": "dislikes",
+					"tail": "gooberball"
+				},
+				{
+					"type": "subjective",
+					"head": "Oswald",
+					"connection": "likes",
+					"tail": "webcomic"
+				},
+				{
+					"type": "subjective",
+					"head": "Oswald",
+					"connection": "has",
+					"tail": "dodgeball"
+				},
+				{
+					"type": "subjective",
+					"head": "Oswald",
+					"connection": "has",
+					"tail": "codpiece"
+				},
+				{
+					"type": "subjective",
+					"head": "Lucas",
+					"connection": "has",
+					"tail": "skateboard"
+				},
+				{
+					"type": "subjective",
+					"head": "Lucas",
+					"connection": "has",
+					"tail": "retro phone"
+				},
+				{
+					"type": "subjective",
+					"head": "Lucas",
+					"connection": "dislikes",
+					"tail": "skateboard"
+				},
+				{
+					"type": "subjective",
+					"head": "Lucas",
+					"connection": "likes",
+					"tail": "glass rose"
+				},
+				{
+					"type": "subjective",
+					"head": "Lucas",
+					"connection": "wants",
+					"tail": "glass rose"
+				},
+				{
+					"type": "subjective",
+					"head": "Lucas",
+					"connection": "dislike",
+					"tail": "retro phone"
+				},
+				{
+					"type": "subjective",
+					"head": "Lucas",
+					"connection": "dislikes",
+					"tail": "laughy candy joke"
+				},
+				{
+					"type": "subjective",
+					"head": "Lucas",
+					"connection": "wants",
+					"tail": "bobblehead"
+				},
+				{
+					"type": "subjective",
+					"head": "Lucas",
+					"connection": "likes",
+					"tail": "dead bug"
+				},
+				{
+					"type": "subjective",
+					"head": "Lucas",
+					"connection": "likes",
+					"tail": "vegan burger"
+				},
+				{
+					"type": "subjective",
+					"head": "Lucas",
+					"connection": "wants",
+					"tail": "vegan burger"
+				},
+				{
+					"type": "subjective",
+					"head": "Lucas",
+					"connection": "dislikes",
+					"tail": "smoking jacket"
+				},
+				{
+					"type": "subjective",
+					"head": "Lucas",
+					"connection": "dislikes",
+					"tail": "hand zapper"
+				},
+				{
+					"type": "subjective",
+					"head": "Lucas",
+					"connection": "dislikes",
+					"tail": "leather jacket"
+				},
+				{
+					"type": "subjective",
+					"head": "Lucas",
+					"connection": "wants",
+					"tail": "candy heart"
+				},
+				{
+					"type": "subjective",
+					"head": "Lucas",
+					"connection": "likes",
+					"tail": "candy heart"
+				},
+				{
+					"type": "subjective",
+					"head": "Lucas",
+					"connection": "dislikes",
+					"tail": "gooberball"
+				},
+				{
+					"type": "subjective",
+					"head": "Lucas",
+					"connection": "likes",
+					"tail": "webcomic"
+				},
+				{
+					"type": "subjective",
+					"head": "Lucas",
+					"connection": "likes",
+					"tail": "zombie movie"
+				},
+				{
+					"type": "subjective",
+					"head": "Lucas",
+					"connection": "wants",
+					"tail": "zombie movie"
+				},
+				{
+					"type": "subjective",
+					"head": "Lucas",
+					"connection": "dislikes",
+					"tail": "dodgeball"
+				},
+				{
+					"type": "subjective",
+					"head": "Kate",
+					"connection": "has",
+					"tail": "retro phone"
+				},
+				{
+					"type": "subjective",
+					"head": "Kate",
+					"connection": "wants",
+					"tail": "diamond"
+				},
+				{
+					"type": "subjective",
+					"head": "Kate",
+					"connection": "wants",
+					"tail": "class ring"
+				},
+				{
+					"type": "subjective",
+					"head": "Kate",
+					"connection": "likes",
+					"tail": "glass rose"
+				},
+				{
+					"type": "subjective",
+					"head": "Kate",
+					"connection": "wants",
+					"tail": "glass rose"
+				},
+				{
+					"type": "subjective",
+					"head": "Kate",
+					"connection": "wants",
+					"tail": "leather jacket"
+				},
+				{
+					"type": "subjective",
+					"head": "Kate",
+					"connection": "dislikes",
+					"tail": "fart machine"
+				},
+				{
+					"type": "subjective",
+					"head": "Kate",
+					"connection": "dislikes",
+					"tail": "dead bug"
+				},
+				{
+					"type": "subjective",
+					"head": "Kate",
+					"connection": "dislikes",
+					"tail": "Japanese sword"
+				},
+				{
+					"type": "subjective",
+					"head": "Kate",
+					"connection": "dislikes",
+					"tail": "banana slug"
+				},
+				{
+					"type": "subjective",
+					"head": "Kate",
+					"connection": "dislikes",
+					"tail": "skateboard"
+				},
+				{
+					"type": "subjective",
+					"head": "Kate",
+					"connection": "dislikes",
+					"tail": "calculus book"
+				},
+				{
+					"type": "subjective",
+					"head": "Kate",
+					"connection": "likes",
+					"tail": "bobblehead"
+				},
+				{
+					"type": "subjective",
+					"head": "Kate",
+					"connection": "has",
+					"tail": "cheezeytoos snack pack"
+				},
+				{
+					"type": "subjective",
+					"head": "Kate",
+					"connection": "likes",
+					"tail": "cheezeytoos snack pack"
+				},
+				{
+					"type": "subjective",
+					"head": "Kate",
+					"connection": "has",
+					"tail": "bobblehead"
+				},
+				{
+					"type": "subjective",
+					"head": "Kate",
+					"connection": "likes",
+					"tail": "laughy candy joke"
+				},
+				{
+					"type": "subjective",
+					"head": "Kate",
+					"connection": "has",
+					"tail": "laughy candy joke"
+				},
+				{
+					"type": "subjective",
+					"head": "Kate",
+					"connection": "dislikes",
+					"tail": "hand zapper"
+				},
+				{
+					"type": "subjective",
+					"head": "Kate",
+					"connection": "wants",
+					"tail": "candy heart"
+				},
+				{
+					"type": "subjective",
+					"head": "Kate",
+					"connection": "likes",
+					"tail": "candy heart"
+				},
+				{
+					"type": "subjective",
+					"head": "Kate",
+					"connection": "dislikes",
+					"tail": "gooberball"
+				},
+				{
+					"type": "subjective",
+					"head": "Kate",
+					"connection": "dislikes",
+					"tail": "zombie movie"
+				},
+				{
+					"type": "subjective",
+					"head": "Kate",
+					"connection": "dislikes",
+					"tail": "dodgeball"
+				},
+				{
+					"type": "subjective",
+					"head": "Edward",
+					"connection": "likes",
+					"tail": "bobblehead"
+				},
+				{
+					"type": "subjective",
+					"head": "Edward",
+					"connection": "has",
+					"tail": "bobblehead"
+				},
+				{
+					"type": "subjective",
+					"head": "Edward",
+					"connection": "dislikes",
+					"tail": "glass rose"
+				},
+				{
+					"type": "subjective",
+					"head": "Edward",
+					"connection": "dislikes",
+					"tail": "class ring"
+				},
+				{
+					"type": "subjective",
+					"head": "Edward",
+					"connection": "has",
+					"tail": "top hat"
+				},
+				{
+					"type": "subjective",
+					"head": "Edward",
+					"connection": "likes",
+					"tail": "top hat"
+				},
+				{
+					"type": "subjective",
+					"head": "Edward",
+					"connection": "wants",
+					"tail": "fart machine"
+				},
+				{
+					"type": "subjective",
+					"head": "Edward",
+					"connection": "dislikes",
+					"tail": "banana slug"
+				},
+				{
+					"type": "subjective",
+					"head": "Edward",
+					"connection": "dislikes",
+					"tail": "calculus book"
+				},
+				{
+					"type": "subjective",
+					"head": "Edward",
+					"connection": "dislikes",
+					"tail": "retro phone"
+				},
+				{
+					"type": "subjective",
+					"head": "Edward",
+					"connection": "likes",
+					"tail": "vegan burger"
+				},
+				{
+					"type": "subjective",
+					"head": "Edward",
+					"connection": "dislikes",
+					"tail": "laughy candy joke"
+				},
+				{
+					"type": "subjective",
+					"head": "Edward",
+					"connection": "wants",
+					"tail": "smoking jacket"
+				},
+				{
+					"type": "subjective",
+					"head": "Edward",
+					"connection": "likes",
+					"tail": "smoking jacket"
+				},
+				{
+					"type": "subjective",
+					"head": "Edward",
+					"connection": "dislikes",
+					"tail": "hand zapper"
+				},
+				{
+					"type": "subjective",
+					"head": "Edward",
+					"connection": "dislikes",
+					"tail": "leather jacket"
+				},
+				{
+					"type": "subjective",
+					"head": "Edward",
+					"connection": "has",
+					"tail": "candy heart"
+				},
+				{
+					"type": "subjective",
+					"head": "Edward",
+					"connection": "dislikes",
+					"tail": "gooberball"
+				},
+				{
+					"type": "subjective",
+					"head": "Edward",
+					"connection": "likes",
+					"tail": "zombie movie"
+				},
+				{
+					"type": "subjective",
+					"head": "Edward",
+					"connection": "has",
+					"tail": "zombie movie"
+				},
+				{
+					"type": "subjective",
+					"head": "Edward",
+					"connection": "dislikes",
+					"tail": "dodgeball"
+				},
+				{
+					"type": "subjective",
+					"head": "Edward",
+					"connection": "likes",
+					"tail": "chainsaw"
+				},
+				{
+					"type": "subjective",
+					"head": "Edward",
+					"connection": "wants",
+					"tail": "chainsaw"
+				},
+				{
+					"type": "subjective",
+					"head": "Gunter",
+					"connection": "likes",
+					"tail": "dead bug"
+				},
+				{
+					"type": "subjective",
+					"head": "Gunter",
+					"connection": "likes",
+					"tail": "Japanese sword"
+				},
+				{
+					"type": "subjective",
+					"head": "Gunter",
+					"connection": "likes",
+					"tail": "banana slug"
+				},
+				{
+					"type": "subjective",
+					"head": "Gunter",
+					"connection": "likes",
+					"tail": "fart machine"
+				},
+				{
+					"type": "subjective",
+					"head": "Gunter",
+					"connection": "has",
+					"tail": "dead bug"
+				},
+				{
+					"type": "subjective",
+					"head": "Gunter",
+					"connection": "has",
+					"tail": "Japanese sword"
+				},
+				{
+					"type": "subjective",
+					"head": "Gunter",
+					"connection": "has",
+					"tail": "banana slug"
+				},
+				{
+					"type": "subjective",
+					"head": "Gunter",
+					"connection": "has",
+					"tail": "fart machine"
+				},
+				{
+					"type": "subjective",
+					"head": "Gunter",
+					"connection": "wants",
+					"tail": "glass rose"
+				},
+				{
+					"type": "subjective",
+					"head": "Gunter",
+					"connection": "wants",
+					"tail": "dead bug"
+				},
+				{
+					"type": "subjective",
+					"head": "Gunter",
+					"connection": "wants",
+					"tail": "diamond"
+				},
+				{
+					"type": "subjective",
+					"head": "Gunter",
+					"connection": "dislikes",
+					"tail": "bobblehead"
+				},
+				{
+					"type": "subjective",
+					"head": "Gunter",
+					"connection": "likes",
+					"tail": "laughy candy joke"
+				},
+				{
+					"type": "subjective",
+					"head": "Gunter",
+					"connection": "wants",
+					"tail": "laughy candy joke"
+				},
+				{
+					"type": "subjective",
+					"head": "Gunter",
+					"connection": "has",
+					"tail": "smoking jacket"
+				},
+				{
+					"type": "subjective",
+					"head": "Gunter",
+					"connection": "has",
+					"tail": "leather jacket"
+				},
+				{
+					"type": "subjective",
+					"head": "Gunter",
+					"connection": "dislikes",
+					"tail": "leather jacket"
+				},
+				{
+					"type": "subjective",
+					"head": "Gunter",
+					"connection": "has",
+					"tail": "gooberball"
+				},
+				{
+					"type": "subjective",
+					"head": "Gunter",
+					"connection": "likes",
+					"tail": "zombie movie"
+				},
+				{
+					"type": "subjective",
+					"head": "Gunter",
+					"connection": "wants",
+					"tail": "zombie movie"
+				},
+				{
+					"type": "subjective",
+					"head": "Gunter",
+					"connection": "has",
+					"tail": "chainsaw"
+				},
+				{
+					"type": "subjective",
+					"head": "Gunter",
+					"connection": "likes",
+					"tail": "chainsaw"
+				},
+				{
+					"type": "subjective",
+					"head": "Gunter",
+					"connection": "has",
+					"tail": "codpiece"
+				},
+				{
+					"type": "subjective",
+					"head": "Gunter",
+					"connection": "has",
+					"tail": "cheezeytoos snack pack"
+				},
+				{
+					"type": "subjective",
+					"head": "Gunter",
+					"connection": "likes",
+					"tail": "cheezeytoos snack pack"
+				},
+				{
+					"type": "subjective",
+					"head": "Mave",
+					"connection": "likes",
+					"tail": "dead bug"
+				},
+				{
+					"type": "subjective",
+					"head": "Mave",
+					"connection": "likes",
+					"tail": "calculus book"
+				},
+				{
+					"type": "subjective",
+					"head": "Mave",
+					"connection": "likes",
+					"tail": "top hat"
+				},
+				{
+					"type": "subjective",
+					"head": "Mave",
+					"connection": "has",
+					"tail": "banana slug"
+				},
+				{
+					"type": "subjective",
+					"head": "Mave",
+					"connection": "wants",
+					"tail": "retro phone"
+				},
+				{
+					"type": "subjective",
+					"head": "Mave",
+					"connection": "wants",
+					"tail": "glass rose"
+				},
+				{
+					"type": "subjective",
+					"head": "Mave",
+					"connection": "dislikes",
+					"tail": "skateboard"
+				},
+				{
+					"type": "subjective",
+					"head": "Mave",
+					"connection": "dislikes",
+					"tail": "class week"
+				},
+				{
+					"type": "subjective",
+					"head": "Mave",
+					"connection": "dislikes",
+					"tail": "fart machine"
+				},
+				{
+					"type": "subjective",
+					"head": "Mave",
+					"connection": "dislikes",
+					"tail": "bobblehead"
+				},
+				{
+					"type": "subjective",
+					"head": "Mave",
+					"connection": "dislikes",
+					"tail": "vegan burger"
+				},
+				{
+					"type": "subjective",
+					"head": "Mave",
+					"connection": "dislikes",
+					"tail": "laughy candy joke"
+				},
+				{
+					"type": "subjective",
+					"head": "Mave",
+					"connection": "dislikes",
+					"tail": "leather jacket"
+				},
+				{
+					"type": "subjective",
+					"head": "Mave",
+					"connection": "dislikes",
+					"tail": "candy heart"
+				},
+				{
+					"type": "subjective",
+					"head": "Mave",
+					"connection": "likes",
+					"tail": "webcomic"
+				},
+				{
+					"type": "subjective",
+					"head": "Mave",
+					"connection": "has",
+					"tail": "zombie movie"
+				},
+				{
+					"type": "subjective",
+					"head": "Mave",
+					"connection": "dislikes",
+					"tail": "zombie movie"
+				},
+				{
+					"type": "subjective",
+					"head": "Mave",
+					"connection": "dislikes",
+					"tail": "dodgeball"
+				},
+				{
+					"type": "subjective",
+					"head": "Mave",
+					"connection": "likes",
+					"tail": "chainsaw"
+				},
+				{
+					"type": "subjective",
+					"head": "Mave",
+					"connection": "dislikes",
+					"tail": "codpiece"
+				},
+				{
+					"type": "subjective",
+					"head": "Doug",
+					"connection": "likes",
+					"tail": "skateboard"
+				},
+				{
+					"type": "subjective",
+					"head": "Doug",
+					"connection": "has",
+					"tail": "skateboard"
+				},
+				{
+					"type": "subjective",
+					"head": "Doug",
+					"connection": "has",
+					"tail": "glass rose"
+				},
+				{
+					"type": "subjective",
+					"head": "Doug",
+					"connection": "likes",
+					"tail": "skateboard"
+				},
+				{
+					"type": "subjective",
+					"head": "Doug",
+					"connection": "likes",
+					"tail": "retro phone"
+				},
+				{
+					"type": "subjective",
+					"head": "Doug",
+					"connection": "wants",
+					"tail": "retro phone"
+				},
+				{
+					"type": "subjective",
+					"head": "Doug",
+					"connection": "wants",
+					"tail": "bobblehead"
+				},
+				{
+					"type": "subjective",
+					"head": "Doug",
+					"connection": "dislikes",
+					"tail": "fart machine"
+				},
+				{
+					"type": "subjective",
+					"head": "Doug",
+					"connection": "dislikes",
+					"tail": "banana slug"
+				},
+				{
+					"type": "subjective",
+					"head": "Doug",
+					"connection": "has",
+					"tail": "vegan burger"
+				},
+				{
+					"type": "subjective",
+					"head": "Doug",
+					"connection": "likes",
+					"tail": "vegan burger"
+				},
+				{
+					"type": "subjective",
+					"head": "Doug",
+					"connection": "dislikes",
+					"tail": "hand zapper"
+				},
+				{
+					"type": "subjective",
+					"head": "Doug",
+					"connection": "wants",
+					"tail": "leather jacket"
+				},
+				{
+					"type": "subjective",
+					"head": "Doug",
+					"connection": "likes",
+					"tail": "leather jacket"
+				},
+				{
+					"type": "subjective",
+					"head": "Doug",
+					"connection": "has",
+					"tail": "gooberball"
+				},
+				{
+					"type": "subjective",
+					"head": "Doug",
+					"connection": "likes",
+					"tail": "gooberball"
+				},
+				{
+					"type": "subjective",
+					"head": "Doug",
+					"connection": "likes",
+					"tail": "webcomic"
+				},
+				{
+					"type": "subjective",
+					"head": "Doug",
+					"connection": "likes",
+					"tail": "zombie movie"
+				},
+				{
+					"type": "subjective",
+					"head": "Doug",
+					"connection": "dislikes",
+					"tail": "dodgeball"
+				},
+				{
+					"type": "subjective",
+					"head": "Doug",
+					"connection": "wants",
+					"tail": "cheezeytoos snack pack"
+				},
+				{
+					"type": "subjective",
+					"head": "Doug",
+					"connection": "likes",
+					"tail": "cheezeytoos snack pack"
+				},
+				{
+					"type": "subjective",
+					"head": "Jordan",
+					"connection": "likes",
+					"tail": "skateboard"
+				},
+				{
+					"type": "subjective",
+					"head": "Jordan",
+					"connection": "likes",
+					"tail": "glass rose"
+				},
+				{
+					"type": "subjective",
+					"head": "Jordan",
+					"connection": "wants",
+					"tail": "skateboard"
+				},
+				{
+					"type": "subjective",
+					"head": "Jordan",
+					"connection": "dislikes",
+					"tail": "Japanese sword"
+				},
+				{
+					"type": "subjective",
+					"head": "Jordan",
+					"connection": "has",
+					"tail": "bobblehead"
+				},
+				{
+					"type": "subjective",
+					"head": "Jordan",
+					"connection": "has",
+					"tail": "calculus book"
+				},
+				{
+					"type": "subjective",
+					"head": "Jordan",
+					"connection": "dislikes",
+					"tail": "calculus book"
+				},
+				{
+					"type": "subjective",
+					"head": "Jordan",
+					"connection": "wants",
+					"tail": "vegan burger"
+				},
+				{
+					"type": "subjective",
+					"head": "Jordan",
+					"connection": "likes",
+					"tail": "vegan burger"
+				},
+				{
+					"type": "subjective",
+					"head": "Jordan",
+					"connection": "likes",
+					"tail": "laughy candy joke"
+				},
+				{
+					"type": "subjective",
+					"head": "Jordan",
+					"connection": "has",
+					"tail": "laughy candy joke"
+				},
+				{
+					"type": "subjective",
+					"head": "Jordan",
+					"connection": "wants",
+					"tail": "hand zapper"
+				},
+				{
+					"type": "subjective",
+					"head": "Jordan",
+					"connection": "wants",
+					"tail": "leather jacket"
+				},
+				{
+					"type": "subjective",
+					"head": "Jordan",
+					"connection": "likes",
+					"tail": "leather jacket"
+				},
+				{
+					"type": "subjective",
+					"head": "Jordan",
+					"connection": "has",
+					"tail": "candy heart"
+				},
+				{
+					"type": "subjective",
+					"head": "Jordan",
+					"connection": "wants",
+					"tail": "gooberball"
+				},
+				{
+					"type": "subjective",
+					"head": "Jordan",
+					"connection": "likes",
+					"tail": "gooberball"
+				},
+				{
+					"type": "subjective",
+					"head": "Jordan",
+					"connection": "dislikes",
+					"tail": "zombie movie"
+				},
+				{
+					"type": "subjective",
+					"head": "Jordan",
+					"connection": "dislikes",
+					"tail": "dodgeball"
+				},
+				{
+					"type": "subjective",
+					"head": "Jordan",
+					"connection": "has",
+					"tail": "cheezeytoos snack pack"
+				},
+				{
+					"type": "subjective",
+					"head": "Buzz",
+					"connection": "likes",
+					"tail": "Japanese sword"
+				},
+				{
+					"type": "subjective",
+					"head": "Buzz",
+					"connection": "has",
+					"tail": "Japanese sword"
+				},
+				{
+					"type": "subjective",
+					"head": "Buzz",
+					"connection": "wants",
+					"tail": "class ring"
+				},
+				{
+					"type": "subjective",
+					"head": "Buzz",
+					"connection": "likes",
+					"tail": "fart machine"
+				},
+				{
+					"type": "subjective",
+					"head": "Buzz",
+					"connection": "wants",
+					"tail": "fart machine"
+				},
+				{
+					"type": "subjective",
+					"head": "Buzz",
+					"connection": "has",
+					"tail": "banana slug"
+				},
+				{
+					"type": "subjective",
+					"head": "Buzz",
+					"connection": "dislikes",
+					"tail": "skateboard"
+				},
+				{
+					"type": "subjective",
+					"head": "Buzz",
+					"connection": "dislikes",
+					"tail": "glass rose"
+				},
+				{
+					"type": "subjective",
+					"head": "Buzz",
+					"connection": "dislikes",
+					"tail": "calculus book"
+				},
+				{
+					"type": "subjective",
+					"head": "Buzz",
+					"connection": "dislikes",
+					"tail": "vegan burger"
+				},
+				{
+					"type": "subjective",
+					"head": "Buzz",
+					"connection": "wants",
+					"tail": "dead bug"
+				},
+				{
+					"type": "subjective",
+					"head": "Buzz",
+					"connection": "wants",
+					"tail": "hand zapper"
+				},
+				{
+					"type": "subjective",
+					"head": "Buzz",
+					"connection": "has",
+					"tail": "leather jacket"
+				},
+				{
+					"type": "subjective",
+					"head": "Buzz",
+					"connection": "likes",
+					"tail": "leather jacket"
+				},
+				{
+					"type": "subjective",
+					"head": "Buzz",
+					"connection": "likes",
+					"tail": "gooberball"
+				},
+				{
+					"type": "subjective",
+					"head": "Buzz",
+					"connection": "wants",
+					"tail": "gooberball"
+				},
+				{
+					"type": "subjective",
+					"head": "Buzz",
+					"connection": "likes",
+					"tail": "dodgeball"
+				},
+				{
+					"type": "subjective",
+					"head": "Buzz",
+					"connection": "has",
+					"tail": "dodgeball"
+				},
+				{
+					"type": "subjective",
+					"head": "Buzz",
+					"connection": "wants",
+					"tail": "cheezeytoos snack pack"
+				},
+				{
+					"type": "subjective",
+					"head": "Naomi",
+					"connection": "likes",
+					"tail": "diamond"
+				},
+				{
+					"type": "subjective",
+					"head": "Naomi",
+					"connection": "wants",
+					"tail": "diamond"
+				},
+				{
+					"type": "subjective",
+					"head": "Naomi",
+					"connection": "has",
+					"tail": "class ring"
+				},
+				{
+					"type": "subjective",
+					"head": "Naomi",
+					"connection": "likes",
+					"tail": "class ring"
+				},
+				{
+					"type": "subjective",
+					"head": "Naomi",
+					"connection": "likes",
+					"tail": "glass rose"
+				},
+				{
+					"type": "subjective",
+					"head": "Naomi",
+					"connection": "has",
+					"tail": "glass rose"
+				},
+				{
+					"type": "subjective",
+					"head": "Naomi",
+					"connection": "dislikes",
+					"tail": "Japanese sword"
+				},
+				{
+					"type": "subjective",
+					"head": "Naomi",
+					"connection": "dislikes",
+					"tail": "dead bug"
+				},
+				{
+					"type": "subjective",
+					"head": "Naomi",
+					"connection": "dislikes",
+					"tail": "banana slug"
+				},
+				{
+					"type": "subjective",
+					"head": "Naomi",
+					"connection": "has",
+					"tail": "calculus book"
+				},
+				{
+					"type": "subjective",
+					"head": "Naomi",
+					"connection": "dislikes",
+					"tail": "vegan burger"
+				},
+				{
+					"type": "subjective",
+					"head": "Naomi",
+					"connection": "dislikes",
+					"tail": "smoking jacket"
+				},
+				{
+					"type": "subjective",
+					"head": "Naomi",
+					"connection": "dislikes",
+					"tail": "hand zapper"
+				},
+				{
+					"type": "subjective",
+					"head": "Naomi",
+					"connection": "likes",
+					"tail": "candy heart"
+				},
+				{
+					"type": "subjective",
+					"head": "Naomi",
+					"connection": "has",
+					"tail": "candy heart"
+				},
+				{
+					"type": "subjective",
+					"head": "Naomi",
+					"connection": "dislikes",
+					"tail": "gooberball"
+				},
+				{
+					"type": "subjective",
+					"head": "Naomi",
+					"connection": "dislikes",
+					"tail": "zombie movie"
+				},
+				{
+					"type": "subjective",
+					"head": "Naomi",
+					"connection": "dislikes",
+					"tail": "chainsaw"
+				},
+				{
+					"type": "subjective",
+					"head": "Naomi",
+					"connection": "likes",
+					"tail": "cheezeytoos snack pack"
+				},
+				{
+					"type": "subjective",
+					"head": "Lil",
+					"connection": "likes",
+					"tail": "retro phone"
+				},
+				{
+					"type": "subjective",
+					"head": "Lil",
+					"connection": "has",
+					"tail": "retro phone"
+				},
+				{
+					"type": "subjective",
+					"head": "Lil",
+					"connection": "dislikes",
+					"tail": "skateboard"
+				},
+				{
+					"type": "subjective",
+					"head": "Lil",
+					"connection": "dislikes",
+					"tail": "diamond"
+				},
+				{
+					"type": "subjective",
+					"head": "Lil",
+					"connection": "dislikes",
+					"tail": "glass rose"
+				},
+				{
+					"type": "subjective",
+					"head": "Lil",
+					"connection": "has",
+					"tail": "glass rose"
+				},
+				{
+					"type": "subjective",
+					"head": "Lil",
+					"connection": "dislikes",
+					"tail": "class ring"
+				},
+				{
+					"type": "subjective",
+					"head": "Lil",
+					"connection": "dislikes",
+					"tail": "calculus book"
+				},
+				{
+					"type": "subjective",
+					"head": "Lil",
+					"connection": "dislikes",
+					"tail": "bobblehead"
+				},
+				{
+					"type": "subjective",
+					"head": "Lil",
+					"connection": "dislikes",
+					"tail": "fart machine"
+				},
+				{
+					"type": "subjective",
+					"head": "Lil",
+					"connection": "dislikes",
+					"tail": "Japanese sword"
+				},
+				{
+					"type": "subjective",
+					"head": "Lil",
+					"connection": "dislikes",
+					"tail": "banana slug"
+				},
+				{
+					"type": "subjective",
+					"head": "Lil",
+					"connection": "dislikes",
+					"tail": "laughy candy joke"
+				},
+				{
+					"type": "subjective",
+					"head": "Lil",
+					"connection": "has",
+					"tail": "dead bug"
+				},
+				{
+					"type": "subjective",
+					"head": "Lil",
+					"connection": "has",
+					"tail": "vegan burger"
+				},
+				{
+					"type": "subjective",
+					"head": "Lil",
+					"connection": "has",
+					"tail": "leather jacket"
+				},
+				{
+					"type": "subjective",
+					"head": "Lil",
+					"connection": "has",
+					"tail": "candy heart"
+				},
+				{
+					"type": "subjective",
+					"head": "Lil",
+					"connection": "has",
+					"tail": "gooberball"
+				},
+				{
+					"type": "subjective",
+					"head": "Lil",
+					"connection": "dislikes",
+					"tail": "gooberball"
+				},
+				{
+					"type": "subjective",
+					"head": "Lil",
+					"connection": "likes",
+					"tail": "webcomic"
+				},
+				{
+					"type": "subjective",
+					"head": "Lil",
+					"connection": "likes",
+					"tail": "zombie movie"
+				},
+				{
+					"type": "subjective",
+					"head": "Lil",
+					"connection": "has",
+					"tail": "zombie movie"
+				},
+				{
+					"type": "subjective",
+					"head": "Lil",
+					"connection": "dislikes",
+					"tail": "dodgeball"
+				},
+				{
+					"type": "subjective",
+					"head": "Lil",
+					"connection": "likes",
+					"tail": "chainsaw"
+				},
+				{
+					"type": "subjective",
+					"head": "Lil",
+					"connection": "wants",
+					"tail": "chainsaw"
+				},
+				{
+					"type": "subjective",
+					"head": "Lil",
+					"connection": "wants",
+					"tail": "codpiece"
+				},
+				{
+					"type": "subjective",
+					"head": "Nicholas",
+					"connection": "has",
+					"tail": "diamond"
+				},
+				{
+					"type": "subjective",
+					"head": "Nicholas",
+					"connection": "has",
+					"tail": "skateboard"
+				},
+				{
+					"type": "subjective",
+					"head": "Nicholas",
+					"connection": "has",
+					"tail": "class ring"
+				},
+				{
+					"type": "subjective",
+					"head": "Nicholas",
+					"connection": "dislikes",
+					"tail": "class ring"
+				},
+				{
+					"type": "subjective",
+					"head": "Nicholas",
+					"connection": "has",
+					"tail": "bobblehead"
+				},
+				{
+					"type": "subjective",
+					"head": "Nicholas",
+					"connection": "has",
+					"tail": "fart machine"
+				},
+				{
+					"type": "subjective",
+					"head": "Nicholas",
+					"connection": "has",
+					"tail": "Japanese sword"
+				},
+				{
+					"type": "subjective",
+					"head": "Nicholas",
+					"connection": "has",
+					"tail": "glass rose"
+				},
+				{
+					"type": "subjective",
+					"head": "Nicholas",
+					"connection": "dislikes",
+					"tail": "glass rose"
+				},
+				{
+					"type": "subjective",
+					"head": "Nicholas",
+					"connection": "dislikes",
+					"tail": "diamond"
+				},
+				{
+					"type": "subjective",
+					"head": "Nicholas",
+					"connection": "dislikes",
+					"tail": "skateboard"
+				},
+				{
+					"type": "subjective",
+					"head": "Nicholas",
+					"connection": "dislikes",
+					"tail": "bobblehead"
+				},
+				{
+					"type": "subjective",
+					"head": "Nicholas",
+					"connection": "dislikes",
+					"tail": "fart machine"
+				},
+				{
+					"type": "subjective",
+					"head": "Nicholas",
+					"connection": "dislikes",
+					"tail": "Japanese sword"
+				},
+				{
+					"type": "subjective",
+					"head": "Nicholas",
+					"connection": "has",
+					"tail": "vegan burger"
+				},
+				{
+					"type": "subjective",
+					"head": "Nicholas",
+					"connection": "dislikes",
+					"tail": "laughy candy joke"
+				},
+				{
+					"type": "subjective",
+					"head": "Nicholas",
+					"connection": "dislikes",
+					"tail": "smoking jacket"
+				},
+				{
+					"type": "subjective",
+					"head": "Nicholas",
+					"connection": "wants",
+					"tail": "leather jacket"
+				},
+				{
+					"type": "subjective",
+					"head": "Nicholas",
+					"connection": "dislikes",
+					"tail": "gooberball"
+				},
+				{
+					"type": "subjective",
+					"head": "Nicholas",
+					"connection": "has",
+					"tail": "dodgeball"
+				},
+				{
+					"type": "subjective",
+					"head": "Nicholas",
+					"connection": "likes",
+					"tail": "dodgeball"
+				},
+				{
+					"type": "subjective",
+					"head": "Zack",
+					"connection": "likes",
+					"tail": "retro phone"
+				},
+				{
+					"type": "subjective",
+					"head": "Zack",
+					"connection": "has",
+					"tail": "retro phone"
+				},
+				{
+					"type": "subjective",
+					"head": "Zack",
+					"connection": "has",
+					"tail": "lightsaber"
+				},
+				{
+					"type": "subjective",
+					"head": "Zack",
+					"connection": "has",
+					"tail": "class ring"
+				},
+				{
+					"type": "subjective",
+					"head": "Zack",
+					"connection": "likes",
+					"tail": "class ring"
+				},
+				{
+					"type": "subjective",
+					"head": "Zack",
+					"connection": "likes",
+					"tail": "banana slug"
+				},
+				{
+					"type": "subjective",
+					"head": "Zack",
+					"connection": "wants",
+					"tail": "banana slug"
+				},
+				{
+					"type": "subjective",
+					"head": "Zack",
+					"connection": "has",
+					"tail": "calculus book"
+				},
+				{
+					"type": "subjective",
+					"head": "Zack",
+					"connection": "has",
+					"tail": "bobblehead"
+				},
+				{
+					"type": "subjective",
+					"head": "Zack",
+					"connection": "dislikes",
+					"tail": "skateboard"
+				},
+				{
+					"type": "subjective",
+					"head": "Zack",
+					"connection": "dislikes",
+					"tail": "glass rose"
+				},
+				{
+					"type": "subjective",
+					"head": "Zack",
+					"connection": "dislikes",
+					"tail": "vegan burger"
+				},
+				{
+					"type": "subjective",
+					"head": "Zack",
+					"connection": "likes",
+					"tail": "laughy candy joke"
+				},
+				{
+					"type": "subjective",
+					"head": "Zack",
+					"connection": "likes",
+					"tail": "smoking jacket"
+				},
+				{
+					"type": "subjective",
+					"head": "Zack",
+					"connection": "wants",
+					"tail": "smoking jacket"
+				},
+				{
+					"type": "subjective",
+					"head": "Zack",
+					"connection": "wants",
+					"tail": "hand zapper"
+				},
+				{
+					"type": "subjective",
+					"head": "Zack",
+					"connection": "wants",
+					"tail": "leather jacket"
+				},
+				{
+					"type": "subjective",
+					"head": "Zack",
+					"connection": "dislikes",
+					"tail": "gooberball"
+				},
+				{
+					"type": "subjective",
+					"head": "Zack",
+					"connection": "likes",
+					"tail": "webcomic"
+				},
+				{
+					"type": "subjective",
+					"head": "Zack",
+					"connection": "likes",
+					"tail": "zombie movie"
+				},
+				{
+					"type": "subjective",
+					"head": "Zack",
+					"connection": "has",
+					"tail": "zombie movie"
+				},
+				{
+					"type": "subjective",
+					"head": "Zack",
+					"connection": "dislikes",
+					"tail": "dodgeball"
+				},
+				{
+					"type": "subjective",
+					"head": "Zack",
+					"connection": "wants",
+					"tail": "chainsaw"
+				},
+				{
+					"type": "subjective",
+					"head": "Zack",
+					"connection": "has",
+					"tail": "cheezeytoos snack pack"
+				},
+				{
+					"type": "subjective",
+					"head": "Chloe",
+					"connection": "has",
+					"tail": "retro phone"
+				},
+				{
+					"type": "subjective",
+					"head": "Chloe",
+					"connection": "has",
+					"tail": "class ring"
+				},
+				{
+					"type": "subjective",
+					"head": "Chloe",
+					"connection": "has",
+					"tail": "glass rose"
+				},
+				{
+					"type": "subjective",
+					"head": "Chloe",
+					"connection": "has",
+					"tail": "lightsaber"
+				},
+				{
+					"type": "subjective",
+					"head": "Chloe",
+					"connection": "dislikes",
+					"tail": "diamond"
+				},
+				{
+					"type": "subjective",
+					"head": "Chloe",
+					"connection": "wants",
+					"tail": "calculus book"
+				},
+				{
+					"type": "subjective",
+					"head": "Chloe",
+					"connection": "wants",
+					"tail": "vegan burger"
+				},
+				{
+					"type": "subjective",
+					"head": "Chloe",
+					"connection": "has",
+					"tail": "laughy candy joke"
+				},
+				{
+					"type": "subjective",
+					"head": "Chloe",
+					"connection": "wants",
+					"tail": "smoking jacket"
+				},
+				{
+					"type": "subjective",
+					"head": "Chloe",
+					"connection": "wants",
+					"tail": "leather jacket"
+				},
+				{
+					"type": "subjective",
+					"head": "Chloe",
+					"connection": "likes",
+					"tail": "leather jacket"
+				},
+				{
+					"type": "subjective",
+					"head": "Chloe",
+					"connection": "has",
+					"tail": "gooberball"
+				},
+				{
+					"type": "subjective",
+					"head": "Chloe",
+					"connection": "likes",
+					"tail": "webcomic"
+				},
+				{
+					"type": "subjective",
+					"head": "Chloe",
+					"connection": "likes",
+					"tail": "zombie movie"
+				},
+				{
+					"type": "subjective",
+					"head": "Chloe",
+					"connection": "wants",
+					"tail": "cheezeytoos snack pack"
+				},
+				{
+					"type": "subjective",
+					"head": "Chloe",
+					"connection": "likes",
+					"tail": "cheezeytoos snack pack"
+				},
+				{
+					"type": "subjective",
+					"head": "Simon",
+					"connection": "likes",
+					"tail": "calculus book"
+				},
+				{
+					"type": "subjective",
+					"head": "Simon",
+					"connection": "has",
+					"tail": "calculus book"
+				},
+				{
+					"type": "subjective",
+					"head": "Simon",
+					"connection": "has",
+					"tail": "retro phone"
+				},
+				{
+					"type": "subjective",
+					"head": "Simon",
+					"connection": "likes",
+					"tail": "class ring"
+				},
+				{
+					"type": "subjective",
+					"head": "Simon",
+					"connection": "wants",
+					"tail": "class ring"
+				},
+				{
+					"type": "subjective",
+					"head": "Simon",
+					"connection": "has",
+					"tail": "lightsaber"
+				},
+				{
+					"type": "subjective",
+					"head": "Simon",
+					"connection": "likes",
+					"tail": "retro phone"
+				},
+				{
+					"type": "subjective",
+					"head": "Simon",
+					"connection": "dislikes",
+					"tail": "skateboard"
+				},
+				{
+					"type": "subjective",
+					"head": "Simon",
+					"connection": "dislikes",
+					"tail": "Japanese sword"
+				},
+				{
+					"type": "subjective",
+					"head": "Simon",
+					"connection": "dislikes",
+					"tail": "dead bug"
+				},
+				{
+					"type": "subjective",
+					"head": "Simon",
+					"connection": "dislikes",
+					"tail": "glass rose"
+				},
+				{
+					"type": "subjective",
+					"head": "Simon",
+					"connection": "has",
+					"tail": "vegan burger"
+				},
+				{
+					"type": "subjective",
+					"head": "Simon",
+					"connection": "dislikes",
+					"tail": "laughy candy joke"
+				},
+				{
+					"type": "subjective",
+					"head": "Simon",
+					"connection": "wants",
+					"tail": "smoking jacket"
+				},
+				{
+					"type": "subjective",
+					"head": "Simon",
+					"connection": "wants",
+					"tail": "hand zapper"
+				},
+				{
+					"type": "subjective",
+					"head": "Simon",
+					"connection": "has",
+					"tail": "candy heart"
+				},
+				{
+					"type": "subjective",
+					"head": "Simon",
+					"connection": "wants",
+					"tail": "gooberball"
+				},
+				{
+					"type": "subjective",
+					"head": "Simon",
+					"connection": "likes",
+					"tail": "gooberball"
+				},
+				{
+					"type": "subjective",
+					"head": "Simon",
+					"connection": "dislikes",
+					"tail": "webcomic"
+				},
+				{
+					"type": "subjective",
+					"head": "Simon",
+					"connection": "likes",
+					"tail": "zombie movie"
+				},
+				{
+					"type": "subjective",
+					"head": "Simon",
+					"connection": "wants",
+					"tail": "zombie movie"
+				},
+				{
+					"type": "subjective",
+					"head": "Simon",
+					"connection": "dislikes",
+					"tail": "dodgeball"
+				},
+				{
+					"type": "subjective",
+					"head": "Simon",
+					"connection": "dislikes",
+					"tail": "chainsaw"
+				},
+				{
+					"type": "subjective",
+					"head": "Simon",
+					"connection": "likes",
+					"tail": "cheezeytoos snack pack"
+				}
+			]
+		}
+	}
+}
